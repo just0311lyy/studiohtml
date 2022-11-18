@@ -1,0 +1,1 @@
+EffectType（不可用，已删除）
