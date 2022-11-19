@@ -1,14 +1,14 @@
 # ModuleScriptNode
 ------------------------------------------------------------------------------------------
-## ÃèÊö£º
+## æè¿°ï¼š
 
-`ModuleScriptNode`ËüÖ»»áÔËÐÐÒ»´Î£¬²¢ÇÒ±Ø¶¨·µ»ØÏàÍ¬µÄÒ»¸öÖµ¡£È»ºóÔÚ `ModuleScriptNode`×÷ÎªÎ¨Ò»²ÎÊýµÄÇé¿öÏÂ£¬Í¨¹ýµ÷ÓÃ`require`·µ»Ø´ËÖµ¡£¶ÔÓÚÃ¿¸ö`Lua`»·¾³£¬`ModuleScriptNode`ÔËÐÐÇÒ½öÔËÐÐÒ»´Î£¬²¢ÇÒÔÚºóÐøµ÷ÓÃ`require`Ê±·µ»Ø¸ÃÏàÍ¬µÄÖµ¡£<br>
-*¼Ì³Ð×Ô*£º
+`ModuleScriptNode`å®ƒåªä¼šè¿è¡Œä¸€æ¬¡ï¼Œå¹¶ä¸”å¿…å®šè¿”å›žç›¸åŒçš„ä¸€ä¸ªå€¼ã€‚ç„¶åŽåœ¨ `ModuleScriptNode`ä½œä¸ºå”¯ä¸€å‚æ•°çš„æƒ…å†µä¸‹ï¼Œé€šè¿‡è°ƒç”¨`require`è¿”å›žæ­¤å€¼ã€‚å¯¹äºŽæ¯ä¸ª`Lua`çŽ¯å¢ƒï¼Œ`ModuleScriptNode`è¿è¡Œä¸”ä»…è¿è¡Œä¸€æ¬¡ï¼Œå¹¶ä¸”åœ¨åŽç»­è°ƒç”¨`require`æ—¶è¿”å›žè¯¥ç›¸åŒçš„å€¼ã€‚<br>
+*ç»§æ‰¿è‡ª*ï¼š
 
 *  [`SandBoxNode`](/Api/Class/SandBoxNode.md)
 
 ------------------------------------------------------------------------------------------
-## Ê¾Àý´úÂë£º
+## ç¤ºä¾‹ä»£ç ï¼š
 
 ```lua
 	local ModuleA = SandboxNode.new("ModuleScriptNode")

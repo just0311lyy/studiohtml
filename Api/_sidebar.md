@@ -8,6 +8,7 @@
 		- [RunService](/Api/Class/Script/RunService.md)
 		- [ScriptObject](/Api/Class/Script/ScriptObject.md)
 		- [TimerNode](/Api/Class/Script/TimerNode.md)
+		- [ModuleScriptNode](/Api/Class/Script/ModuleScriptNode.md)
 	- 2.声音
 		- [SandboxSoundGroup](/Api/Class/Sound/SandboxSoundGroup.md)
 		- [SandboxSound](/Api/Class/Sound/SandboxSound.md)
@@ -79,8 +80,9 @@
 		- [SandboxFriendsService](/Api/Class/Data/SandboxFriendsService.md)
 		- [SandboxNetService](/Api/Class/Data/SandboxNetService.md)
 		- [CloudService](/Api/Class/Data/CloudService.md)
-	- 13.储存
-		- [MainStorage](/Api/Class/Storage/MainStorage.md)	
+	- 13.服务
+		- [MainStorage](/Api/Class/Service/MainStorage.md)
+		- [ServiceNode](/Api/Class/Service/ServiceNode.md)	
 - 枚举
 	- 1.声音
 		- [EnumDefaultSound](/Api/Enumerate/Sound/EnumDefaultSound.md)
