@@ -18,7 +18,7 @@
 
 *继承自*：
 
-*  [`SandBoxNode`](/Api/Class/NoType/SandBoxNode.md)
+* [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)
 
 
 ## 代码示例

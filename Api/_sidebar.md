@@ -13,7 +13,6 @@
 		- [SandboxSoundGroup](/Api/Class/Sound/SandboxSoundGroup.md)
 		- [SandboxSound](/Api/Class/Sound/SandboxSound.md)
 		- [SandboxDefaultSound](/Api/Class/Sound/SandboxDefaultSound.md)
-		- [ModuleScriptNode](/Api/Class/Sound/ModuleScriptNode.md)
 		- [SandboxSoundService](/Api/Class/Sound/SandboxSoundService.md)
 	- 3.Game Play
 		- [Game](/Api/Class/GamePlay/Game.md)

@@ -7,7 +7,7 @@
 
 *继承自*：
 
-*  [`SandBoxNode`](/Api/Class/SandBoxNode.md)
+*  [SandBoxNode](/Api/Class/SandBoxNode.md)
 
 -----------------------------------------------------------------------------------------
 ## 属性

@@ -5,7 +5,7 @@
 环境节点，可以设置天气，星球、重力和时间
 继承：
 
-* [`SandBoxNode`](/Api/Class/NoType/SandBoxNode.md)
+* [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性：

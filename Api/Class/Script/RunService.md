@@ -10,18 +10,6 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-------------------------------------------------------------------------------------------
-## 枚举
-
-|<div style="width:200px">RenderPriority</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|渲染优先级枚举|
-|名称   |值  |描述|
-|First   |0   |优先运行|
-|Input|100   |此项应当第 2 位运行|
-|Camera  |200   |在 Input（输入）后运行|
-|Character  |300   |在 Camera（镜头）后运行|
-|Last  |400   |后在 Character 后运行|
 
 ------------------------------------------------------------------------------------------
 ## 函数
@@ -29,40 +17,40 @@
 
 |<div style="width:925px">[bool](/Api/DataType/Bool.md)&emsp; [<font color="dd00dd">IsClient</font>](/Api/Class/Script/RunService_F/IsClient.md)(&nbsp;)</div>|
 |:---|
-|返回当前的环境是否运行在客户端上。（true, 运行在客户端上; false, 运行在服务端上）|
+|返回当前的环境是否运行在客户端上。（`true`, 运行在客户端上; `false`, 运行在服务端上）|
 
 
 
-|<div style="width:925px">[bool](/Api/DataType/Bool.md)&emsp; [<font color="dd00dd">IsServer</font>](/Api/Class/Script/RunService_F/IsServer.md))(&nbsp;)</div>|
+|<div style="width:925px">[bool](/Api/DataType/Bool.md)&emsp; [<font color="dd00dd">IsServer</font>](/Api/Class/Script/RunService_F/IsServer.md)(&nbsp;)</div>|
 |:---|
 |返回当前的环境是否运行在服务器上|
 
 
-|<div style="width:925px">[bool](/Api/DataType/Bool.md)&emsp; [<font color="dd00dd">IsRemote</font>](/Api/Class/Script/RunService_F/IsRemote.md))(&nbsp;)</div>|
+|<div style="width:925px">[bool](/Api/DataType/Bool.md)&emsp; [<font color="dd00dd">IsRemote</font>](/Api/Class/Script/RunService_F/IsRemote.md)(&nbsp;)</div>|
 |:---|
 |返回当前的环境是否远程|
 
-|<div style="width:925px">[bool](/Api/DataType/Bool.md)&emsp; [<font color="dd00dd">IsEdit</font>](/Api/Class/Script/RunService_F/IsEdit.md))(&nbsp;)</div>|
+|<div style="width:925px">[bool](/Api/DataType/Bool.md)&emsp; [<font color="dd00dd">IsEdit</font>](/Api/Class/Script/RunService_F/IsEdit.md)(&nbsp;)</div>|
 |:---|
-|返回当前运行环境是否为 Edit（编辑)模式|
+|返回当前运行环境是否为`Edit`（编辑)模式|
 
-|<div style="width:925px">[bool](/Api/DataType/Bool.md)&emsp; [<font color="dd00dd">IsRunMode</font>](/Api/Class/Script/RunService_F/IsRunMode.md))(&nbsp;)</div>|
+|<div style="width:925px">[bool](/Api/DataType/Bool.md)&emsp; [<font color="dd00dd">IsRunMode</font>](/Api/Class/Script/RunService_F/IsRunMode.md)(&nbsp;)</div>|
 |:---|
-|返回当前运行环境是否为Running模式|
+|返回当前运行环境是否为`Running`模式|
 
-|<div style="width:925px">[bool](/Api/DataType/Bool.md)&emsp; [<font color="dd00dd">Pause</font>](/Api/Class/Script/RunService_F/Pause.md))(&nbsp;)</div>|
+|<div style="width:925px">[bool](/Api/DataType/Bool.md)&emsp; [<font color="dd00dd">Pause</font>](/Api/Class/Script/RunService_F/Pause.md)(&nbsp;)</div>|
 |:---|
 |如果游戏在运行则暂停游戏的模拟，暂停物理运算和脚本|
 
-|<div style="width:925px">[void](/Api/DataType/Nil.md)&emsp; [<font color="dd00dd">BindToRenderStep</font>](/Api/Class/Script/RunService_F/BindToRenderStep.md))(&nbsp;[string](/Api/DataType/String.md) name ，[int](/Api/DataType/Int.md) priority ，[LuaFunction]() func )</div>|
+|<div style="width:925px">[void](/Api/DataType/Nil.md)&emsp; [<font color="dd00dd">BindToRenderStep</font>](/Api/Class/Script/RunService_F/BindToRenderStep.md)(&nbsp;[string](/Api/DataType/String.md) name ，[int](/Api/DataType/Int.md) priority ，[LuaFunction]() func )</div>|
 |:---------------------------------------------------------------------------------------|
-|绑定RenderStep事件的Lua函数。[`RenderPriorityt`]()为当前游戏内渲染层级，可根据需要进行插入|     
+|绑定`RenderStep`事件的`Lua`函数。[RenderPriority](/Api/Enumerate/UI/RenderPriority.md)为当前游戏内渲染层级，可根据需要进行插入|     
 
-|<div style="width:925px">[void](/Api/DataType/Nil.md)&emsp; [<font color="dd00dd">UnbindFromRenderStep</font>](/Api/Class/Script/RunService_F/UnbindFromRenderStep.md))(&nbsp;[string](/Api/DataType/String.md) name  )</div>|
+|<div style="width:925px">[void](/Api/DataType/Nil.md)&emsp; [<font color="dd00dd">UnbindFromRenderStep</font>](/Api/Class/Script/RunService_F/UnbindFromRenderStep.md)(&nbsp;[string](/Api/DataType/String.md) name  )</div>|
 |:---------------------------------------------------------------------------------------|
-|解除绑定RenderStep事件的Lua函数|     
+|解除绑定`RenderStep`事件的`Lua`函数|     
 
-|<div style="width:925px">[double](/Api/DataType/Double.md)&emsp; [<font color="dd00dd">CurrentMilliSecondTimeStamp</font>](/Api/Class/Script/RunService_F/CurrentMilliSecondTimeStamp.md))(&nbsp;  )</div>|
+|<div style="width:925px">[double](/Api/DataType/Double.md)&emsp; [<font color="dd00dd">CurrentMilliSecondTimeStamp</font>](/Api/Class/Script/RunService_F/CurrentMilliSecondTimeStamp.md)(&nbsp;  )</div>|
 |:---------------------------------------------------------------------------------------|
 |获取当前时间戳，精确到毫秒|     
 
@@ -94,7 +82,7 @@
 
 |<div style="width:925px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">Stepped</font>](/Api/Class/Script/RunService_F/Stepped.md)(&nbsp; [double](/Api/DataType/Double.md))</div></div>|
 |:---------------------------------------------------------------------------------------|
-|每次Tick触发Stepped事件      |
+|每次`Tick`触发`Stepped`事件      |
 
 
 

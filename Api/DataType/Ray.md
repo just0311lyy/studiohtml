@@ -18,14 +18,14 @@
 |射线方向|
 
 
-|<div style="width:1125px">[Ray]() &emsp;[<font color="dd00dd">Unit</font>]()</div>|
+|<div style="width:1125px">[Ray](/Api/DataType/Ray.md) &emsp;[<font color="dd00dd">Unit</font>]()</div>|
 |:---|
 |单位射线|
 
 ------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:500px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">ClosestPoint</font> ]() ([Ray]() ray, [Vector3](/Api/DataType/Vector3.md) point)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">ClosestPoint</font> ]() ([Ray](/Api/DataType/Ray.md) ray, [Vector3](/Api/DataType/Vector3.md) point)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |射线某个方向投影的 <br>point = origin + cos(theta) *（unit）<br>（也表示点到射线的最先距离）||||
 |**参数名称**|**类别**|**默认**|**描述**|
@@ -35,7 +35,7 @@
 |Vector3||||
 
 
-|<div style="width:500px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">Distance</font> ]() ([Ray]() ray, [Vector3](/Api/DataType/Vector3.md) point)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">Distance</font> ]() ([Ray](/Api/DataType/Ray.md) ray, [Vector3](/Api/DataType/Vector3.md) point)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |射线到某个位置的距离||||
 |**参数名称**|**类别**|**默认**|**描述**|

@@ -54,18 +54,12 @@ TimerNode 定时器节点允许指定一个lua 回调方法在一定时间后执
 
 |<div style="width:925px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">StartEx</font> ](/Api/Class/Script/TimerNode_F/StartEx.md) ([double](/Api/DataType/Double.md) delay, [bool](/Api/DataType/Bool.md) loop, [double](/Api/DataType/Double.md) interval, [AutoRef<LuaFunction>]() cb)  </div>|
 |:-----------------------|
-|开始执行。附带初始化的参数此服务器中可以容纳的最大玩家数量          |
-|参数名称|类别|默认|描述|
-|delay|double||延迟秒数|
-|loop|bool||是否循环|
-|interval|double||环间隔多少秒|
-|cb|LuaFunction||回调方法|
+|开始执行。附带初始化的参数此服务器中可以容纳的最大玩家数量|
 
-|<div style="width:925px">[TimerRunState](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">GetRunState</font> ](/Api/Class/Script/TimerNode_F/GetRunState.md) ()  </div>|
+
+|<div style="width:925px">[TimerRunState](/Api/Enumerate/GamePlay/TimerRunState.md) &emsp;[<font color="dd00dd">GetRunState</font> ](/Api/Class/Script/TimerNode_F/GetRunState.md) ()  </div>|
 |:-----------------------|
-|开始执行。附带初始化的参数此服务器中可以容纳的最大玩家数量          |
-|返回类型|概要|
-|TimerRunState|运行状态。参见枚举TimerRunState|
+|开始执行。附带初始化的参数此服务器中可以容纳的最大玩家数量|
 
 
 
