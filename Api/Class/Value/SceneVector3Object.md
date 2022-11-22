@@ -2,11 +2,13 @@
 ------------------------------------------------------------------------------------------
 ## 描述
  
-继承：`SandboxNode` 
+*继承自*：
+* [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)
+
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1125px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">Value</font>](/Api/Class/Value/SceneVector3Object_F/Value.md)</div>|
+|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">Value</font>](/Api/Class/Value/SceneVector3Object_F/Value.md)</div>|
 |:---|
 |用于存储`Vector3`|
 

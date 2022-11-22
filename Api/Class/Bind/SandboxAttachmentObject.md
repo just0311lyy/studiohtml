@@ -3,7 +3,9 @@
 ## 描述
 
 一个挂载节点
-继承：`SceneTransObject`
+
+*继承自*：
+* [SceneTransObject](/Api/Class/NoType/SceneTransObject.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性

@@ -3,7 +3,9 @@
 ## 描述
 
 图片格式可以是`MP4`类型的
-继承：`SceneUIComponent` 
+
+*继承自*：
+* [SceneUIComponent](/Api/Class/Scene/SceneUIComponent.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性

@@ -3,7 +3,9 @@
 ## 描述
 
 主要作用是往里面装模型
-继承：`SceneTransObject`
+
+*继承自*：
+* [SceneTransObject](/Api/Class/NoType/SceneTransObject.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性

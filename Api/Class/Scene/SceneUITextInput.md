@@ -3,48 +3,40 @@
 ## 描述
 
 输入框组件
-继承：`SceneUIComponent`
+
+*继承自*：
+* [SceneUIComponent](/Api/Class/Scene/SceneUIComponent.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">TitleColor</font>](/Api/Class/Scene/SceneUITextInput_F/TitleColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">TitleColor</font>](/Api/Class/Scene/SceneUITextInput_F/TitleColor.md)</div>|
 |:---|
 |字体颜色 (`Rainbow::ColorQuad`)|
 
-|<div style="width:1125px">[TextVAlignment](/Api/Enumerate/UI/TextVAlignment.md) &emsp;[<font color="dd00dd">TextVAlignment</font>](/Api/Class/Scene/SceneUITextInput_F/TextVAlignment.md)</div>|
+|<div style="width:1000px">[TextVAlignment](/Api/Enumerate/UI/TextVAlignment.md) &emsp;[<font color="dd00dd">TextVAlignment</font>](/Api/Class/Scene/SceneUITextInput_F/TextVAlignment.md)</div>|
 |:---|
 |上下对齐，有向上、中间和向下对齐。参见枚举`cocos2d::TextVAlignment`|
 
-|<div style="width:1125px">[TextHAlignment](/Api/Enumerate/UI/TextHAlignment.md) &emsp;[<font color="dd00dd">TextHAlignment</font>](/Api/Class/Scene/SceneUITextInput_F/TextHAlignment.md)</div>|
+|<div style="width:1000px">[TextHAlignment](/Api/Enumerate/UI/TextHAlignment.md) &emsp;[<font color="dd00dd">TextHAlignment</font>](/Api/Class/Scene/SceneUITextInput_F/TextHAlignment.md)</div>|
 |:---|
 |左右对齐，有向左、中间和向右对齐。参见枚举`cocos2d::TextHAlignment`|
 
-|<div style="width:1125px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">MaxLength</font>](/Api/Class/Scene/SceneUITextInput_F/MaxLength.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">MaxLength</font>](/Api/Class/Scene/SceneUITextInput_F/MaxLength.md)</div>|
 |:---|
 |限制输入文本长度|
 
-|<div style="width:1125px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">FontSize</font>](/Api/Class/Scene/SceneUITextInput_F/FontSize.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">FontSize</font>](/Api/Class/Scene/SceneUITextInput_F/FontSize.md)</div>|
 |:---|
 |字体大小|
 
-|<div style="width:1125px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">Title</font>](/Api/Class/Scene/SceneUITextInput_F/Title.md)</div>|
+|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">Title</font>](/Api/Class/Scene/SceneUITextInput_F/Title.md)</div>|
 |:---|
 |输入文本内容|
 
-|<div style="width:1125px">[InputMode](/Api/Enumerate/UI/InputMode.md) &emsp;[<font color="dd00dd">InputMode</font>](/Api/Class/Scene/SceneUITextInput_F/InputMode.md)</div>|
+|<div style="width:1000px">[InputMode](/Api/Enumerate/UI/InputMode.md) &emsp;[<font color="dd00dd">InputMode</font>](/Api/Class/Scene/SceneUITextInput_F/InputMode.md)</div>|
 |:---|
-|输入模式，有单行输入和多行输入，参见枚举`cocos2d::ui::EditBox::InputMode`|
-
-------------------------------------------------------------------------------------------
-## ����
-
-|<div style="width:200px">InputMode</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|行为状态枚举|
-|**名称**   |**�?**  |**描述**|
-|Multiline   |0   |无|
-|Singleline|1   |跳|
+|输入模式，有单行输入和多行输入，参见枚举`cocos2d::ui::EditBox::`[InputMode](/Api/Enumerate/UI/InputMode.md)|
 
 ------------------------------------------------------------------------------------------
 ## 事件

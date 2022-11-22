@@ -2,8 +2,10 @@
 ------------------------------------------------------------------------------------------
 ## 描述
 
-和`SceneTransObject`不同，`ScenPrimitiveObject`含有更多的信息(主要是含物理，`SceneTransObject`没有物理)
-继承：`SceneTransObject` 
+和[SceneTransObject](/Api/Class/NoType/SceneTransObject.md)不同，`ScenPrimitiveObject`含有更多的信息(主要是含物理，[SceneTransObject](/Api/Class/NoType/SceneTransObject.md)没有物理)
+
+*继承自*：
+* [SceneTransObject](/Api/Class/NoType/SceneTransObject.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性

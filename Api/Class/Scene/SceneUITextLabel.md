@@ -3,88 +3,60 @@
 ## 描述
 
 一个`text`文本组件
-继承：`SceneUIComponent` 
+
+*继承自*：
+* [SceneUIComponent](/Api/Class/Scene/SceneUIComponent.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性：
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">TitleColor</font>](/Api/Class/Scene/SceneUITextLabel_F/TitleColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">TitleColor</font>](/Api/Class/Scene/SceneUITextLabel_F/TitleColor.md)</div>|
 |:---|
 |字体颜色  (`Rainbow::ColorQuad`)|
 
-|<div style="width:1125px">[TextVAlignment](/Api/Enumerate/UI/TextVAlignment.md) &emsp;[<font color="dd00dd">TextVAlignment</font>](/Api/Class/Scene/SceneUITextLabel_F/TextVAlignment.md)</div>|
+|<div style="width:1000px">[TextVAlignment](/Api/Enumerate/UI/TextVAlignment.md) &emsp;[<font color="dd00dd">TextVAlignment</font>](/Api/Class/Scene/SceneUITextLabel_F/TextVAlignment.md)</div>|
 |:---|
-|上下对齐，有向上、中间和向下对齐。参见枚举`cocos2d::TextVAlignment`|
+|上下对齐，有向上、中间和向下对齐。参见枚举`cocos2d::`[TextVAlignment](/Api/Enumerate/UI/TextVAlignment.md)|
 
-|<div style="width:1125px">[TextHAlignment](/Api/Enumerate/UI/TextHAlignment.md) &emsp;[<font color="dd00dd">TextHAlignment</font>](/Api/Class/Scene/SceneUITextLabel_F/TextHAlignment.md)</div>|
+|<div style="width:1000px">[TextHAlignment](/Api/Enumerate/UI/TextHAlignment.md) &emsp;[<font color="dd00dd">TextHAlignment</font>](/Api/Class/Scene/SceneUITextLabel_F/TextHAlignment.md)</div>|
 |:---|
-|左右对齐，有向左、中间和向右对齐。参见枚举`cocos2d::TextHAlignment`|
+|左右对齐，有向左、中间和向右对齐。参见枚举`cocos2d::`[TextHAlignment](/Api/Enumerate/UI/TextHAlignment.md)|
 
-|<div style="width:1125px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">FontSize</font>](/Api/Class/Scene/SceneUITextLabel_F/FontSize.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">FontSize</font>](/Api/Class/Scene/SceneUITextLabel_F/FontSize.md)</div>|
 |:---|
 |字体大小|
 
-|<div style="width:1125px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">Title</font>](/Api/Class/Scene/SceneUITextLabel_F/Title.md)</div>|
+|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">Title</font>](/Api/Class/Scene/SceneUITextLabel_F/Title.md)</div>|
 |:---|
 |文本内容|
 
-|<div style="width:1125px">[AutoSizeType]() &emsp;[<font color="dd00dd">IsAutoSize</font>](/Api/Class/Scene/SceneUITextLabel_F/IsAutoSize.md)</div>|
+|<div style="width:1000px">[AutoSizeType](/Api/Enumerate/UI/AutoSizeType.md) &emsp;[<font color="dd00dd">IsAutoSize</font>](/Api/Class/Scene/SceneUITextLabel_F/IsAutoSize.md)</div>|
 |:---|
-|自动调整节点大小为字体大小。参见枚举`fairygui::AutoSizeType`|
+|自动调整节点大小为字体大小。参见枚举`fairygui::`[AutoSizeType](/Api/Enumerate/UI/AutoSizeType.md)|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">OutlineEnable</font>](/Api/Class/Scene/SceneUITextLabel_F/OutlineEnable.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">OutlineEnable</font>](/Api/Class/Scene/SceneUITextLabel_F/OutlineEnable.md)</div>|
 |:---|
 |开启描边|
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">OutlineColor</font>](/Api/Class/Scene/SceneUITextLabel_F/OutlineColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">OutlineColor</font>](/Api/Class/Scene/SceneUITextLabel_F/OutlineColor.md)</div>|
 |:---|
 |描边颜色 (`Rainbow::ColorQuad`)|
 
-|<div style="width:1125px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">OutlineSize</font>](/Api/Class/Scene/SceneUITextLabel_F/OutlineSize.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">OutlineSize</font>](/Api/Class/Scene/SceneUITextLabel_F/OutlineSize.md)</div>|
 |:---|
 |描边宽度|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">ShadowEnable</font>](/Api/Class/Scene/SceneUITextLabel_F/ShadowEnable.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">ShadowEnable</font>](/Api/Class/Scene/SceneUITextLabel_F/ShadowEnable.md)</div>|
 |:---|
 |开启阴影|
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">ShadowColor</font>](/Api/Class/Scene/SceneUITextLabel_F/ShadowColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">ShadowColor</font>](/Api/Class/Scene/SceneUITextLabel_F/ShadowColor.md)</div>|
 |:---|
 |阴影颜色|
 
-|<div style="width:1125px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">ShadowOffect</font>](/Api/Class/Scene/SceneUITextLabel_F/ShadowOffect.md)</div>|
+|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">ShadowOffect</font>](/Api/Class/Scene/SceneUITextLabel_F/ShadowOffect.md)</div>|
 |:---|
 |阴影偏移  (`Rainbow::Vector2f`)|
-
-------------------------------------------------------------------------------------------
-## 枚举：
-
-|<div style="width:200px">TextVAlignment</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|文字水平对齐|
-|**名称**   |**值**  |**描述**|
-|Top   |0   |文字居上|
-|Center|1   |文字居中|
-|Bottom  |2   |文字居下|
-
-
-|<div style="width:200px">TextHAlignment</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|文字垂直对齐|
-|**名称**   |**值**  |**描述**|
-|Right   |0   |文字居右|
-|Center|1   |文字居中|
-|Left  |2   |文字居左|
-
-|<div style="width:200px">AutoSizeType</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|根据字体大小调节节点大小枚举|
-|**名称**   |**值**  |**描述**|
-|NONE   |0   |不调整|
-|BOTH|1   |宽高|
-|HEIGHT  |2   |高|
-|SHRINK  |3   |宽|
-
 
 ------------------------------------------------------------------------------------------
 ## 函数

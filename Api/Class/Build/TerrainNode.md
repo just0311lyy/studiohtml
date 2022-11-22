@@ -3,7 +3,9 @@
 ## 描述
 
 `Terrain`（地形）允许更改或者获取某个位置的方块以及方块实例；
-继承：`SandboxNode`
+
+*继承自*：
+* [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性
@@ -11,47 +13,21 @@
 ------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:500px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">IsAirBlock</font> ](/Api/Class/Build/TerrainNode_F/IsAirBlock.md) ([int](/Api/DataType/Int.md) x, [int](/Api/DataType/Int.md) y, [int](/Api/DataType/Int.md) z)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|位置在（x,y,z）的方块是否是空气方块||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|x|int||坐标x轴|
-|y|int||坐标y轴|
-|z|int||坐标z轴|
-|**返回类型**|||**概要**|
-|bool|||返回`true`表示该位置是空气方块|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">IsAirBlock</font> ](/Api/Class/Build/TerrainNode_F/IsAirBlock.md) ([int](/Api/DataType/Int.md) x, [int](/Api/DataType/Int.md) y, [int](/Api/DataType/Int.md) z)</div>|
+|:---|
+|位置在（x,y,z）的方块是否是空气方块|
 
-|<div style="width:500px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">SetBlockAll</font> ](/Api/Class/Build/TerrainNode_F/SetBlockAll.md) ([int](/Api/DataType/Int.md) x, [int](/Api/DataType/Int.md) y, [int](/Api/DataType/Int.md) z, [int](/Api/DataType/Int.md) blockid, [int](/Api/DataType/Int.md) blockdata)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|设置位置（x,y,z）为XXX方块，并且设置该位置的`blockdata`||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|x|int||坐标x轴|
-|y|int||坐标y轴|
-|z|int||坐标z轴|
-|blockid|int||方块id|
-|blockdata|int||方块data|
-|**返回类型**|||**概要**|
-|bool|||返回`true`表示设置成功|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">SetBlockAll</font> ](/Api/Class/Build/TerrainNode_F/SetBlockAll.md) ([int](/Api/DataType/Int.md) x, [int](/Api/DataType/Int.md) y, [int](/Api/DataType/Int.md) z, [int](/Api/DataType/Int.md) blockid, [int](/Api/DataType/Int.md) blockdata)</div>|
+|:---|
+|设置位置（x,y,z）为XXX方块，并且设置该位置的`blockdata`|
 
-|<div style="width:500px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;[<font color="dd00dd">GetBlockMaterial</font> ](/Api/Class/Build/TerrainNode_F/GetBlockMaterial.md) ([int](/Api/DataType/Int.md) x, [int](/Api/DataType/Int.md) y, [int](/Api/DataType/Int.md) z)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|获取位置（x,y,z）的方块||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|x|int||坐标x轴|
-|y|int||坐标y轴|
-|z|int||坐标z轴|
-|**返回类型**|||**概要**|
-|SandboxNode|||该坐标位置的方块|
+|<div style="width:1000px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;[<font color="dd00dd">GetBlockMaterial</font> ](/Api/Class/Build/TerrainNode_F/GetBlockMaterial.md) ([int](/Api/DataType/Int.md) x, [int](/Api/DataType/Int.md) y, [int](/Api/DataType/Int.md) z)</div>|
+|:---|
+|获取位置（x,y,z）的方块|
 
-|<div style="width:500px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;[<font color="dd00dd">GetBlockNode</font> ](/Api/Class/Build/TerrainNode_F/GetBlockNode.md) ([int](/Api/DataType/Int.md) x, [int](/Api/DataType/Int.md) y, [int](/Api/DataType/Int.md) z)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|获取位置（x,y,z）的方块实例||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|x|int||坐标x轴|
-|y|int||坐标y轴|
-|z|int||坐标z轴|
-|**返回类型**|||**概要**|
-|SandboxNode|||返回该坐标位置的方块实例|
+|<div style="width:1000px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;[<font color="dd00dd">GetBlockNode</font> ](/Api/Class/Build/TerrainNode_F/GetBlockNode.md) ([int](/Api/DataType/Int.md) x, [int](/Api/DataType/Int.md) y, [int](/Api/DataType/Int.md) z)</div>|
+|:---|
+|获取位置（x,y,z）的方块实例|
 
 ------------------------------------------------------------------------------------------
 ## 示例代码

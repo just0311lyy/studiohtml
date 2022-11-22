@@ -2,105 +2,77 @@
 ------------------------------------------------------------------------------------------
 ## 描述
 
-`UI`约束和布局类别的基类，由`SceneUIBase`继承而来
-继承：`SceneUIBase`
+`UI`约束和布局类别的基类，由[SceneUIBase](/Api/Class/Scene/SceneUIBase.md)继承而来
+
+*继承自*：
+* [SceneUIBase](/Api/Class/Scene/SceneUIBase.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1125px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">Size</font>](/Api/Class/Scene/SceneUIComponent_F/Size.md)</div>|
+|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">Size</font>](/Api/Class/Scene/SceneUIComponent_F/Size.md)</div>|
 |:---|
 |UI节点像素和尺寸大小 (`Rainbow::Vector2f`)|
 
-|<div style="width:1125px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">Scale</font>](/Api/Class/Scene/SceneUIComponent_F/Scale.md)</div>|
+|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">Scale</font>](/Api/Class/Scene/SceneUIComponent_F/Scale.md)</div>|
 |:---|
 |UI节点缩放倍数|
 
-|<div style="width:1125px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Rotation</font>](/Api/Class/Scene/SceneUIComponent_F/Rotation.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Rotation</font>](/Api/Class/Scene/SceneUIComponent_F/Rotation.md)</div>|
 |:---|
 |UI节点旋转度数|
 
-|<div style="width:1125px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">Position</font>](/Api/Class/Scene/SceneUIComponent_F/Position.md)</div>|
+|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">Position</font>](/Api/Class/Scene/SceneUIComponent_F/Position.md)</div>|
 |:---|
 |UI节点坐标|
 
-|<div style="width:1125px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">Pivot</font>](/Api/Class/Scene/SceneUIComponent_F/Pivot.md)</div>|
+|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">Pivot</font>](/Api/Class/Scene/SceneUIComponent_F/Pivot.md)</div>|
 |:---|
 |UI节点锚点（0~1），（0.5,0.5）为中点|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">IsKeepPosWhenPivotChange</font>](/Api/Class/Scene/SceneUIComponent_F/IsKeepPosWhenPivotChange.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">IsKeepPosWhenPivotChange</font>](/Api/Class/Scene/SceneUIComponent_F/IsKeepPosWhenPivotChange.md)</div>|
 |:---|
 |更新锚点时是否保持位置不变|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">IsNotifyEventStop</font>](/Api/Class/Scene/SceneUIComponent_F/IsNotifyEventStop.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">IsNotifyEventStop</font>](/Api/Class/Scene/SceneUIComponent_F/IsNotifyEventStop.md)</div>|
 |:---|
 |是否将触摸事件传递给父节点（为true时不传递）|
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">LineColor</font>](/Api/Class/Scene/SceneUIComponent_F/LineColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">LineColor</font>](/Api/Class/Scene/SceneUIComponent_F/LineColor.md)</div>|
 |:---|
 |UI节点边线颜色设置 (Rainbow::ColorQuad)|
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">FillColor</font>](/Api/Class/Scene/SceneUIComponent_F/FillColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">FillColor</font>](/Api/Class/Scene/SceneUIComponent_F/FillColor.md)</div>|
 |:---|
 |UI节点填充颜色设置|
 
-|<div style="width:1125px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">LineSize</font>](/Api/Class/Scene/SceneUIComponent_F/LineSize.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">LineSize</font>](/Api/Class/Scene/SceneUIComponent_F/LineSize.md)</div>|
 |:---|
 |UI节点边线像素和尺寸大小|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">ClickPass</font>](/Api/Class/Scene/SceneUIComponent_F/ClickPass.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">ClickPass</font>](/Api/Class/Scene/SceneUIComponent_F/ClickPass.md)</div>|
 |:---|
 |UI节点边线像素和尺寸大小|
 
-|<div style="width:1125px">[EnumLayoutHRelation]() &emsp;[<font color="dd00dd">LayoutHRelation</font>](/Api/Class/Scene/SceneUIComponent_F/LayoutHRelation.md)</div>|
+|<div style="width:1000px">[EnumLayoutHRelation](/Api/Enumerate/UI/EnumLayoutHRelation.md) &emsp;[<font color="dd00dd">LayoutHRelation</font>](/Api/Class/Scene/SceneUIComponent_F/LayoutHRelation.md)</div>|
 |:---|
-|水平关联方式，包括左关联、中线关联和右关联。设置后，当父节点（若父节点为`UIRoot`则为屏幕）变化时，UI与关联位置的相对距离将保持不变。<br>参见枚举`EnumLayoutHRelation`|
+|水平关联方式，包括左关联、中线关联和右关联。设置后，当父节点（若父节点为`UIRoot`则为屏幕）变化时，UI与关联位置的相对距离将保持不变。<br>参见枚举[EnumLayoutHRelation](/Api/Enumerate/UI/EnumLayoutHRelation.md)|
 
-|<div style="width:1125px">[EnumLayoutVRelation]() &emsp;[<font color="dd00dd">LayoutVRelation</font>](/Api/Class/Scene/SceneUIComponent_F/LayoutVRelation.md)</div>|
+|<div style="width:1000px">[EnumLayoutVRelation](/Api/Enumerate/UI/EnumLayoutVRelation.md) &emsp;[<font color="dd00dd">LayoutVRelation</font>](/Api/Class/Scene/SceneUIComponent_F/LayoutVRelation.md)</div>|
 |:---|
-|垂直关联方式，包括上关联、中线关联和下关联。设置后，当父节点（若父节点为`UIRoot`则为屏幕）变化时，UI与关联位置的相对距离将保持不变。<br>参见枚举`EnumLayoutVRelation`|
+|垂直关联方式，包括上关联、中线关联和下关联。设置后，当父节点（若父节点为`UIRoot`则为屏幕）变化时，UI与关联位置的相对距离将保持不变。<br>参见枚举[EnumLayoutVRelation](/Api/Enumerate/UI/EnumLayoutVRelation.md)|
 
-|<div style="width:1125px">[EnumLayoutSizeRelation]() &emsp;[<font color="dd00dd">LayoutSizeRelation</font>](/Api/Class/Scene/SceneUIComponent_F/LayoutSizeRelation.md)</div>|
+|<div style="width:1000px">[EnumLayoutSizeRelation](/Api/Enumerate/UI/EnumLayoutSizeRelation.md) &emsp;[<font color="dd00dd">LayoutSizeRelation</font>](/Api/Class/Scene/SceneUIComponent_F/LayoutSizeRelation.md)</div>|
 |:---|
-|宽高关联，包括无关联，宽关联，高关联和全关联，当父节点宽高改变时，UI宽高随之变化。<br>参见枚举`EnumLayoutSizeRelation`|
+|宽高关联，包括无关联，宽关联，高关联和全关联，当父节点宽高改变时，UI宽高随之变化。<br>参见枚举[EnumLayoutSizeRelation](/Api/Enumerate/UI/EnumLayoutSizeRelation.md)|
 
-------------------------------------------------------------------------------------------
-## 枚举
-
-|<div style="width:200px">EnumLayoutHRelation</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|水平关联枚举|
-|**名称**   |**值**  |**描述**|
-|Left   |0   |左关联，保持与父节点（屏幕）左侧的相对位置|
-|Middle|1   |中线关联，保持与父节点（屏幕）中线的相对位置|
-|Right  |2   |右关联，保持与父节点（屏幕）右侧的相对位置|
-
-|<div style="width:200px">EnumLayoutVRelation</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|垂直关联枚举|
-|**名称**   |**值**  |**描述**|
-|Top   |0   |上关联，保持与父节点（屏幕）顶部的相对位置|
-|Middle|1   |中线关联，保持与父节点（屏幕）中线的相对位置|
-|Bottom  |2   |下关联，保持与父节点（屏幕）底部的相对位置|
-
-
-|<div style="width:200px">EnumLayoutSizeRelation</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|尺寸布局关联枚举|
-|**名称**   |**值**  |**描述**|
-|None   |0   |无关联|
-|Height|1   |高关联|
-|Width  |2   |宽关联|
-|Both  |3   |宽高关联|
 
 ------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:500px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">GetGlobalPos</font>](/Api/Class/Scene/SceneUIComponent_F/GetGlobalPos.md) ()</div>|<div style="width:698px"></div>|
-|:---|:---|
-|获取UI的全局位置||
-|**返回类型**|**概要**|
-|Vector2f|ui的2D坐标（`Rainbow::Vector2f`）|
+|<div style="width:500px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">GetGlobalPos</font>](/Api/Class/Scene/SceneUIComponent_F/GetGlobalPos.md) ()</div>|
+|:---|
+|获取UI的全局位置|
 
 ------------------------------------------------------------------------------------------
 ## 事件
