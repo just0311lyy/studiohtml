@@ -44,6 +44,7 @@
 		- [SandboxFixedJoint](/Api/Class/Bind/SandboxFixedJoint.md)
 		- [SandboxHingeJoint](/Api/Class/Bind/SandboxHingeJoint.md)
 	- 6.界面
+		- [SceneUIBase](/Api/Class/Scene/SceneUIBase.md)
 		- [SceneUIBillboard](/Api/Class/Scene/SceneUIBillboard.md)
 		- [SceneUIRoot](/Api/Class/Scene/SceneUIRoot.md)
 		- [SceneUIComponent](/Api/Class/Scene/SceneUIComponent.md)
@@ -59,6 +60,7 @@
 		- [SandboxFire](/Api/Class/Effect/SandboxFire.md)
 		- [SandboxExposion](/Api/Class/Effect/SandboxExposion.md)
 		- [SandboxPostEffectService](/Api/Class/Effect/SandboxPostEffectService.md)
+		- [SandboxParticleSmoke](/Api/Class/Effect/SandboxParticleSmoke.md)
 	- 8.建造
 		- [ScenePartObject](/Api/Class/Build/ScenePartObject.md)
 		- [SceneModelFolderObject](/Api/Class/Build/SceneModelFolderObject.md)

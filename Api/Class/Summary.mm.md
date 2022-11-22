@@ -53,7 +53,7 @@
 - [生物节点](/#/Api/Class/Role/SceneActorObject.md)
 - [模型节点](/#/Api/Class/Role/SceneModelObject.md)
 - 粒子节点
-    - [烟雾粒子节点](SandboxParticleSmoke.md)
+    - [烟雾粒子节点](/#/Api/Class/Effect/SandboxParticleSmoke.md)
 
 - [Trans节点](/#/Api/Class/NoType/SceneTransObject.md)
     - [绑点](/#/Api/Class/Bind/SceneBindAttachment.md)
