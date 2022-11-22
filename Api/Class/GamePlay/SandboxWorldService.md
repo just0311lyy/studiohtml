@@ -40,11 +40,9 @@
 |:---|
 |获取该位置方块的`blockdata`数据|
 
-|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">GetUIScale</font> ](/Api/Class/GamePlay/SandboxWorldService_F/GetUIScale.md) ()</div>|<div style="width:698px"></div>|
-|:---|:---|
-|获取UI布局的缩放大小||
-|**返回类型**|**概要**|
-|Vector2|UI布局的缩放大小|
+|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">GetUIScale</font> ](/Api/Class/GamePlay/SandboxWorldService_F/GetUIScale.md) ()</div>|
+|:---|
+|获取UI布局的缩放大小|
 
 |<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetBlock</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SetBlock.md) ([Vector3](/Api/DataType/Vector3.md) pos , [int](/Api/DataType/Int.md) blockid , [int](/Api/DataType/Int.md) data , [int](/Api/DataType/Int.md) flags , [bool](/Api/DataType/Bool.md) forceupdate)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
