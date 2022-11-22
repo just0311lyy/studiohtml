@@ -2,33 +2,34 @@
 ------------------------------------------------------------------------------------------
 ## 描述
 
-继承：`SandboxNode`
+*继承自*：
+* [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1125px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">Beg</font>](/Api/Class/GamePlay/AreaNode_F/Beg.md)</div>|
+|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">Beg</font>](/Api/Class/GamePlay/AreaNode_F/Beg.md)</div>|
 |:---|
 |起始位置世界坐标|
 
-|<div style="width:1125px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">End</font>](/Api/Class/GamePlay/AreaNode_F/End.md)</div>|
+|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">End</font>](/Api/Class/GamePlay/AreaNode_F/End.md)</div>|
 |:---|
 |结束位置世界坐标|
 
-|<div style="width:1125px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">EffectWidth</font>](/Api/Class/GamePlay/AreaNode_F/EffectWidth.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">EffectWidth</font>](/Api/Class/GamePlay/AreaNode_F/EffectWidth.md)</div>|
 |:---|
 |效果宽度|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">Show</font>](/Api/Class/GamePlay/AreaNode_F/Show.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">Show</font>](/Api/Class/GamePlay/AreaNode_F/Show.md)</div>|
 |:---|
 |是否显示|
 
-|<div style="width:1125px">[SHOWMODE]() &emsp;[<font color="dd00dd">ShowMode</font>](/Api/Class/GamePlay/AreaNode_F/ShowMode.md)</div>|
+|<div style="width:1000px">[SHOWMODE]() &emsp;[<font color="dd00dd">ShowMode</font>](/Api/Class/GamePlay/AreaNode_F/ShowMode.md)</div>|
 |:---|
 |显示模式的枚举(`SceneEffectFrame::SHOWMODE`):<br>X = 1,<br>Y = 2,<br>Z = 4,<br>XY = 1+2,<br>XZ = 1+4,<br>YZ = 2+4,<br>XYZ = 1+2+4|
 
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">Color</font>](/Api/Class/GamePlay/AreaNode_F/Color.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">Color</font>](/Api/Class/GamePlay/AreaNode_F/Color.md)</div>|
 |:---|
 |设置区域颜色|
 

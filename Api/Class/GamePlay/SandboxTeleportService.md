@@ -4,7 +4,8 @@
 
 此类是一个服务！它是顶级单例，可以使用`GetService`函数获取。为负责将 `Players`玩家在不同服务器和场景间进行传送的服务。
 
-继承：`ServiceNode` 
+*继承自*：
+* [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性
@@ -12,22 +13,19 @@
 ------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">teleport</font> ](/Api/Class/GamePlay/SandboxTeleportService_F/teleport.md) ([SandboxNode](/Api/Class/NoType/SandboxNode.md) playernode, [Vector3](/Api/DataType/Vector3.md) pos)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|地图内将玩家传送到指定位置||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|playernode|SandboxNode||玩家|
-|pos|Vector3||指定位置的世界坐标|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">teleport</font> ](/Api/Class/GamePlay/SandboxTeleportService_F/teleport.md) ([SandboxNode](/Api/Class/NoType/SandboxNode.md) playernode, [Vector3](/Api/DataType/Vector3.md) pos)</div>|
+|:---|
+|地图内将玩家传送到指定位置|
 
 
 ------------------------------------------------------------------------------------------
 ## 事件
 
-|<div style="width:1125px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;[<font color="dd00dd">TeleportSuccess</font>](/Api/Class/GamePlay/SandboxTeleportService_F/TeleportSuccess.md)( )</div>|
+|<div style="width:1000px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;[<font color="dd00dd">TeleportSuccess</font>](/Api/Class/GamePlay/SandboxTeleportService_F/TeleportSuccess.md)( )</div>|
 |:---|
 |玩家传送成功触发|
 
-|<div style="width:1125px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;[<font color="dd00dd">TeleportFail</font>](/Api/Class/GamePlay/SandboxTeleportService_F/TeleportFail.md)( )</div>|
+|<div style="width:1000px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;[<font color="dd00dd">TeleportFail</font>](/Api/Class/GamePlay/SandboxTeleportService_F/TeleportFail.md)( )</div>|
 |:---|
 |玩家传送失败触发|
 

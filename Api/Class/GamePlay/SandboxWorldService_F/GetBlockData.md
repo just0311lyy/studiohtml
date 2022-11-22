@@ -12,7 +12,7 @@
 
 |<div style="width:200px">**名称**</div>|<div style="width:200px">**类型**</div>|<div style="width:200px">**默认**</div>|<div style="width:345px">**描述**</div>|
 |:--------------------|:--------------------|:--------------------|:--------------------|
-|vector3|Vector3||射线发射起始点，方块坐标|
+|vector3|[Vector3](/Api/DataType/Vector3.md)||射线发射起始点，方块坐标|
 
 
 ## 返回

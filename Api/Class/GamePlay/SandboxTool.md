@@ -4,61 +4,58 @@
 
 在桌面端，按数字键 (1 - 8) 会切换装备已有的工具
 
-继承：`SandboxNode` 
+*继承自*：
+* [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性：
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">CanBeDropped</font>](/Api/Class/GamePlay/SandboxTool_F/CanBeDropped.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">CanBeDropped</font>](/Api/Class/GamePlay/SandboxTool_F/CanBeDropped.md)</div>|
 |:---|
 |可否丢弃Tool，默认不可以丢弃|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">Enabled</font>](/Api/Class/GamePlay/SandboxTool_F/Enabled.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">Enabled</font>](/Api/Class/GamePlay/SandboxTool_F/Enabled.md)</div>|
 |:---|
 |决定Tool能否被使用，默认可以使用|
 
-|<div style="width:1125px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">GripPos</font>](/Api/Class/GamePlay/SandboxTool_F/GripPos.md)</div>|
+|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">GripPos</font>](/Api/Class/GamePlay/SandboxTool_F/GripPos.md)</div>|
 |:---|
 |夹点位置|
 
-|<div style="width:1125px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">GripEuler</font>](/Api/Class/GamePlay/SandboxTool_F/GripEuler.md)</div>|
+|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">GripEuler</font>](/Api/Class/GamePlay/SandboxTool_F/GripEuler.md)</div>|
 |:---|
 |夹点的欧拉|
 
-|<div style="width:1125px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">ToolTip</font>](/Api/Class/GamePlay/SandboxTool_F/ToolTip.md)</div>|
+|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">ToolTip</font>](/Api/Class/GamePlay/SandboxTool_F/ToolTip.md)</div>|
 |:---|
 |tool提示信息|
 
-|<div style="width:1125px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">TextureId</font>](/Api/Class/GamePlay/SandboxTool_F/TextureId.md)</div>|
+|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">TextureId</font>](/Api/Class/GamePlay/SandboxTool_F/TextureId.md)</div>|
 |:---|
 |默认快捷栏界面，显示的图标资源|
 
-|<div style="width:1125px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">Index</font>](/Api/Class/GamePlay/SandboxTool_F/Index.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">Index</font>](/Api/Class/GamePlay/SandboxTool_F/Index.md)</div>|
 |:---|
 |快捷栏下标|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">EquippedValue</font>](/Api/Class/GamePlay/SandboxTool_F/EquippedValue.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">EquippedValue</font>](/Api/Class/GamePlay/SandboxTool_F/EquippedValue.md)</div>|
 |:---|
 |是否装备（不允许访问）|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">ActivatedValue</font>](/Api/Class/GamePlay/SandboxTool_F/ActivatedValue.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">ActivatedValue</font>](/Api/Class/GamePlay/SandboxTool_F/ActivatedValue.md)</div>|
 |:---|
 |是否激活（不允许访问）|
 
 ------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:500px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">Activate</font> ](/Api/Class/GamePlay/SandboxTool_F/Activate.md) ( )</div>|<div style="width:698px"></div>|
-|:---|:---|
-|已装备的的工具，模拟点击使用，会触发`Activated`事件||
-|**返回类型**|**概要**|
-|bool|返回true，表示成功触发|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">Activate</font> ](/Api/Class/GamePlay/SandboxTool_F/Activate.md) ( )</div>|
+|:---|
+|已装备的的工具，模拟点击使用，会触发`Activated`事件。返回true，表示成功触发|
 
-|<div style="width:500px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">Deactivate</font> ](/Api/Class/GamePlay/SandboxTool_F/Deactivate.md) ( )</div>|<div style="width:698px"></div>|
-|:---|:---|
-|模拟工具的结束使用||
-|**返回类型**|**概要**|
-|bool|返回true，表示模拟工具结束使用成功|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">Deactivate</font> ](/Api/Class/GamePlay/SandboxTool_F/Deactivate.md) ( )</div>|
+|:---|
+|模拟工具的结束使用.返回true，表示模拟工具结束使用成功|
 
 ------------------------------------------------------------------------------------------
 ## 事件

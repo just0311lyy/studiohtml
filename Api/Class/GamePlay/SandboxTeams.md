@@ -13,11 +13,9 @@
 ------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:500px">[vector\<SandboxNode\>]() &emsp;[<font color="dd00dd">GetTeams</font> ](/Api/Class/GamePlay/SandboxTeams_F/GetTeams.md) ()</div>|<div style="width:698px"></div>|
-|:---|:---|
-|返回内含游戏`Team`对象的表格。返回的`Team`对象仅限`Teams`服务的子对象。||
-|**返回类型**|**概要**|
-|vector\<SandboxNode\>|返回内含游戏`Team`对象的表格|
+|<div style="width:1000px">[vector\<SandboxNode\>]() &emsp;[<font color="dd00dd">GetTeams</font> ](/Api/Class/GamePlay/SandboxTeams_F/GetTeams.md) ()</div>|
+|:---|
+|返回内含游戏`Team`对象的表格。返回的`Team`对象仅限`Teams`服务的子对象。|
 
 
 ------------------------------------------------------------------------------------------

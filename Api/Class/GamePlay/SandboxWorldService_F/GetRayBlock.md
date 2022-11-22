@@ -11,9 +11,9 @@
 
 |<div style="width:200px">**名称**</div>|<div style="width:200px">**类型**</div>|<div style="width:200px">**默认**</div>|<div style="width:345px">**描述**</div>|
 |:--------------------|:--------------------|:--------------------|:--------------------|
-|vector3|Vector3||射线发射起始点，方块坐标|
-|face|int||射线发射方向|
-|distance|float||射线途径的距离长度|
+|vector3|[Vector3](/Api/DataType/Vector3.md)||射线发射起始点，方块坐标|
+|face|[int](/Api/DataType/int.md)||射线发射方向|
+|distance|[float](/Api/DataType/float.md)||射线途径的距离长度|
 
 
 ## 返回

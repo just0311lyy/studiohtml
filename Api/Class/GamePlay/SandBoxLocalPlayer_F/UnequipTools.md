@@ -1,69 +1,16 @@
-# AreaNode
-------------------------------------------------------------------------------------------
-## ÃèÊö
+# UnequipTools
+-----------------------------------------------------------------------------------------
+## æè¿°
 
-¼Ì³Ğ£º`SandboxNode`
+å‡½æ•°æ‰€å±ç±»ï¼š[ScenePlayerObject](/Api/Class/GamePlay/ScenePlayerObject.md)
 
-------------------------------------------------------------------------------------------
-## ÊôĞÔ
+å¸ä¸‹`player`å½“å‰è£…å¤‡çš„ä»»ä½•`Tool`
 
-|<div style="width:1125px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">Beg</font>]()</div>|
-|:---|
-|ÆğÊ¼Î»ÖÃÊÀ½ç×ø±ê|
+-----------------------------------------------------------------------------------------
+## å‚æ•°
 
-|<div style="width:1125px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">End</font>]()</div>|
-|:---|
-|½áÊøÎ»ÖÃÊÀ½ç×ø±ê|
+æ— å‚æ•°
 
-|<div style="width:1125px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">EffectWidth</font>]()</div>|
-|:---|
-|Ğ§¹û¿í¶È|
+## è¿”å›
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">Show</font>]()</div>|
-|:---|
-|ÊÇ·ñÏÔÊ¾|
-
-|<div style="width:1125px">[SHOWMODE]() &emsp;[<font color="dd00dd">ShowMode</font>]()</div>|
-|:---|
-|ÏÔÊ¾Ä£Ê½µÄÃ¶¾Ù(`SceneEffectFrame::SHOWMODE`):<br>X = 1,<br>Y = 2,<br>Z = 4,<br>XY = 1+2,<br>XZ = 1+4,<br>YZ = 2+4,<br>XYZ = 1+2+4|
-
-
-|<div style="width:1125px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">Color</font>]()</div>|
-|:---|
-|ÉèÖÃÇøÓòÑÕÉ«|
-
-------------------------------------------------------------------------------------------
-## ÊÂ¼ş
-
-|<div style="width:500px">[SBXSignal\<SandboxNode\>]() &emsp;[<font color="dd00dd">NotifyEnterNode</font> ]() ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|½Úµã½øÈë¸ÃÇøÓò||||
-|**·µ»ØÀàĞÍ**|||**¸ÅÒª**|
-|SBXSignal|||½øÈë½ÚµãÊ±´¥·¢£¬ÊÂ¼ş²ÎÊıÎª£¨`SandboxNode node`£©|
-|**SBXSignal²ÎÊıÃû³Æ**|**Àà±ğ**|**Ä¬ÈÏ**|**ÃèÊö**|
-|node|SandboxNode||½øÈë¸ÃÇøÓòµÄ`SandboxNode`½Úµã|
-
-|<div style="width:500px">[SBXSignal\<SandboxNode\>]() &emsp;[<font color="dd00dd">NotifyLeaveNode</font> ]() ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|½ÚµãÀë¿ª¸ÃÇøÓò||||
-|**·µ»ØÀàĞÍ**|||**¸ÅÒª**|
-|SBXSignal|||Àë¿ª½ÚµãÊ±´¥·¢£¬ÊÂ¼ş²ÎÊıÎª£¨`SandboxNode node`£©|
-|**SBXSignal²ÎÊıÃû³Æ**|**Àà±ğ**|**Ä¬ÈÏ**|**ÃèÊö**|
-|node|SandboxNode||Àë¿ª¸ÃÇøÓòµÄ`SandboxNode`½Úµã|
-
-------------------------------------------------------------------------------------------
-## Ê¾Àı´úÂë£º
-
-```lua
-local part = script.Parent --»ñÈ¡¸¸½Úµã
-local area = SandboxNode.new('AreaNode', part) --´´½¨AreaNode½Úµã
-
---´´½¨ActorÊµÀı
-local actorNode = SandboxNode.new('SceneActorObject')
-actorNode.Name = "my_actor"
-
---actorNode½øÈëÇøÓò
-area.NotifyEnterNode:connect(function(actorNode) 
-    print("actorNode½øÈëÇøÓò")
-end)
-```
+æ— è¿”å›å€¼

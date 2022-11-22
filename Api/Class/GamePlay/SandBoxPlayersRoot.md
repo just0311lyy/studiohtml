@@ -4,36 +4,32 @@
 
 是一个服务，包含当前已连接到服务器的客户端的所有`player`对象。
 
-继承：`ServiceNode` 
+*继承自*：
+* [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)
+
 
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1125px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;[<font color="dd00dd">LocalPlayer</font>](/Api/Class/GamePlay/SandBoxPlayersRoot_F/LocalPlayer.md)</div>|
+|<div style="width:1000px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;[<font color="dd00dd">LocalPlayer</font>](/Api/Class/GamePlay/SandBoxPlayersRoot_F/LocalPlayer.md)</div>|
 |:---|
 |客户端当前的`LocalPlayer`对象|
 
 
-|<div style="width:1125px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">MaxPlayers</font>](/Api/Class/GamePlay/SandBoxPlayersRoot_F/1MaxPlayers11.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">MaxPlayers</font>](/Api/Class/GamePlay/SandBoxPlayersRoot_F/1MaxPlayers11.md)</div>|
 |:---|
 |此服务器中可以容纳的最大玩家数量|
 
 ------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:500px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;[<font color="dd00dd">GetPlayerByUserId</font>](/Api/Class/GamePlay/SandBoxPlayersRoot_F/GetPlayerByUserId.md) ([int](/Api/DataType/Int.md) userId)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|返回给的`serId`的`player`对象||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|userId|int||给定的id|
-|**返回类型**|||**概要**|
-|SandboxNode|||`userid`对应的`player`对象|
+|<div style="width:1000px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;[<font color="dd00dd">GetPlayerByUserId</font>](/Api/Class/GamePlay/SandBoxPlayersRoot_F/GetPlayerByUserId.md) ([int](/Api/DataType/Int.md) userId)</div>|
+|:---|
+|返回给的`serId`的`player`对象|
 
-|<div style="width:500px">[vector\<SandboxNode\>]() &emsp;[<font color="dd00dd">GetPlayers</font>](/Api/Class/GamePlay/SandBoxPlayersRoot_F/GetPlayers.md) ()</div>|<div style="width:698px"></div>|
-|:---|:---|
-|返回所有目前连接的`player`对象的数组||
-|**返回类型**|**概要**|
-|vector\<SandboxNode\>|所有目前连接的`player`对象的数组|
+|<div style="width:1000px">[vector\<SandboxNode\>]() &emsp;[<font color="dd00dd">GetPlayers</font>](/Api/Class/GamePlay/SandBoxPlayersRoot_F/GetPlayers.md) ()</div>|
+|:---|
+|返回所有目前连接的`player`对象的数组|
 
 ------------------------------------------------------------------------------------------
 ## 事件：

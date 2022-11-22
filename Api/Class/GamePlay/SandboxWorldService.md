@@ -44,186 +44,70 @@
 |:---|
 |获取UI布局的缩放大小|
 
-|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetBlock</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SetBlock.md) ([Vector3](/Api/DataType/Vector3.md) pos , [int](/Api/DataType/Int.md) blockid , [int](/Api/DataType/Int.md) data , [int](/Api/DataType/Int.md) flags , [bool](/Api/DataType/Bool.md) forceupdate)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|放置方块||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|pos|Vector3||方块世界坐标|
-|blockid|int||方块id|
-|data|int||方块数据|
-|flags|int|3|标识|
-|forceupdate|bool|false|强制刷新该位置block|
-|pos|Vector3||方块世界坐标|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetBlock</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SetBlock.md) ([Vector3](/Api/DataType/Vector3.md) pos , [int](/Api/DataType/Int.md) blockid , [int](/Api/DataType/Int.md) data , [int](/Api/DataType/Int.md) flags , [bool](/Api/DataType/Bool.md) forceupdate)</div>|
+|:---|
+|放置方块|
 
-|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">RaycastClosest</font> ](/Api/Class/GamePlay/SandboxWorldService_F/RaycastClosest.md) ([Vector3](/Api/DataType/Vector3.md) origin ,  [Vector3](/Api/DataType/Vector3.md) unitDir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|射线段检测，返回最近的碰撞物||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|origin|Vector3||射线段的起点，世界坐标|
-|unitDir|Vector3||射线段的世界方向，单位向量|
-|distance|float||射线段的最大长度|
-|isIgnoreTrigger|bool||是否忽略trigger类型|
-|filterGroup|vector\<int\>||过滤组，{1，2，3} 含有的数字组会被查询|
-|**返回类型**|||**概要**|
-|ReflexMap|||最近的碰撞物|
+|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">RaycastClosest</font> ](/Api/Class/GamePlay/SandboxWorldService_F/RaycastClosest.md) ([Vector3](/Api/DataType/Vector3.md) origin ,  [Vector3](/Api/DataType/Vector3.md) unitDir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|:---|
+|射线段检测，返回最近的碰撞物|
 
-|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">RaycastAll</font> ](/Api/Class/GamePlay/SandboxWorldService_F/RaycastAll.md) ([Vector3](/Api/DataType/Vector3.md) origin ,  [Vector3](/Api/DataType/Vector3.md) unitDir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|射线段检测，返回所有碰撞物，最多128个||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|origin|Vector3||射线段的起点，世界坐标|
-|unitDir|Vector3||射线段的世界方向，单位向量|
-|distance|float||射线段的最大长度|
-|isIgnoreTrigger|bool||是否忽略trigger类型|
-|filterGroup|vector\<int\>||过滤组，{1，2，3} 含有的数字组会被查询|
-|**返回类型**|||**概要**|
-|vector<ReflexMap>|||所有碰撞物|
 
-|<div style="width:1000px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;[<font color="dd00dd">GetBlockNode</font> ](/Api/Class/GamePlay/SandboxWorldService_F/GetBlockNode.md) ([Vector3](/Api/DataType/Vector3.md) pos)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|获取方块节点||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|pos|Vector3||方块世界坐标|
-|**返回类型**|||**概要**|
-|SandboxNode|||方块节点|
+|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">RaycastAll</font> ](/Api/Class/GamePlay/SandboxWorldService_F/RaycastAll.md) ([Vector3](/Api/DataType/Vector3.md) origin ,  [Vector3](/Api/DataType/Vector3.md) unitDir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|:---|
+|射线段检测，返回所有碰撞物，最多128个|
 
-|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">DropBlockAsItem</font> ](/Api/Class/GamePlay/SandboxWorldService_F/DropBlockAsItem.md) ([Vector3](/Api/DataType/Vector3.md) pos ,  [int](/Api/DataType/Int.md) droptype ,  [float](/Api/DataType/Float.md) chance ,  [int](/Api/DataType/Int.md) useToolId)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|方块掉落道具||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|pos|Vector3||方块世界坐标|
-|droptype|int||掉落类型|
-|chance|float|1.0f||
-|useToolId|int||工具id|
+|<div style="width:1000px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;[<font color="dd00dd">GetBlockNode</font> ](/Api/Class/GamePlay/SandboxWorldService_F/GetBlockNode.md) ([Vector3](/Api/DataType/Vector3.md) pos)</div>|
+|:---|
+|获取方块节点|
 
-|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">SweepBox</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepBox.md) ([Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) shape ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [Vector3](/Api/DataType/Vector3.md) angle ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|扫描框||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|center|Vector3||中心点的世界坐标|
-|shape|Vector3||长、宽、高的一半大小|
-|direction|Vector3||朝向|
-|angle|Vector3||朝向角度|
-|distance|float||检测距离|
-|isIgnoreTrigger|bool||是否忽略trigger类型|
-|filterGroup|vector\<int\>||过滤组，{1，2，3} 含有的数字组会被查询|
-|**返回类型**|||**概要**|
-|ReflexMap|||{isHit  ,normal ,position , distance ,obj}|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">DropBlockAsItem</font> ](/Api/Class/GamePlay/SandboxWorldService_F/DropBlockAsItem.md) ([Vector3](/Api/DataType/Vector3.md) pos ,  [int](/Api/DataType/Int.md) droptype ,  [float](/Api/DataType/Float.md) chance ,  [int](/Api/DataType/Int.md) useToolId)</div>|
+|:---|
+|方块掉落道具|
 
-|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">SweepBoxAll</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepBoxAll.md) ([Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) shape ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [Vector3](/Api/DataType/Vector3.md) angle ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|扫描框全部||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|center|Vector3||中心点的世界坐标|
-|shape|Vector3||长、宽、高的一半大小|
-|direction|Vector3||朝向|
-|angle|Vector3||朝向角度|
-|distance|float||检测距离|
-|isIgnoreTrigger|bool||是否忽略trigger类型|
-|filterGroup|vector\<int\>||过滤组，{1，2，3} 含有的数字组会被查询|
-|**返回类型**|||**概要**|
-|vector\<ReflexMap\>|||{isHit  ,normal ,position , distance ,obj}数组|
+|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">SweepBox</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepBox.md) ([Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) shape ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [Vector3](/Api/DataType/Vector3.md) angle ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|:---|
+|扫描框|
 
-|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">SweepCapsule</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepCapsule.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) p0 ,  [Vector3](/Api/DataType/Vector3.md) p1 ,  [Vector3](/Api/DataType/Vector3.md) dir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|扫描胶囊||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|radius|float||半径|
-|p0|Vector3||胶囊体上面的球体的中心点|
-|p1|Vector3||胶囊体下面的球体的中心点|
-|dir|Vector3||朝向|
-|distance|float||检测距离|
-|isIgnoreTrigger|bool||是否忽略trigger类型|
-|filterGroup|vector\<int\>||过滤组，{1，2，3} 含有的数字组会被查询|
-|**返回类型**|||**概要**|
-|ReflexMap|||{isHit  ,normal ,position , distance ,obj}|
+|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">SweepBoxAll</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepBoxAll.md) ([Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) shape ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [Vector3](/Api/DataType/Vector3.md) angle ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md)</div>|
+|:---|
+|扫描框全部|
 
-|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">SweepCapsuleAll</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepCapsuleAll.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) p0 ,  [Vector3](/Api/DataType/Vector3.md) p1 ,  [Vector3](/Api/DataType/Vector3.md) dir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup]() filterGroup)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|扫描胶囊全部||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|radius|float||半径|
-|p0|Vector3||胶囊体上面的球体的中心点|
-|p1|Vector3||胶囊体下面的球体的中心点|
-|dir|Vector3||朝向|
-|distance|float||检测距离|
-|isIgnoreTrigger|bool||是否忽略trigger类型|
-|filterGroup|vector\<int\>||过滤组，{1，2，3} 含有的数字组会被查询|
-|**返回类型**|||**概要**|
-|vector\<ReflexMap\>|||{isHit  ,normal ,position , distance ,obj}数组|
+|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">SweepCapsule</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepCapsule.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) p0 ,  [Vector3](/Api/DataType/Vector3.md) p1 ,  [Vector3](/Api/DataType/Vector3.md) dir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|:---|
+|扫描胶囊|
 
-|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">SweepSphere</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepSphere.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|扫描球体||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|radius|float||半径|
-|center|Vector3||中心点的世界坐标|
-|direction|Vector3||朝向|
-|distance|float||检测距离|
-|isIgnoreTrigger|bool||是否忽略trigger类型|
-|filterGroup|vector\<int\>||过滤组，{1，2，3} 含有的数字组会被查询|
-|**返回类型**|||**概要**|
-|ReflexMap|||{isHit  ,normal ,position , distance ,obj}|
+|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">SweepCapsuleAll</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepCapsuleAll.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) p0 ,  [Vector3](/Api/DataType/Vector3.md) p1 ,  [Vector3](/Api/DataType/Vector3.md) dir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup]() filterGroup)</div>|
+|:---|
+|扫描胶囊全部|
 
-|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">SweepSphereAll</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepSphereAll.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|扫描球全部||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|radius|float||半径|
-|center|Vector3||中心点的世界坐标|
-|direction|Vector3||朝向|
-|distance|float||检测距离|
-|isIgnoreTrigger|bool||是否忽略trigger类型|
-|filterGroup|vector\<int\>||过滤组，{1，2，3} 含有的数字组会被查询|
-|**返回类型**|||**概要**|
-|vector\<ReflexMap\>|||{isHit  ,normal ,position , distance ,obj}数组|
+|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">SweepSphere</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepSphere.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|:---|
+|扫描球体|
 
-|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">OverlapBox</font> ](/Api/Class/GamePlay/SandboxWorldService_F/OverlapBox.md) ([Vector3](/Api/DataType/Vector3.md) shape ,  [Vector3](/Api/DataType/Vector3.md) pos ,  [Vector3](/Api/DataType/Vector3.md) angle ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|重叠框||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|shape|Vector3||长、宽、高的一半大小|
-|pos|Vector3||中心点的世界坐标|
-|angle|Vector3||朝向角度|
-|isIgnoreTrigger|bool||是否忽略trigger类型|
-|filterGroup|vector\<int\>||过滤组，{1，2，3} 含有的数字组会被查询|
-|**返回类型**|||**概要**|
-|vector\<ReflexMap\>|||{isHit  ,normal ,position , distance ,obj}数组|
+|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">SweepSphereAll</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepSphereAll.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|:---|
+|扫描球全部|
 
-|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">OverlapCapsule</font> ](/Api/Class/GamePlay/SandboxWorldService_F/OverlapCapsule.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) p0 ,  [Vector3](/Api/DataType/Vector3.md) p1 ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|重叠胶囊||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|radius|float||半径|
-|p0|Vector3||胶囊体的上面球心的中心点|
-|p1|Vector3||胶囊体的下面球心的中心点|
-|isIgnoreTrigger|bool||是否忽略trigger类型|
-|filterGroup|vector\<int\>||过滤组，{1，2，3} 含有的数字组会被查询|
-|**返回类型**|||**概要**|
-|vector\<ReflexMap\>|||{isHit  ,normal ,position , distance ,obj}数组|
+|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">OverlapBox</font> ](/Api/Class/GamePlay/SandboxWorldService_F/OverlapBox.md) ([Vector3](/Api/DataType/Vector3.md) shape ,  [Vector3](/Api/DataType/Vector3.md) pos ,  [Vector3](/Api/DataType/Vector3.md) angle ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|:---|
+|重叠框|
 
-|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">OverlapSphere</font> ](/Api/Class/GamePlay/SandboxWorldService_F/OverlapSphere.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) pos ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|重叠球体||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|radius|float||半径|
-|pos|Vector3||世界坐标|
-|isIgnoreTrigger|bool||是否忽略trigger类型|
-|filterGroup|vector\<int\>||过滤组，{1，2，3} 含有的数字组会被查询|
-|**返回类型**|||**概要**|
-|vector\<ReflexMap\>|||{isHit  ,normal ,position , distance ,obj}数组|
+|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">OverlapCapsule</font> ](/Api/Class/GamePlay/SandboxWorldService_F/OverlapCapsule.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) p0 ,  [Vector3](/Api/DataType/Vector3.md) p1 ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|:---|
+|重叠胶囊|
 
-|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetMainFrameShow</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SetMainFrameShow.md) ([bool](/Api/DataType/Bool.md) isShow)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|锁定时间||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|isShow|bool||为true，表示显示游戏内置UI|
+|<div style="width:1000px">[vector\<ReflexMap\>]() &emsp;[<font color="dd00dd">OverlapSphere</font> ](/Api/Class/GamePlay/SandboxWorldService_F/OverlapSphere.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) pos ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|:---|
+|重叠球体|
 
-|<div style="width:500px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">GetUISize</font> ](/Api/Class/GamePlay/SandboxWorldService_F/GetUISize.md) ()</div>|<div style="width:698px"></div>|
-|:---|:---|
-|获取UI布局的尺寸||
-|**返回类型**|**概要**|
-|Vector2|布局的尺寸|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetMainFrameShow</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SetMainFrameShow.md) ([bool](/Api/DataType/Bool.md) isShow)</div>|
+|:---|
+|锁定时间|
+
+|<div style="width:500px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">GetUISize</font> ](/Api/Class/GamePlay/SandboxWorldService_F/GetUISize.md) ()</div>|
+|:---|
+|获取UI布局的尺寸|
 
 
 ------------------------------------------------------------------------------------------

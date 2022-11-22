@@ -9,11 +9,11 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">AutoAssignable</font>](/Api/Class/GamePlay/SandboxTeam_F/AutoAssignable.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">AutoAssignable</font>](/Api/Class/GamePlay/SandboxTeam_F/AutoAssignable.md)</div>|
 |:---|
 |此属性用来决定加入游戏的`Player`是否允许自动分配到该队伍|
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">TeamColor</font>](/Api/Class/GamePlay/SandboxTeam_F/TeamColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">TeamColor</font>](/Api/Class/GamePlay/SandboxTeam_F/TeamColor.md)</div>|
 |:---|
 |此属性设置`Team`的颜色，决定队伍成员的`Player.TeamColor`属性   (`Rainbow::ColorQuad`)|
 
