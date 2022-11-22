@@ -3,47 +3,43 @@
 ## 描述
 
 环境节点，可以设置天气，星球、重力和时间
-继承：
 
+*继承自*：
 * [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性：
 
-|<div style="width:1125px">[EnumWeather]/Api/Enumerate/GamePlay/EnumWeather.md) &emsp;[<font color="dd00dd">Weather</font>]()</div>|
+|<div style="width:1000px">[EnumWeather](/Api/Enumerate/GamePlay/EnumWeather.md) &emsp;[<font color="dd00dd">Weather</font>]()</div>|
 |:---|
-|设置天气类型的枚举，有晴天、雨天、打雷和自定义。参见枚举`EnvironmentNode::EnumWeather`|
+|设置天气类型的枚举，有晴天、雨天、打雷和自定义。参见枚举[EnvironmentNode::EnumWeather](/Api/Enumerate/GamePlay/EnumWeather.md)|
 
-|<div style="width:1125px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Gravity</font>]()</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Gravity</font>]()</div>|
 |:---|
 |环境重力设置|
 
-|<div style="width:1125px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">TimeHour</font>]()</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">TimeHour</font>]()</div>|
 |:---|
 |时间设置|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">LockTimeHour</font>]()</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">LockTimeHour</font>]()</div>|
 |:---|
 |是否锁定时间|
 
-|<div style="width:1125px">[EnumSkyPlanet]/Api/Enumerate/GamePlay/EnumSkyPlanet.md) &emsp;[<font color="dd00dd">SkyPlanet</font>]()</div>|
+|<div style="width:1000px">[EnumSkyPlanet](/Api/Enumerate/GamePlay/EnumSkyPlanet.md) &emsp;[<font color="dd00dd">SkyPlanet</font>]()</div>|
 |:---|
-|设置星球类型的枚举，有地球、萌眼星、烈焰星、火山和自定义。参见枚举`EnvironmentNode::EnumSkyPlanet`|
+|设置星球类型的枚举，有地球、萌眼星、烈焰星、火山和自定义。参见枚举[EnvironmentNode::EnumSkyPlanet](/Api/Enumerate/GamePlay/EnumSkyPlanet.md)|
 
-|<div style="width:1125px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">SkyPlanetRes</font>]()</div>|
+|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">SkyPlanetRes</font>]()</div>|
 |:---|
 |设置天空|
-
-
 
 ------------------------------------------------------------------------------------------
 ## 函数：
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">LockTime</font> ]() ([int](/Api/DataType/Int.md) timehour)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|锁定时间||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|timehour|int||时间几点|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">LockTime</font> ](/Api/Class/GamePlay/EnvironmentNode_F/LockTime.md) ([int](/Api/DataType/Int.md) timehour)</div>|
+|:---|
+|锁定时间|
 
 ------------------------------------------------------------------------------------------
 ## 事件：
