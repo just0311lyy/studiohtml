@@ -2,127 +2,90 @@
 ------------------------------------------------------------------------------------------
 ## 描述
 
-继承：`SceneModelObject`
+*继承自*：
+* [SceneModelObject](/Api/Class/Role/SceneModelObject.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性：
 
-|<div style="width:1125px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Movespeed</font>](/Api/Class/Role/SceneActorObject_F/Movespeed.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Movespeed</font>](/Api/Class/Role/SceneActorObject_F/Movespeed.md)</div>|
 |:---|
 |生物的移动速度|
 
-|<div style="width:1125px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">MaxHealth</font>](/Api/Class/Role/SceneActorObject_F/MaxHealth.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">MaxHealth</font>](/Api/Class/Role/SceneActorObject_F/MaxHealth.md)</div>|
 |:---|
 |生物的最大生命值|
 
-|<div style="width:1125px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Health</font>](/Api/Class/Role/SceneActorObject_F/Health.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Health</font>](/Api/Class/Role/SceneActorObject_F/Health.md)</div>|
 |:---|
 |生物的当前生命值|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">UseCameraAngle</font>](/Api/Class/Role/SceneActorObject_F/UseCameraAngle.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">UseCameraAngle</font>](/Api/Class/Role/SceneActorObject_F/UseCameraAngle.md)</div>|
 |:---|
 |是否使用相机角度|
 
-|<div style="width:1125px">[BehaviorState]() &emsp;[<font color="dd00dd">MoveState</font>](/Api/Class/Role/SceneActorObject_F/MoveState.md)</div>|
+|<div style="width:1000px">[BehaviorState](/Api/Enumerate/Role/BehaviorState.md) &emsp;[<font color="dd00dd">MoveState</font>](/Api/Class/Role/SceneActorObject_F/MoveState.md)</div>|
 |:---|
-|行为状态枚举，见枚举`BehaviorState`|
+|行为状态枚举，见枚举[BehaviorState](/Api/Enumerate/Role/BehaviorState.md)|
 
-|<div style="width:1125px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">UserId</font>](/Api/Class/Role/SceneActorObject_F/UserId.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">UserId</font>](/Api/Class/Role/SceneActorObject_F/UserId.md)</div>|
 |:---|
 |用户id|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">NoPath</font>](/Api/Class/Role/SceneActorObject_F/NoPath.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">NoPath</font>](/Api/Class/Role/SceneActorObject_F/NoPath.md)</div>|
 |:---|
 |是否无导航路径|
 
-|<div style="width:1125px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">SetGravity</font>](/Api/Class/Role/SceneActorObject_F/SetGravity.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">SetGravity</font>](/Api/Class/Role/SceneActorObject_F/SetGravity.md)</div>|
 |:---|
 |重力|
 
 ------------------------------------------------------------------------------------------
-## 枚举
-
-|<div style="width:200px">BehaviorState</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|行为状态枚举|
-|**名称**   |**值**  |**描述**|
-|ZERO   |0   |无|
-|Jump|1   |跳|
-|Jumping  |2   |跳跃|
-|Stand  |3   |站立|
-|Walk  |4   |步行|
-|Fly  |5   |飞形|
-|Died  |6   |死亡|
-
-
-------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetMoveEndTime</font>](/Api/Class/Role/SceneActorObject_F/SetMoveEndTime.md) ([float](/Api/DataType/Float.md) endtime)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|设置生物移动的结束时间||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|endtime|float||结束时间|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetMoveEndTime</font>](/Api/Class/Role/SceneActorObject_F/SetMoveEndTime.md) ([float](/Api/DataType/Float.md) endtime)</div>|
+|:---|
+|设置生物移动的结束时间|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">MoveTo</font>](/Api/Class/Role/SceneActorObject_F/MoveTo.md) ([Vector3](/Api/DataType/Vector3.md) target)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|移动到某个位置||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|target|Vector3||位置坐标|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">MoveTo</font>](/Api/Class/Role/SceneActorObject_F/MoveTo.md) ([Vector3](/Api/DataType/Vector3.md) target)</div>|
+|:---|
+|移动到某个位置|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetMoveEndTime(待定)</font>](/Api/Class/Role/SceneActorObject_F/SetMoveEndTime.md) ([Vector3](/Api/DataType/Vector3.md) dir, [bool](/Api/DataType/Bool.md) relativeToCamera)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|设置生物移动的结束时间||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|dir|Vector3||方向|
-|relativeToCamera|bool||是否关联摄像机|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">Move</font>](/Api/Class/Role/SceneActorObject_F/SetMoveEndTime.md) ([Vector3](/Api/DataType/Vector3.md) dir, [bool](/Api/DataType/Bool.md) relativeToCamera)</div>|
+|:---|
+|朝某个方向移动|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">Jump</font>](/Api/Class/Role/SceneActorObject_F/Jump.md) ([bool](/Api/DataType/Bool.md) jump)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|设置生物是否跳跃||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|jump|bool||是否跳跃|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">Jump</font>](/Api/Class/Role/SceneActorObject_F/Jump.md) ([bool](/Api/DataType/Bool.md) jump)</div>|
+|:---|
+|设置生物是否跳跃|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetJumpInfo</font>](/Api/Class/Role/SceneActorObject_F/SetJumpInfo.md) ([float](/Api/DataType/Float.md) baseSpeed, [float](/Api/DataType/Float.md) continueSpeed)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|设置生物跳跃参数||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|baseSpeed|float||基础速度|
-|continueSpeed|float||继续速度|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetJumpInfo</font>](/Api/Class/Role/SceneActorObject_F/SetJumpInfo.md) ([float](/Api/DataType/Float.md) baseSpeed, [float](/Api/DataType/Float.md) continueSpeed)</div>|
+|:---|
+|设置生物跳跃参数|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">NavigateTo</font>](/Api/Class/Role/SceneActorObject_F/NavigateTo.md) ([Vector3](/Api/DataType/Vector3.md) target)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|寻路到某个位置||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|target|Vector3||位置坐标|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">NavigateTo</font>](/Api/Class/Role/SceneActorObject_F/NavigateTo.md) ([Vector3](/Api/DataType/Vector3.md) target)</div>|
+|:---|
+|寻路到某个位置|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetOneJumpTick</font>](/Api/Class/Role/SceneActorObject_F/SetOneJumpTick.md) ([int](/Api/DataType/Int.md) tickcount)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|设置一个跳跃行为||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|tickcount|int||行为次数|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetOneJumpTick</font>](/Api/Class/Role/SceneActorObject_F/SetOneJumpTick.md) ([int](/Api/DataType/Int.md) tickcount)</div>|
+|:---|
+|设置一个跳跃行为|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetEnableContinueJump</font>](/Api/Class/Role/SceneActorObject_F/SetEnableContinueJump.md) ([bool](/Api/DataType/Bool.md) enable)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|设置是否能连续跳跃||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|enable|bool||是否能连续跳跃|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">SetEnableContinueJump</font>](/Api/Class/Role/SceneActorObject_F/SetEnableContinueJump.md) ([bool](/Api/DataType/Bool.md) enable)</div>|
+|:---|
+|设置是否能连续跳跃|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">StopNavigate</font>](/Api/Class/Role/SceneActorObject_F/StopNavigate.md) ()</div>|<div style="width:698px"></div>|
-|:---|:---|
-|停止寻路||
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">StopNavigate</font>](/Api/Class/Role/SceneActorObject_F/StopNavigate.md) ()</div>|
+|:---|
+|停止寻路|
 
-|<div style="width:500px">[BehaviorState]() &emsp;[<font color="dd00dd">GetCurMoveState</font>](/Api/Class/Role/SceneActorObject_F/GetCurMoveState.md) ()</div>|<div style="width:698px"></div>|
-|:---|:---|
-|获取当前行为状态||
-|**返回类型**|**概要**|
-|BehaviorState|行为状态枚举，见枚举`MNSandbox::BehaviorState`|
+|<div style="width:1000px">[BehaviorState](/Api/Enumerate/Role/BehaviorState.md) &emsp;[<font color="dd00dd">GetCurMoveState</font>](/Api/Class/Role/SceneActorObject_F/GetCurMoveState.md) ()</div>|
+|:---|
+|获取当前行为状态。见枚举[BehaviorState](/Api/Enumerate/Role/BehaviorState.md)|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">UseDefaultAnimation</font>](/Api/Class/Role/SceneActorObject_F/UseDefaultAnimation.md) ([bool](/Api/DataType/Bool.md) use)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|移动过程中使用默认的动作||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|use|bool||是否使用默认动作|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">UseDefaultAnimation</font>](/Api/Class/Role/SceneActorObject_F/UseDefaultAnimation.md) ([bool](/Api/DataType/Bool.md) use)</div>|
+|:---|
+|移动过程中使用默认的动作|
 
 ------------------------------------------------------------------------------------------
 ## 事件

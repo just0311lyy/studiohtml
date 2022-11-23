@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------------------------
 ## 枚举
 
-|<div style="width:200px"></div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
+|<div style="width:200px">UserInputType</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
 |:---   |:---|:---|
 |**名称**   |**值**  |**描述**|
 |MouseButton1   |0   |鼠标左键|

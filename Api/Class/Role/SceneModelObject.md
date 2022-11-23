@@ -104,59 +104,32 @@
 ------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:500px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">PlayAnimal</font>](/Api/Class/Role/SceneModelObject_F/PlayAnimal.md) ([string](/Api/DataType/String.md) id, [float](/Api/DataType/Float.md) speed, [int](/Api/DataType/Int.md) loop)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|动作播放（兼容旧版，应该废弃）||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|id|string||动画id编号|
-|speed|float||动画播放速度|
-|loop|int||动画循环次数|
-|**返回类型**|||**概要**|
-|bool|||动画播放成功返回`true`|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">PlayAnimal</font>](/Api/Class/Role/SceneModelObject_F/PlayAnimal.md) ([string](/Api/DataType/String.md) id, [float](/Api/DataType/Float.md) speed, [int](/Api/DataType/Int.md) loop)</div>|
+|:---|
+|动作播放（兼容旧版，应该废弃）|
 
-|<div style="width:500px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">PlayAnimal2</font>](/Api/Class/Role/SceneModelObject_F/PlayAnimal2.md) ([string](/Api/DataType/String.md) id, [float](/Api/DataType/Float.md) speed, [int](/Api/DataType/Int.md) loop, [int](/Api/DataType/Int.md) priority = 1, [float](/Api/DataType/Float.md) weight = 1.0f)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|动作播放||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|id|string||动画id编号|
-|speed|float||动画播放速度|
-|loop|int||动画循环次数|
-|priority|int|1|动画优先级|
-|weight|float|1.0|动画权重|
-|**返回类型**|||**概要**|
-|bool|||动画播放成功返回`true`|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">PlayAnimal2</font>](/Api/Class/Role/SceneModelObject_F/PlayAnimal2.md) ([string](/Api/DataType/String.md) id, [float](/Api/DataType/Float.md) speed, [int](/Api/DataType/Int.md) loop, [int](/Api/DataType/Int.md) priority = 1, [float](/Api/DataType/Float.md) weight = 1.0f)</div>|
+|:---|
+|动作播放|
 
-|<div style="width:500px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">StopAnimal</font>](/Api/Class/Role/SceneModelObject_F/StopAnimal.md) ([string](/Api/DataType/String.md) id)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|动作停止播放||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|id|string||动画id编号|
-|**返回类型**|||**概要**|
-|bool|||动画停止播放成功返回`true`|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">StopAnimal</font>](/Api/Class/Role/SceneModelObject_F/StopAnimal.md) ([string](/Api/DataType/String.md) id)</div>|
+|:---|
+|动作停止播放|
 
-|<div style="width:500px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">StopAnimal2</font>](/Api/Class/Role/SceneModelObject_F/StopAnimal2.md) ([string](/Api/DataType/String.md) id)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|动作停止播放||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|id|string||动画id编号|
-|reset|bool|||
-|**返回类型**|||**概要**|
-|bool|||动画停止播放成功返回`true`|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">StopAnimal2</font>](/Api/Class/Role/SceneModelObject_F/StopAnimal2.md) ([string](/Api/DataType/String.md) id)</div>|
+|:---|
+|动作停止播放|
 
 
-|<div style="width:500px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">StopAllAnimal</font>](/Api/Class/Role/SceneModelObject_F/StopAllAnimal.md) ([bool](/Api/DataType/Bool.md) reset)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|停止所有动画||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|reset|bool|||
-|**返回类型**|||**概要**|
-|bool|||停止所有动画,返回true|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">StopAllAnimal</font>](/Api/Class/Role/SceneModelObject_F/StopAllAnimal.md) ([bool](/Api/DataType/Bool.md) reset)</div>|
+|:---|
+|停止所有动画|
 
 
 ------------------------------------------------------------------------------------------
 ## 事件
 
-|<div style="width:500px">[SBXSignal\<SandboxNode, Vector3, Vector3\>]() &emsp;[<font color="dd00dd">Touched</font>](/Api/Class/Role/SceneModelObject_F/Touched.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:1000px">[SBXSignal\<SandboxNode, Vector3, Vector3\>]() &emsp;[<font color="dd00dd">Touched</font>](/Api/Class/Role/SceneModelObject_F/Touched.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |模型被其他模型碰撞时，会触发一个Touched通知||||
 |**返回类型**|||**概要**|
@@ -166,7 +139,7 @@
 |pos|Vector3||世界坐标|
 |normal|Vector3||世界坐标|
 
-|<div style="width:500px">[SBXSignal\<SandboxNode\>]() &emsp;[<font color="dd00dd">TouchEnded</font>](/Api/Class/Role/SceneModelObject_F/TouchEnded.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:1000px">[SBXSignal\<SandboxNode\>]() &emsp;[<font color="dd00dd">TouchEnded</font>](/Api/Class/Role/SceneModelObject_F/TouchEnded.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |模型被其他模型碰撞时，会触发一个Touched通知||||
 |**返回类型**|||**概要**|
@@ -174,7 +147,7 @@
 |**SBXSignal参数名称**|**类别**|**默认**|**描述**|
 |node|SandboxNode||被碰撞的模型节点对象|
 
-|<div style="width:500px">[SBXSignal\<int, int\>]() &emsp;[<font color="dd00dd">AnimEvent</font>](/Api/Class/Role/SceneModelObject_F/AnimEvent.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:1000px">[SBXSignal\<int, int\>]() &emsp;[<font color="dd00dd">AnimEvent</font>](/Api/Class/Role/SceneModelObject_F/AnimEvent.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |模型动作事件||||
 |**返回类型**|||**概要**|
@@ -183,7 +156,7 @@
 |a|int|||
 |b|int|||
 
-|<div style="width:500px">[SBXSignal\<ReflexTuple\>]() &emsp;[<font color="dd00dd">RemotePlayAnimal</font>](/Api/Class/Role/SceneModelObject_F/RemotePlayAnimal.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:1000px">[SBXSignal\<ReflexTuple\>]() &emsp;[<font color="dd00dd">RemotePlayAnimal</font>](/Api/Class/Role/SceneModelObject_F/RemotePlayAnimal.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |||||
 |**返回类型**|||**概要**|
