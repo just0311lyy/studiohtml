@@ -1,4 +1,4 @@
-# Class索引
+# 数据类型索引
 
 - ## B
     - ##### [Bool](/Api/DataType/Bool.md)
