@@ -13,19 +13,13 @@
 ------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">GetSize</font> ](/Api/Class/Data/SandboxFriendsService_F/GetSize.md) ()</div>|<div style="width:698px"></div>|
-|:---|:---|
-|获取好友数量||
-|**返回类型**|**概要**|
-|int|获取好友数量|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">GetSize</font> ](/Api/Class/Data/SandboxFriendsService_F/GetSize.md) ()</div>|
+|:---|
+|获取好友数量|
 
-|<div style="width:1000px">[ReflexTuple](/Api/Parameter/Tuple.md) &emsp;[<font color="dd00dd">GetFriendsInfoByIndex</font> ](/Api/Class/Data/SandboxFriendsService_F/GetFriendsInfoByIndex.md) ([int](/Api/DataType/Int.md) index)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|根据好友的序列号拿到好友信息||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|index|int||好友数的序列号|
-|**返回类型**|||**概要**|
-|ReflexTuple|||好友信息 [uin(好友的uin), nickName(好友昵称), onLine(好友是否在线)]|
+|<div style="width:1000px">[ReflexTuple](/Api/Parameter/Tuple.md) &emsp;[<font color="dd00dd">GetFriendsInfoByIndex</font> ](/Api/Class/Data/SandboxFriendsService_F/GetFriendsInfoByIndex.md) ([int](/Api/DataType/Int.md) index)</div>|
+|:---|
+|根据好友的序列号拿到好友信息|
 
 
 ------------------------------------------------------------------------------------------

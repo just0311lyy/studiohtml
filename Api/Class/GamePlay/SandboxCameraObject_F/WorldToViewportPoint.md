@@ -4,7 +4,7 @@
 
 函数所属类：[SandboxCameraObject](/Api/Class/GamePlay/SandboxCameraObject.md)
 
-将一个世界坐标position转换到摄像机视口坐标
+将一个世界坐标`position`转换到摄像机视口坐标
 
 -----------------------------------------------------------------------------------------
 ## 参数
