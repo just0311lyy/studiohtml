@@ -3,67 +3,32 @@
 ## 描述
 
 渐变`tween`对象本身控制插值的播放（补间动画，就是可以给节点的属性做插值）
-继承：`SandboxNode`
+
+*继承自*：
+* [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性
 
 ------------------------------------------------------------------------------------------
-## 枚举
-
-|<div style="width:200px">EasingDirection</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|补间动画变化的方向枚举|
-|**名称**   |**值**  |**描述**|
-|In   |0   |缓动风格是向前应用的|
-|Out|1   |缓动风格是向后应用的。|
-|In_Out  |2   |缓动风格在前半段向前应用，在后半段向后应用|
-
-
-|<div style="width:200px">EasingStyle</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|补间动画变化的方法枚举|
-|**名称**   |**值**  |**描述**|
-|Linear   |0   |以恒定速度移动|
-|Sine|1   |运动速度由正弦波决定|
-|Back  |2   |调整移动回原位或移出原位|
-|Quad  |3   |类似于`Quart`和`Quint`，但速度不同|
-|Quart  |4   |类似于`Quad`和`Quint`，但速度不同|
-|Quint  |5   |类似于`Quad`和`Quart`，但速度不同|
-|Bounce  |6   |移动时，就像`tween`的开始或结束位置是有弹性的一样|
-|Elastic  |7   |移动时就像`GUI`元素连接到橡皮筋一样|
-
-
-|<div style="width:200px">TweenStatus</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
-|:---   |:---|:---|
-|补间动画的状态|
-|**名称**   |**值**  |**描述**|
-|Begin   |0   |`Tween`开始|
-|Delayed|1   |`Tween`延迟播放|
-|Playing  |2   |`Tween`开始播放|
-|Paused  |3   |`Tween`在完成前暂停了|
-|Canceled  |4   |`Tween`在完成前就被取消了|
-|Completed  |5   |`Tween`顺利完成了|
-
-------------------------------------------------------------------------------------------
 ## 函数：
 
-|<div style="width:1125px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">Pause</font>]()</div>|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">Pause</font>]()</div>|
 |:---|
 |将暂停`tween`的播放|
 
 
-|<div style="width:1125px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">Play</font>]()</div>|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">Play</font>]()</div>|
 |:---|
 |将开始`tween`的播放|
 
 
-|<div style="width:1125px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">Cancel</font>]()</div>|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">Cancel</font>]()</div>|
 |:---|
 |将停止`tween`的播放并重置它的变量|
 
 
-|<div style="width:1125px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">Resume</font>]()</div>|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">Resume</font>]()</div>|
 |:---|
 |将继续`tween`播放|
 

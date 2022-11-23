@@ -1,4 +1,4 @@
-# Class索引
+# Lua文档索引
 
 - ## L
     - ##### [LuaFunction](/Api/Parameter/LuaFunction.md)

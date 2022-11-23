@@ -3,7 +3,9 @@
 ## 描述
 
 是一个服务，可以获取好友数量，根据索引获取好友的信息
-继承：`ServiceNode`
+
+*继承自*：
+* [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性
@@ -11,13 +13,13 @@
 ------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:500px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">GetSize</font> ]() ()</div>|<div style="width:698px"></div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">GetSize</font> ](/Api/Class/Data/SandboxFriendsService_F/GetSize.md) ()</div>|<div style="width:698px"></div>|
 |:---|:---|
 |获取好友数量||
 |**返回类型**|**概要**|
 |int|获取好友数量|
 
-|<div style="width:500px">[ReflexTuple](/Api/Parameter/Tuple.md) &emsp;[<font color="dd00dd">GetFriendsInfoByIndex</font> ]() ([int](/Api/DataType/Int.md) index)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:1000px">[ReflexTuple](/Api/Parameter/Tuple.md) &emsp;[<font color="dd00dd">GetFriendsInfoByIndex</font> ](/Api/Class/Data/SandboxFriendsService_F/GetFriendsInfoByIndex.md) ([int](/Api/DataType/Int.md) index)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |根据好友的序列号拿到好友信息||||
 |**参数名称**|**类别**|**默认**|**描述**|
