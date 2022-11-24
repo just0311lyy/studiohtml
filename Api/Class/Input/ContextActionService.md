@@ -16,28 +16,28 @@
 ------------------------------------------------------------------------------------------
 ## 函数
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">BindAction</font> ](/Api/Class/Input/ContextActionService_F/BindAction.md) ([string](/Api/DataType/String.md) actionName, [LuaFunction]() func, [int](/Api/DataType/Int.md) nActionType, [int](/Api/DataType/Int.md) nSubType)</div>|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">BindAction</font> ](/Api/Class/Input/ContextActionService_F/BindAction.md) ([string](/Api/DataType/String.md) actionName, [LuaFunction]() func, [int](/Api/DataType/Int.md) nActionType, [int](/Api/DataType/Int.md) nSubType)</div>|
 |:---|
 |绑定一个回调函数到指定输入上|
 
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">BindActionAtPriority</font> ](/Api/Class/Input/ContextActionService_F/BindActionAtPriority.md) ([string](/Api/DataType/String.md) actionName, [LuaFunction]() func, [int](/Api/DataType/Int.md) priority, [int](/Api/DataType/Int.md) nActionType, [int](/Api/DataType/Int.md) nSubType)</div>|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">BindActionAtPriority</font> ](/Api/Class/Input/ContextActionService_F/BindActionAtPriority.md) ([string](/Api/DataType/String.md) actionName, [LuaFunction]() func, [int](/Api/DataType/Int.md) priority, [int](/Api/DataType/Int.md) nActionType, [int](/Api/DataType/Int.md) nSubType)</div>|
 |:---|
 |绑定一个回调函数到指定输入上，并指定优先级|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">UnbindAction</font> ](/Api/Class/Input/ContextActionService_F/UnbindAction.md) ([string](/Api/DataType/String.md) actionName)</div>|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">UnbindAction</font> ](/Api/Class/Input/ContextActionService_F/UnbindAction.md) ([string](/Api/DataType/String.md) actionName)</div>|
 |:---|
 |取消指定的用户绑定|
 
-|<div style="width:1125px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">UnbindAllActions</font>]()</div>|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">UnbindAllActions</font>]()</div>|
 |:---|
 |移除所有的函数绑定|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">BindActivate</font> ](/Api/Class/Input/ContextActionService_F/BindActivate.md) ([int](/Api/DataType/Int.md) userInputTypeForActivate, [int](/Api/DataType/Int.md) keyCodeForActivate)</div>|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">BindActivate</font> ](/Api/Class/Input/ContextActionService_F/BindActivate.md) ([int](/Api/DataType/Int.md) userInputTypeForActivate, [int](/Api/DataType/Int.md) keyCodeForActivate)</div>|
 |:---|
 |绑定激活|
 
-|<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">UnbindActivate</font> ](/Api/Class/Input/ContextActionService_F/UnbindActivate.md) ([int](/Api/DataType/Int.md) userInputTypeForActivate, [int](/Api/DataType/Int.md) keyCodeForActivate)</div>|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">UnbindActivate</font> ](/Api/Class/Input/ContextActionService_F/UnbindActivate.md) ([int](/Api/DataType/Int.md) userInputTypeForActivate, [int](/Api/DataType/Int.md) keyCodeForActivate)</div>|
 |:---|
 |绑定激活|
 

@@ -1,20 +1,20 @@
 
 # AutoSizeType
 
-Ã¶¾ÙËùÊôÀà£º[SceneUITextLabel](/Api/Class/Scene/SceneUITextInput.md) 
+æžšä¸¾æ‰€å±žç±»ï¼š[SceneUITextLabel](/Api/Class/Scene/SceneUITextInput.md) 
 
 ------------------------------------------------------------------------------------------
-## ÃèÊö
+## æè¿°
 
-¸ù¾Ý×ÖÌå´óÐ¡µ÷½Ú½Úµã´óÐ¡Ã¶¾Ù
+æ ¹æ®å­—ä½“å¤§å°è°ƒèŠ‚èŠ‚ç‚¹å¤§å°æžšä¸¾
 
 ------------------------------------------------------------------------------------------
-## Ã¶¾Ù
+## æžšä¸¾
 
 |<div style="width:200px">AutoSizeType</div>|<div style="width:100px"></div>|<div style="width:100px"></div>|
 |:---   |:---|:---|
-|**Ãû³Æ**   |**Öµ**  |**ÃèÊö**|
-|NONE   |0   |²»µ÷Õû|
-|BOTH|1   |¿í¸ß|
-|HEIGHT  |2   |¸ß|
-|SHRINK  |3   |¿í|
+|**åç§°**   |**å€¼**  |**æè¿°**|
+|NONE   |0   |ä¸è°ƒæ•´|
+|BOTH|1   |å®½é«˜|
+|HEIGHT  |2   |é«˜|
+|SHRINK  |3   |å®½|

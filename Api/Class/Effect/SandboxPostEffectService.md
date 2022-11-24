@@ -22,13 +22,9 @@
 |:---|
 |移除|
 
-|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">setParamValue</font>](/Api/Class/Effect/SandboxPostEffectService_F/setParamValue.md) ([string](/Api/DataType/String.md) szEffectName, [string](/Api/DataType/String.md) szName, [float](/Api/DataType/Float.md) fValue)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
-|:---|:---|:---|:---|
-|设置`PostEffect`参数||||
-|**参数名称**|**类别**|**默认**|**描述**|
-|szEffectName|string||效果名称|
-|szName|string||效果标识符|
-|fValue|float||效果值|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">setParamValue</font>](/Api/Class/Effect/SandboxPostEffectService_F/setParamValue.md) ([string](/Api/DataType/String.md) szEffectName, [string](/Api/DataType/String.md) szName, [float](/Api/DataType/Float.md) fValue)</div>|
+|:---|
+|设置`PostEffect`参数|
 
 ------------------------------------------------------------------------------------------
 ## 示例代码

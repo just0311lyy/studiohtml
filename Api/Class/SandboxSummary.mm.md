@@ -13,7 +13,7 @@
     - [SceneUIRoot](/#/Api/Class/Scene/SceneUIRoot.md)
 
 - [ServiceNode](/#/Api/Class/Service/ServiceNode.md)
-    - [Game]()
+    - Game
     - [SceneRoot ( WorkSpace )](/#/Api/Class/Scene/SceneRoot.md)
     - [SandboxFriendsService](/#/Api/Class/Data/SandboxFriendsService.md)
     - [RunService](/#/Api/Class/Script/RunService.md)
@@ -69,18 +69,18 @@
 
 - [EnvironmentNode](/#/Api/Class/GamePlay/EnvironmentNode.md)
 - COMPONENT
-    - [BodyComponent](BodyComponent.md)
-    - [PhysXLocoMotionComponent](PhysXLocoMotionComponent.md)
-        - [LocoMotionComponent](LocoMotionComponent.md)
+    - BodyComponent
+    - PhysXLocoMotionComponent
+        - LocoMotionComponent
 
-    - [NavigationPathComponent](NavigationPathComponent.md)
+    - NavigationPathComponent
 
 - FUNCTION
     - [TimerNode](/Api/Class/Script/TimerNode.md)
 
 ## DATA TYPE
 
-- [Number]()
+- Number
 - [Int](/#/Api/DataType/Int.md)
 - [Bool](/#/Api/DataType/Bool.md)
 - [String](/#/Api/DataType/String.md)
@@ -105,7 +105,7 @@
 - [WCoord](WCoord.md)
 
 - CUSTOM ATTRIBUTES
-	- [Number]()
+	- Number
 	- [Bool](/#/Api/DataType/Bool.md)
 	- [String](/#/Api/DataType/String.md)
 	- [Vector2](/#/Api/DataType/Vector2.md)
@@ -113,14 +113,45 @@
 	- [Vector4](/#/Api/DataType/Vector4.md)
 	- [Color](/#/Api/DataType/ColourValue.md)
 	- [Rect](/#/Api/DataType/Rect.md)
-	- [NumberSequence]()
-	- [ColourSequence]()
+	- NumberSequence
+	- ColourSequence
 
 - EUNMERATE
-    - [BlockPlaceType](/#/Api/Enumerate/UI/BlockPlaceType.md)
+
+    - [EnumDefaultSound](/#/Api/Enumerate/Sound/EnumDefaultSound.md)
+    - [EnumListenerType](/#/Api/Enumerate/Sound/EnumListenerType.md)
+    - [EnumRollOffMode](/#/Api/Enumerate/Sound/EnumRollOffMode.md)
+    - [EnumDefaultEffect](/#/Api/Enumerate/Effect/EnumDefaultEffect.md)
+    - [ExplosionType](/#/Api/Enumerate/Effect/ExplosionType.md)
+    - [AutoSizeType](/#/Api/Enumerate/UI/AutoSizeType.md)
+    - [BLOCKPLACETYPE](/#/Api/Enumerate/UI/BLOCKPLACETYPE.md)
+    - [ButtonDownEffect](/#/Api/Enumerate/UI/ButtonDownEffect.md)
+    - [EasingDirection](/#/Api/Enumerate/UI/EasingDirection.md)
+    - [EasingStyle](/#/Api/Enumerate/UI/EasingStyle.md)
+    - [EnumFillMethod](/#/Api/Enumerate/UI/EnumFillMethod.md)
+    - [EnumFillOrigin](/#/Api/Enumerate/UI/EnumFillOrigin.md)
+    - [EnumLayoutHRelation](/#/Api/Enumerate/UI/EnumLayoutHRelation.md)
+    - [EnumLayoutVRelation](/#/Api/Enumerate/UI/EnumLayoutVRelation.md)
+    - [EnumLayoutSizeRelation](/#/Api/Enumerate/UI/EnumLayoutSizeRelation.md)
+    - [InputMode](/#/Api/Enumerate/UI/InputMode.md)
+    - [ListLayoutType](/#/Api/Enumerate/UI/ListLayoutType.md)
+    - [MouseBehaviorEnum](/#/Api/Enumerate/UI/MouseBehaviorEnum.md)
+    - [OverflowType](/#/Api/Enumerate/UI/OverflowType.md)
+    - [RenderPriority](/#/Api/Enumerate/UI/RenderPriority.md)
+    - [TextHAlignment](/#/Api/Enumerate/UI/TextHAlignment.md)
+    - [TextVAlignment](/#/Api/Enumerate/UI/TextVAlignment.md)
+    - [TweenStatus](/#/Api/Enumerate/UI/TweenStatus.md)
+    - [EnumWeather](/#/Api/Enumerate/GamePlay/EnumWeather.md)
+    - [EnumSkyPlanet](/#/Api/Enumerate/GamePlay/EnumSkyPlanet.md)
     - [TimerRunState](/#/Api/Enumerate/GamePlay/TimerRunState.md)
+    - [Action](/#/Api/Enumerate/UserInput/Action.md)
+    - [ContextActionPriority](/#/Api/Enumerate/UserInput/ContextActionPriority.md)
+    - [ContextActionResult](/#/Api/Enumerate/UserInput/ContextActionResult.md)
+    - [ContextActionType](/#/Api/Enumerate/UserInput/ContextActionType.md)
+    - [UserInputState](/#/Api/Enumerate/UserInput/UserInputState.md)
+    - [UserInputType](/#/Api/Enumerate/UserInput/UserInputType.md)
 
 ## NOTIFY
 
-- [CustomNotify]()
-- [ReflexClassNotify]()
+- CustomNotify
+- ReflexClassNotify

@@ -69,7 +69,6 @@
 		- [ScenePartObject](/Api/Class/Build/ScenePartObject.md)
 		- [SceneModelFolderObject](/Api/Class/Build/SceneModelFolderObject.md)
 		- [TerrainNode](/Api/Class/Build/TerrainNode.md)
-		- [BLOCKPLACETYPE](/Api/Class/Build/BLOCKPLACETYPE.md)
 		- [Block](/Api/Class/Build/Block.md)
 	- 9.角色
 		- [SceneModelObject](/Api/Class/Role/SceneModelObject.md)
@@ -100,7 +99,7 @@
 		- [ExplosionType](/Api/Enumerate/Effect/ExplosionType.md)
 	- 3.UI
 		- [AutoSizeType](/Api/Enumerate/UI/AutoSizeType.md)
-		- [BlockPlaceType](/Api/Enumerate/UI/BlockPlaceType.md)
+		- [BLOCKPLACETYPE](/Api/Enumerate/UI/BlockPlaceType.md)
 		- [ButtonDownEffect](/Api/Enumerate/UI/ButtonDownEffect.md)
 		- [EasingDirection](/Api/Enumerate/UI/EasingDirection.md)
 		- [EasingStyle](/Api/Enumerate/UI/EasingStyle.md)

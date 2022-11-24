@@ -1,7 +1,7 @@
 # Class索引
 
 - ## B
-    - ##### [BlockPlaceType](/Api/Enumerate/UI/BlockPlaceType.md)
+    - ##### [BLOCKPLACETYPE](/Api/Enumerate/UI/BlockPlaceType.md)
     - ##### [ButtonDownEffect](/Api/Enumerate/UI/ButtonDownEffect.md)
 
 - ## C
