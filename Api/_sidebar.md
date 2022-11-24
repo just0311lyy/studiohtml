@@ -1,7 +1,7 @@
 <!-- 侧边栏 studiodocs/_sidebar.md -->
 
 - 沙盒导图
-    - <a href="Api/Class/Summary.html">SandboxNode Summary</a>
+    - <a href="Api/Class/SandboxSummary.html">SandboxNode Summary</a>
 	- [Class索引](/Api/Class/ClassIndexes.md)
 	- [枚举索引](/Api/Enumerate/EnumIndexes.md)
 	- [数据类型索引](/Api/DataType/DataTypeIndexes.md)

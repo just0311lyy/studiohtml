@@ -6,12 +6,7 @@
 
 > Sandbox节点系统.
 
-![node_img](Source/Images/node.jpeg)
-
-> Sandbox基础类型.
-
-![node_img](Source/Images/data.jpeg)
-
+<a href="Api/Class/SandboxSummary.html"><img src="Source/Images/summary.jpg" alt="node"></a>
 
 
 > 迷你世界 - 想象无边界，创造无止境！
