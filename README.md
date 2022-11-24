@@ -6,8 +6,9 @@
 
 > Sandbox节点系统.
 
-<a href="Api/Class/SandboxSummary.html"><img src="Source/Images/summary.jpg" alt="node"></a>
+<!-- <a href="Api/Class/SandboxSummary.html"><img src="Source/Images/summary.jpg" alt="node"></a> -->
 
+<a href="Api/Class/SandboxSummary_git.html"><img src="Source/Images/summary.jpg" alt="node"></a>
 
 > 迷你世界 - 想象无边界，创造无止境！
 
