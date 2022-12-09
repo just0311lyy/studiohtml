@@ -1,3 +1,7 @@
+<!-- 注：
+本地调试路径 /studiohtml/#/Api/Class/Scene/SceneUIBase.md
+线上跳转路径 /studiohtml/#/Api/Class/Scene/SceneUIBase.md -->
+
 # SandboxNode Summary
 
 ## Node
@@ -55,7 +59,7 @@
 - PARTICLE
     - [ParticleSmoke](/studiohtml/#/Api/Class/Effect/SandboxParticleSmoke.md)
 
-- [UITransform](/studiohtml/#/Api/Class/NoType/SceneTransObject.md)
+- [Transform](/studiohtml/#/Api/Class/NoType/SceneTransObject.md)
     - [BindAttachment](/studiohtml/#/Api/Class/Bind/SceneBindAttachment.md)
     - [UIModelFolder](/studiohtml/#/Api/Class/Build/SceneModelFolderObject.md)
 
