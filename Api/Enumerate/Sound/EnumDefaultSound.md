@@ -1,6 +1,6 @@
-# EnumDefaultSound
+# DefaultSound
 
-枚举所属类：`SandboxDefaultSound`
+枚举所属类：`DefaultSound`
 
 ------------------------------------------------------------------------------------------
 ## 描述:

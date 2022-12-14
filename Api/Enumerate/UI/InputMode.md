@@ -1,6 +1,6 @@
 # InputMode
 
-枚举所属类：[SceneUITextInput](/Api/Class/Scene/SceneUITextInput.md) 
+枚举所属类：[UITextInput](/Api/Class/Scene/SceneUITextInput.md) 
 
 ------------------------------------------------------------------------------------------
 ## 描述

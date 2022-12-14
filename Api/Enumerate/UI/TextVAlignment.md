@@ -1,7 +1,7 @@
 
 # TextVAlignment
 
-枚举所属类：[SceneUITextLabel](/Api/Class/Scene/SceneUITextInput.md) 
+枚举所属类：[UITextLabel](/Api/Class/Scene/SceneUITextInput.md) 
 
 ------------------------------------------------------------------------------------------
 ## 描述

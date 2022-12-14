@@ -1,6 +1,6 @@
 # EasingDirection
 
-枚举所属类：[SceneTweenObject](/Api/Class/Animation/SceneTweenObject.md)
+枚举所属类：[UITween](/Api/Class/Animation/SceneTweenObject.md)
 
 ------------------------------------------------------------------------------------------
 ## 描述

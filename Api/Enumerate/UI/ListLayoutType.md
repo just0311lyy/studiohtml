@@ -1,6 +1,6 @@
 # ListLayoutType
 
-枚举所属类：[SceneUIImage](/Api/Class/Scene/SceneUIImage.md) 
+枚举所属类：[UIImage](/Api/Class/Scene/SceneUIImage.md) 
 
 ------------------------------------------------------------------------------------------
 ## 描述

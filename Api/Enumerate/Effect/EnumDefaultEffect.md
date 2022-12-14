@@ -1,6 +1,6 @@
-# EnumDefaultEffect
+# DefaultEffect
 
-枚举所属类：`SandboxDefaultEffect` 
+枚举所属类：`DefaultEffect` 
 
 ------------------------------------------------------------------------------------------
 ## 描述

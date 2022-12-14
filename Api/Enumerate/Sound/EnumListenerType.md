@@ -1,6 +1,6 @@
-# EnumListenerType
+# ListenerType
 
-枚举所属类：`SandboxSoundService`
+枚举所属类：`SoundService`
 
 ------------------------------------------------------------------------------------------
 ## 描述

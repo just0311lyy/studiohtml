@@ -1,6 +1,6 @@
-# EnumLayoutSizeRelation
+# LayoutSizeRelation
 
-枚举所属类：`SceneUIComponent`
+枚举所属类：`UIComponent`
 
 ------------------------------------------------------------------------------------------
 ## 描述

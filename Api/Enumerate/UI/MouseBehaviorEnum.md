@@ -1,4 +1,4 @@
-# MouseBehaviorEnum
+# MouseBehavior
 
 枚举所属类：[UserInputService](/Api/Class/Animation/UserInputService.md)
 
