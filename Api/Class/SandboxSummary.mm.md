@@ -14,11 +14,11 @@
         - [UITextLabel](/studiohtml/#/Api/Class/Scene/SceneUITextLabel.md)
         - [UITextInput](/studiohtml/#/Api/Class/Scene/SceneUITextInput.md)
 
-    - [UIRoot](/studiohtml/#/Api/Class/Scene/SceneUIRoot.md)
+    - [UIRoot](/studiohtml/#/Api/Class/Scene/SandboxUIRoot.md)
 
 - [Service](/studiohtml/#/Api/Class/Service/ServiceNode.md)
     - Game
-    - [WorkSpace](/studiohtml/#/Api/Class/Scene/SceneRoot.md)
+    - [WorkSpace](/studiohtml/#/Api/Class/Scene/SceneUIRoot.md)
     - [FriendsService](/studiohtml/#/Api/Class/Data/SandboxFriendsService.md)
     - [RunService](/studiohtml/#/Api/Class/Script/RunService.md)
     - [WorldService](/studiohtml/#/Api/Class/GamePlay/SandboxWorldService.md)
@@ -49,6 +49,9 @@
     - [Sequence](/studiohtml/#/Api/Class/Animation/SandboxSequenceObject.md)
 
 - [Terrain](/studiohtml/#/Api/Class/Build/TerrainNode.md)
+- [BluePrint](/studiohtml/#/Api/Class/Build/SandboxBluePrint.md)
+- [Decal](/studiohtml/#/Api/Class/Scene/SandboxDecalObject.md)
+- [GeoSolid](/studiohtml/#/Api/Class/Build/SceneGeoSolid.md)
 - [ScriptNode](/studiohtml/#/Api/Class/NoType/ScriptNode.md)
     - [Script](/studiohtml/#/Api/Class/Script/ScriptObject.md)
     - [LocalScript](/studiohtml/#/Api/Class/Script/LocalScriptNode.md)

@@ -1,10 +1,15 @@
 # Class索引
 
+- ## B
+    - ##### [BluePrint](/Api/Class/Build/SandboxBluePrint.md)
+
 - ## C
     - ##### [ContextActionService](/Api/Class/Input/ContextActionService.md)
 
 - ## E
     - ##### [EnvironmentNode](/Api/Class/GamePlay/EnvironmentNode.md)
+- ## G
+    - ##### [GeoSolid](/Api/Class/Build/SceneGeoSolid.md)
 - ## L
     - ##### [LocalScriptNode](/Api/Class/Script/LocalScriptNode.md)
     

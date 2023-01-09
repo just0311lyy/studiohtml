@@ -1,4 +1,4 @@
-# Class索引
+# 枚举索引
 
 - ## B
     - ##### [BLOCKPLACETYPE](/Api/Enumerate/UI/BlockPlaceType.md)
@@ -21,6 +21,9 @@
     - ##### [LayoutSizeRelation](/Api/Enumerate/UI/EnumLayoutSizeRelation.md)
     - ##### [LayoutVRelation](/Api/Enumerate/UI/EnumLayoutVRelation.md)
 
+- ## G
+    - ##### [GeoSolid](/Api/Class/Build/SceneGeoSolid.md)
+
 - ## I
     - ##### [InputMode](/Api/Enumerate/UI/InputMode.md)
 - ## L
@@ -37,6 +40,7 @@
     - ##### [PhysicsType](/Api/Enumerate/Physics/PhysicsType.md)
 - ## R
     - ##### [RenderPriority](/Api/Enumerate/UI/RenderPriority.md)
+    - ##### [RotateType](/Api/Enumerate/UI/RotateType.md)
 - ## S
     
 

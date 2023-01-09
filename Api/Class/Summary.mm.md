@@ -45,6 +45,9 @@
     - [Sequence](/#/Api/Class/Animation/SandboxSequenceObject.md)
 
 - [Terrain](/#/Api/Class/Build/TerrainNode.md)
+- [BluePrint](/studiohtml/#/Api/Class/Build/SandboxBluePrint.md)
+- [Decal](/studiohtml/#/Api/Class/Scene/SandboxDecalObject.md)
+- [GeoSolid](/studiohtml/#/Api/Class/Build/SceneGeoSolid.md)
 - [ScriptNode](/#/Api/Class/NoType/ScriptNode.md)
     - [Script](/#/Api/Class/Script/ScriptObject.md)
     - [LocalScript](/#/Api/Class/Script/LocalScriptNode.md)

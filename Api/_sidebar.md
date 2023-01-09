@@ -62,6 +62,8 @@
 		- [UITextLabel](/Api/Class/Scene/SceneUITextLabel.md)
 		- [UIList](/Api/Class/Scene/SceneUIList.md)
 		- [UIModelView](/Api/Class/Scene/SceneUIModelView.md)
+		- [Decal](/Api/Class/Scene/SandboxDecalObject.md)
+		- [GeoSolid](/Api/Class/Build/SceneGeoSolid.md)
 	- 7.特效
 		- [DefaultEffect](/Api/Class/Effect/SandboxDefaultEffect.md)
 		- [Fire](/Api/Class/Effect/SandboxFire.md)
@@ -73,6 +75,7 @@
 		- [UIModelFolder](/Api/Class/Build/SceneModelFolderObject.md)
 		- [Terrain](/Api/Class/Build/TerrainNode.md)
 		- [Block](/Api/Class/Build/Block.md)
+		- [BluePrint](/Api/Class/Build/SandboxBluePrint.md)
 	- 9.角色
 		- [Model](/Api/Class/Role/SceneModelObject.md)
 		- [Actor](/Api/Class/Role/SceneActorObject.md)
