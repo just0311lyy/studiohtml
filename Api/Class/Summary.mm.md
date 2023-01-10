@@ -45,9 +45,12 @@
     - [Sequence](/#/Api/Class/Animation/SandboxSequenceObject.md)
 
 - [Terrain](/#/Api/Class/Build/TerrainNode.md)
-- [BluePrint](/studiohtml/#/Api/Class/Build/SandboxBluePrint.md)
-- [Decal](/studiohtml/#/Api/Class/Scene/SandboxDecalObject.md)
-- [GeoSolid](/studiohtml/#/Api/Class/Build/SceneGeoSolid.md)
+- [BluePrint](/#/Api/Class/Build/SandboxBluePrint.md)
+- [Decal](/#/Api/Class/Scene/SandboxDecalObject.md)
+- [GeoSolid](/#/Api/Class/Build/SceneGeoSolid.md)
+- [Light](/#/Api/Class/Build/SandboxLightObject.md)
+- [Material](/#/Api/Class/Script/SandboxMaterialObject.md)
+- [Voxel](/#/Api/Class/GamePlay/SandboxVoxelObject.md)
 - [ScriptNode](/#/Api/Class/NoType/ScriptNode.md)
     - [Script](/#/Api/Class/Script/ScriptObject.md)
     - [LocalScript](/#/Api/Class/Script/LocalScriptNode.md)
@@ -55,6 +58,8 @@
 
 - [Actor](/#/Api/Class/Role/SceneActorObject.md)
 - [Model](/#/Api/Class/Role/SceneModelObject.md)
+- [AIBase](/#/Api/Class/Role/SandboxAIBase.md)
+- [AITaskEntry](/#/Api/Class/Role/SandboxAITaskEntry.md)
 - PARTICLE
     - [ParticleSmoke](/#/Api/Class/Effect/SandboxParticleSmoke.md)
 
@@ -94,11 +99,11 @@
 - [Rect](/#/Api/DataType/Rect.md)
 - [Ray](/#/Api/DataType/Ray.md)
 - [Quaternion](/#/Api/DataType/Quaternion.md)
-- [ColourValue](/#/Api/DataType/ColourValue.md)
+- [colorvalue](/#/Api/DataType/colorvalue.md)
 - [ReflexTuple]()
     - ReflexTuple([int](/#/Api/DataType/int.md))
     - ReflexTuple([float](/#/Api/DataType/float.md))
-    - ReflexTuple([ColourValue](/#/Api/DataType/ColourValue.md))
+    - ReflexTuple([colorvalue](/#/Api/DataType/colorvalue.md))
     - ReflexTuple([SandboxNode](/#/Api/Class/NoType/SandboxNode.md))
     - ReflexTuple([Vector3](/#/Api/DataType/Vector3.md))
 
@@ -114,7 +119,7 @@
 	- [Vector2](/#/Api/DataType/Vector2.md)
 	- [Vector3](/#/Api/DataType/Vector3.md)
 	- [Vector4](/#/Api/DataType/Vector4.md)
-	- [ColourValue](/#/Api/DataType/ColourValue.md)
+	- [colorvalue](/#/Api/DataType/colorvalue.md)
 	- [Rect](/#/Api/DataType/Rect.md)
 	- NumberSequence
 	- ColourSequence

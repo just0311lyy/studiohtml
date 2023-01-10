@@ -1,5 +1,8 @@
 # Class索引
 
+- ## A
+    - ##### [AIBase](/Api/Class/Role/SandboxAIBase.md)
+    - ##### [AITaskEntry](/Api/Class/Role/SandboxAITaskEntry.md)
 - ## B
     - ##### [BluePrint](/Api/Class/Build/SandboxBluePrint.md)
 
@@ -12,9 +15,11 @@
     - ##### [GeoSolid](/Api/Class/Build/SceneGeoSolid.md)
 - ## L
     - ##### [LocalScriptNode](/Api/Class/Script/LocalScriptNode.md)
+    - ##### [Light](/Api/Class/Build/SandboxLightObject.md)
     
 - ## M
     - ##### [ModuleScriptNode](/Api/Class/Script/ModuleScriptNode.md)
+    - ##### [Material](/Api/Class/Script/SandboxMaterialObject.md)
 - ## N
     - ##### [RunService](/Api/Class/Script/RunService.md)
     - ##### [UserInputService](/Api/Class/Animation/UserInputService.md)

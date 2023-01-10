@@ -20,7 +20,7 @@
 |:---|
 |隶属Team|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">TeamColor</font>](/Api/Class/GamePlay/ScenePlayerObject_F/TeamColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">TeamColor</font>](/Api/Class/GamePlay/ScenePlayerObject_F/TeamColor.md)</div>|
 |:---|
 |隶属Team的颜色值|
 

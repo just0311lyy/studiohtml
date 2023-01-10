@@ -39,6 +39,7 @@
 		- [LocalPlayer](/Api/Class/GamePlay/SandBoxLocalPlayer.md)
 		- [Backpack](/Api/Class/GamePlay/SandboxBackpack.md)
 		- [Area](/Api/Class/GamePlay/AreaNode.md)
+		- [Voxel](/Api/Class/GamePlay/SandboxVoxelObject.md)
 	- 4.值
 		- [SceneBoolObject](/Api/Class/Value/SceneBoolObject.md)
 		- [SceneIntObject](/Api/Class/Value/SceneIntObject.md)
@@ -63,7 +64,6 @@
 		- [UIList](/Api/Class/Scene/SceneUIList.md)
 		- [UIModelView](/Api/Class/Scene/SceneUIModelView.md)
 		- [Decal](/Api/Class/Scene/SandboxDecalObject.md)
-		- [GeoSolid](/Api/Class/Build/SceneGeoSolid.md)
 	- 7.特效
 		- [DefaultEffect](/Api/Class/Effect/SandboxDefaultEffect.md)
 		- [Fire](/Api/Class/Effect/SandboxFire.md)
@@ -76,9 +76,14 @@
 		- [Terrain](/Api/Class/Build/TerrainNode.md)
 		- [Block](/Api/Class/Build/Block.md)
 		- [BluePrint](/Api/Class/Build/SandboxBluePrint.md)
+		- [GeoSolid](/Api/Class/Build/SceneGeoSolid.md)
+		- [Light](/Api/Class/Build/SandboxLightObject.md)
+		- [Material](/Api/Class/Build/SandboxMaterialObject.md)
 	- 9.角色
 		- [Model](/Api/Class/Role/SceneModelObject.md)
 		- [Actor](/Api/Class/Role/SceneActorObject.md)
+		- [AIBase](/Api/Class/Role/SandboxAIBase.md)
+		- [AITaskEntry](/Api/Class/Role/SandboxAITaskEntry.md)
 	- 10.玩家输入
 		- [ClickDetector](/Api/Class/Input/SandboxClickDetectorObject.md)
 		- [ContextActionService](/Api/Class/Input/ContextActionService.md)
@@ -122,6 +127,10 @@
 		- [TextHAlignment](/Api/Enumerate/UI/TextHAlignment.md)
 		- [TextVAlignment](/Api/Enumerate/UI/TextVAlignment.md)
 		- [TweenStatus](/Api/Enumerate/UI/TweenStatus.md)
+		- [RotateType](/Api/Enumerate/UI/RotateType.md)
+		- [GeoSolidFace](/Api/Enumerate/UI/GeoSolidFace.md)
+		- [GeoSolidShape](/Api/Enumerate/UI/GeoSolidShape.md)
+		- [DepthFunc](/Api/Enumerate/UI/DepthFunc.md)
 	- 4.Game Play
 		- [Weather](/Api/Enumerate/GamePlay/EnumWeather.md)
 		- [SkyPlanet](/Api/Enumerate/GamePlay/EnumSkyPlanet.md)
@@ -146,7 +155,7 @@
 	- [Ray](/Api/DataType/Ray.md)
 	- [Rect](/Api/DataType/Rect.md)
 	- [Quaternion](/Api/DataType/Quaternion.md)
-	- [ColourValue](/Api/DataType/ColourValue.md)
+	- [ColorValue](/Api/DataType/ColorValue.md)
 - 无分类
 	- [SandboxNode](/Api/Class/NoType/SandboxNode.md)
 	- [Transfrom](/Api/Class/NoType/SceneTransObject.md)

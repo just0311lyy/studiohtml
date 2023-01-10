@@ -16,7 +16,7 @@
 |:---|
 |给`player`装备上指定的`tool`|
 
-|<div style="width:1000px">[void](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">UnequipTools</font>](/Api/Class/GamePlay/SandBoxLocalPlayer_F/UnequipTools.md)( )</div>|
+|<div style="width:1000px">[void](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">UnequipTools</font>](/Api/Class/GamePlay/SandBoxLocalPlayer_F/UnequipTools.md)( )</div>|
 |:---|
 |卸下`player`当前装备的任何`Tool`|
 

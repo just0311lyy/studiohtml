@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">TitleColor</font>](/Api/Class/Scene/SceneUITextInput_F/TitleColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">TitleColor</font>](/Api/Class/Scene/SceneUITextInput_F/TitleColor.md)</div>|
 |:---|
 |字体颜色 (`Rainbow::ColorQuad`)|
 

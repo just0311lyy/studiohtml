@@ -18,7 +18,7 @@
 
 - [Service](/studiohtml/#/Api/Class/Service/ServiceNode.md)
     - Game
-    - [WorkSpace](/studiohtml/#/Api/Class/Scene/SceneUIRoot.md)
+    - [WorkSpace](/studiohtml/#/Api/Class/Scene/SceneRoot.md)
     - [FriendsService](/studiohtml/#/Api/Class/Data/SandboxFriendsService.md)
     - [RunService](/studiohtml/#/Api/Class/Script/RunService.md)
     - [WorldService](/studiohtml/#/Api/Class/GamePlay/SandboxWorldService.md)
@@ -52,6 +52,9 @@
 - [BluePrint](/studiohtml/#/Api/Class/Build/SandboxBluePrint.md)
 - [Decal](/studiohtml/#/Api/Class/Scene/SandboxDecalObject.md)
 - [GeoSolid](/studiohtml/#/Api/Class/Build/SceneGeoSolid.md)
+- [Light](/studiohtml/#/Api/Class/Build/SandboxLightObject.md)
+- [Material](/studiohtml/#/Api/Class/Script/SandboxMaterialObject.md)
+- [Voxel](/studiohtml/#/Api/Class/GamePlay/SandboxVoxelObject.md)
 - [ScriptNode](/studiohtml/#/Api/Class/NoType/ScriptNode.md)
     - [Script](/studiohtml/#/Api/Class/Script/ScriptObject.md)
     - [LocalScript](/studiohtml/#/Api/Class/Script/LocalScriptNode.md)
@@ -59,6 +62,8 @@
 
 - [Actor](/studiohtml/#/Api/Class/Role/SceneActorObject.md)
 - [Model](/studiohtml/#/Api/Class/Role/SceneModelObject.md)
+- [AIBase](/studiohtml/#/Api/Class/Role/SandboxAIBase.md)
+- [AITaskEntry](/studiohtml/#/Api/Class/Role/SandboxAITaskEntry.md)
 - PARTICLE
     - [ParticleSmoke](/studiohtml/#/Api/Class/Effect/SandboxParticleSmoke.md)
 
@@ -98,11 +103,11 @@
 - [Rect](/studiohtml/#/Api/DataType/Rect.md)
 - [Ray](/studiohtml/#/Api/DataType/Ray.md)
 - [Quaternion](/studiohtml/#/Api/DataType/Quaternion.md)
-- [ColourValue](/studiohtml/#/Api/DataType/ColourValue.md)
+- [colorvalue](/studiohtml/#/Api/DataType/colorvalue.md)
 - [ReflexTuple]()
     - ReflexTuple([int](/studiohtml/#/Api/DataType/int.md))
     - ReflexTuple([float](/studiohtml/#/Api/DataType/float.md))
-    - ReflexTuple([ColourValue](/studiohtml/#/Api/DataType/ColourValue.md))
+    - ReflexTuple([colorvalue](/studiohtml/#/Api/DataType/colorvalue.md))
     - ReflexTuple([SandboxNode](/studiohtml/#/Api/Class/NoType/SandboxNode.md))
     - ReflexTuple([Vector3](/studiohtml/#/Api/DataType/Vector3.md))
 
@@ -118,7 +123,7 @@
 	- [Vector2](/studiohtml/#/Api/DataType/Vector2.md)
 	- [Vector3](/studiohtml/#/Api/DataType/Vector3.md)
 	- [Vector4](/studiohtml/#/Api/DataType/Vector4.md)
-	- [Color](/studiohtml/#/Api/DataType/ColourValue.md)
+	- [Color](/studiohtml/#/Api/DataType/colorvalue.md)
 	- [Rect](/studiohtml/#/Api/DataType/Rect.md)
 	- NumberSequence
 	- ColourSequence

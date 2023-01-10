@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------------------------
 ## 属性：
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">TitleColor</font>](/Api/Class/Scene/SceneUITextLabel_F/TitleColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">TitleColor</font>](/Api/Class/Scene/SceneUITextLabel_F/TitleColor.md)</div>|
 |:---|
 |字体颜色  (`Rainbow::ColorQuad`)|
 
@@ -38,7 +38,7 @@
 |:---|
 |开启描边|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">OutlineColor</font>](/Api/Class/Scene/SceneUITextLabel_F/OutlineColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">OutlineColor</font>](/Api/Class/Scene/SceneUITextLabel_F/OutlineColor.md)</div>|
 |:---|
 |描边颜色 (`Rainbow::ColorQuad`)|
 
@@ -50,7 +50,7 @@
 |:---|
 |开启阴影|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">ShadowColor</font>](/Api/Class/Scene/SceneUITextLabel_F/ShadowColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">ShadowColor</font>](/Api/Class/Scene/SceneUITextLabel_F/ShadowColor.md)</div>|
 |:---|
 |阴影颜色|
 

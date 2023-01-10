@@ -17,7 +17,7 @@
 |:---|
 |设置模型的贴图`TextureId`|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">Color</font>](/Api/Class/Role/SceneModelObject_F/Color.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">Color</font>](/Api/Class/Role/SceneModelObject_F/Color.md)</div>|
 |:---|
 |设置模型的颜色 (`Rainbow::ColorQuad`)|
 

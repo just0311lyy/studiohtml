@@ -4,7 +4,7 @@
     - ##### [Bool](/Api/DataType/Bool.md)
 
 - ## C
-    - ##### [ColourValue](/Api/DataType/ColourValue.md)
+    - ##### [ColorValue](/Api/DataType/ColorValue.md)
 
 - ## D
     - ##### [Double](/Api/DataType/Double.md)

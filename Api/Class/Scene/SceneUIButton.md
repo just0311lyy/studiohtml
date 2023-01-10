@@ -36,7 +36,7 @@
 |:---|
 |开启字体描边|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">OutlineColor</font>](/Api/Class/Scene/SceneUIButton_F/OutlineColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">OutlineColor</font>](/Api/Class/Scene/SceneUIButton_F/OutlineColor.md)</div>|
 |:---|
 |字体描边颜色  (`Rainbow::ColorQuad`)|
 
@@ -48,7 +48,7 @@
 |:---|
 |开启字体阴影|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">ShadowColor</font>](/Api/Class/Scene/SceneUIButton_F/ShadowColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">ShadowColor</font>](/Api/Class/Scene/SceneUIButton_F/ShadowColor.md)</div>|
 |:---|
 |字体阴影颜色  (`Rainbow::ColorQuad`)|
 

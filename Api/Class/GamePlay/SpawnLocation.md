@@ -19,7 +19,7 @@
 |:---|
 |是否允许[`Player`](/Api/Class/GamePlay/ScenePlayerObject.md)通过`Touch`触摸该`Location`来加入对应`TeamColor`的`Team`队伍|
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/ColourValue.md) &emsp;[<font color="dd00dd">TeamColor</font>](/Api/Class/GamePlay/SpawnLocation_F/TeamColor.md)</div>|
+|<div style="width:1125px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">TeamColor</font>](/Api/Class/GamePlay/SpawnLocation_F/TeamColor.md)</div>|
 |:---|
 |队伍颜色(`Rainbow::ColorQuad`)，跟`TeamColor`可对应|
 
