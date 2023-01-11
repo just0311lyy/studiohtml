@@ -10,11 +10,11 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">CanCameraMove</font>](/Api/Class/Scene/SceneUIModelView_F/CanCameraMove.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;<font color="dd00dd">CanCameraMove</font></div>|
 |:---|
 |是否启用视角拖拽（拖拽UI时相机围绕模型旋转）|
 
-|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">CameraDist</font>](/Api/Class/Scene/SceneUIModelView_F/CameraDist.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;<font color="dd00dd">CameraDist</font></div>|
 |:---|
 |相机与原点距离|
 

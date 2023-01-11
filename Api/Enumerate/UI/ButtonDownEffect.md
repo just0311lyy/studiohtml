@@ -1,6 +1,6 @@
 # ButtonDownEffect
 
-枚举所属类：`UIButton` 
+枚举所属类：[`UIButton`](/Api/Class/Scene/SceneUIButton.md) 
 
 ------------------------------------------------------------------------------------------
 ## 描述

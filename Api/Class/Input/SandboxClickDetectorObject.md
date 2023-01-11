@@ -16,7 +16,7 @@
 ------------------------------------------------------------------------------------------
 ## 事件
 
-|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">MouseClick</font> ](/Api/Class/Input/SandboxClickDetectorObject_F/MouseClick.md) ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;<font color="dd00dd">MouseClick</font>  ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |鼠标左键单击||||
 |**返回类型**|||**概要**|
@@ -25,7 +25,7 @@
 |isAction|int||鼠标左键单击是否触发|
 
 
-|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">RightMouseClick</font> ](/Api/Class/Input/SandboxClickDetectorObject_F/RightMouseClick.md) ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;<font color="dd00dd">RightMouseClick</font>  ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |鼠标右键单击||||
 |**返回类型**|||**概要**|
@@ -33,7 +33,7 @@
 |**SBXSignal参数名称**|**类别**|**默认**|**描述**|
 |isAction|int||鼠标右键单击是否触发|
 
-|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">MouseHoverEnter</font> ](/Api/Class/Input/SandboxClickDetectorObject_F/MouseHoverEnter.md) ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;<font color="dd00dd">MouseHoverEnter</font>  ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |鼠标停在节点上||||
 |**返回类型**|||**概要**|
@@ -41,7 +41,7 @@
 |**SBXSignal参数名称**|**类别**|**默认**|**描述**|
 |isAction|int||鼠标停在节点上是否触发|
 
-|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">MouseHoverLeave</font> ](/Api/Class/Input/SandboxClickDetectorObject_F/MouseHoverLeave.md) ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;<font color="dd00dd">MouseHoverLeave</font>  ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |鼠标在节点上离开||||
 |**返回类型**|||**概要**|
@@ -50,7 +50,7 @@
 |isAction|int||鼠标在节点上离开是否触发|
 
 
-|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">MouseDown</font> ](/Api/Class/Input/SandboxClickDetectorObject_F/MouseDown.md) ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;<font color="dd00dd">MouseDown</font>  ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |鼠标按下触发||||
 |**返回类型**|||**概要**|
@@ -59,7 +59,7 @@
 |isAction|int||鼠标按下触发是否触发|
 
 
-|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">MouseUp</font> ](/Api/Class/Input/SandboxClickDetectorObject_F/MouseUp.md) ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;<font color="dd00dd">MouseUp</font>  ([int](/Api/DataType/Int.md))</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |鼠标弹起触发||||
 |**返回类型**|||**概要**|

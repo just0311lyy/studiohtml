@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1125px">[EnumDefaultEffect](/Api/Enumerate/Effect/EnumDefaultEffect.md) &emsp;[<font color="dd00dd">EffectType</font>](/Api/Class/Effect/SandboxExposion_F/EffectType.md)</div>|
+|<div style="width:1125px">[EnumDefaultEffect](/Api/Enumerate/Effect/EnumDefaultEffect.md) &emsp;<font color="dd00dd">EffectType</font></div>|
 |:---|
 |特效类型选择。见父类[SandboxDefaultEffect](/Api/Class/Effect/SandboxDefaultEffect.md)的枚举`SandboxExposion::`[EnumDefaultEffect](/Api/Enumerate/Effect/EnumDefaultEffect.md)|
 

@@ -1,6 +1,6 @@
 # DefaultEffect
 
-枚举所属类：`DefaultEffect` 
+枚举所属类：[`DefaultEffect`](/Api/Class/Effect/SandboxDefaultEffect.md) 
 
 ------------------------------------------------------------------------------------------
 ## 描述

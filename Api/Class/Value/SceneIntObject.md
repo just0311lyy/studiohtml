@@ -8,14 +8,14 @@
 ------------------------------------------------------------------------------------------
 ## 属性：
 
-|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">Value</font>](/Api/Class/Value/SceneIntObject_F/Value.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;<font color="dd00dd">Value</font></div>|
 |:---|
 |用于存储int。|
 
 ------------------------------------------------------------------------------------------
 ## 事件：
 
-|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;[<font color="dd00dd">ValueChanged</font> ](/Api/Class/Value/SceneIntObject_F/ValueChanged.md) ( [int](/Api/DataType/Int.md) Value)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;<font color="dd00dd">ValueChanged</font>  ( [int](/Api/DataType/Int.md) Value)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |当`intvalue`改变时，通知值已更改||||
 |**返回类型**|||**概要**|

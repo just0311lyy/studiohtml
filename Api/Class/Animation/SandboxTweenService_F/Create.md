@@ -13,7 +13,7 @@
 |:--------------------|:--------------------|:--------------------|:--------------------|
 |node|[SandboxNode](/Api/Class/NoType/SandboxNode.md)||执行`tween`节点对象|
 |info|TweenInfo||对`tween`进行插值的信息|
-|map|[ReflexMap](/Api/Parameter/ReflexMap.md)||进行tween的属性和其目标值的表|
+|map|ReflexMap||进行tween的属性和其目标值的表|
 
 ## 返回
 

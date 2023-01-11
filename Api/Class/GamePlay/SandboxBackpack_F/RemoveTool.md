@@ -1,19 +1,19 @@
 
 # RemoveTool
 -----------------------------------------------------------------------------------------
-## ÃèÊö
+## æè¿°
 
-º¯ÊıËùÊôÀà£º[SandboxBackpack](/Api/Class/GamePlay/SandboxBackpack.md)
+å‡½æ•°æ‰€å±ç±»ï¼š[SandboxBackpack](/Api/Class/GamePlay/SandboxBackpack.md)
 
-ÒÆ³ı`tool`
+ç§»é™¤`tool`
 
 -----------------------------------------------------------------------------------------
-## ²ÎÊı
+## å‚æ•°
 
-|<div style="width:200px">**Ãû³Æ**</div>|<div style="width:200px">**ÀàĞÍ**</div>|<div style="width:200px">**Ä¬ÈÏ**</div>|<div style="width:345px">**ÃèÊö**</div>|
+|<div style="width:200px">**åç§°**</div>|<div style="width:200px">**ç±»å‹**</div>|<div style="width:200px">**é»˜è®¤**</div>|<div style="width:345px">**æè¿°**</div>|
 |:--------------------|:--------------------|:--------------------|:--------------------|
-|index|[int](/Api/DataType/int.md)||°´¼ü1~8|
+|index|[int](/Api/DataType/int.md)||æŒ‰é”®1~8|
 
-## ·µ»Ø
+## è¿”å›
 
-ÎŞ·µ»ØÖµ
+æ— è¿”å›å€¼

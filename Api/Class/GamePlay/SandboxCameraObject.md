@@ -10,39 +10,39 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">PickPosition</font>](/Api/Class/GamePlay/SandboxCameraObject_F/PickPosition.md)</div>|
+|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;<font color="dd00dd">PickPosition</font></div>|
 |:---|
 |摄像机跟随鼠标在游戏内指向的三维坐标(`Rainbow::Vector3f`)|
 
-|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">LookFocus</font>](/Api/Class/GamePlay/SandboxCameraObject_F/LookFocus.md)</div>|
+|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;<font color="dd00dd">LookFocus</font></div>|
 |:---|
 |摄像机焦点，镜头所看向的点|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">ZNear</font>](/Api/Class/GamePlay/SandboxCameraObject_F/ZNear.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">ZNear</font></div>|
 |:---|
 |摄像机的近平面|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">ZFar</font>](/Api/Class/GamePlay/SandboxCameraObject_F/ZFar.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">ZFar</font></div>|
 |:---|
 |摄像机的远平面|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">FieldOfView</font>](/Api/Class/GamePlay/SandboxCameraObject_F/FieldOfView.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">FieldOfView</font></div>|
 |:---|
 |设置摄像机垂直视野的角度|
 
-|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">CameraType</font>](/Api/Class/GamePlay/SandboxCameraObject_F/CameraType.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;<font color="dd00dd">CameraType</font></div>|
 |:---|
 |摄像机类型|
 
-|<div style="width:1000px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;[<font color="dd00dd">CameraSubject</font>](/Api/Class/GamePlay/SandboxCameraObject_F/CameraSubject.md)</div>|
+|<div style="width:1000px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp;<font color="dd00dd">CameraSubject</font></div>|
 |:---|
 |摄像机节点|
 
-|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">ViewportSize</font>](/Api/Class/GamePlay/SandboxCameraObject_F/ViewportSize.md)</div>|
+|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;<font color="dd00dd">ViewportSize</font></div>|
 |:---|
 |描述客户端视口的尺寸（以像素为单位）(`Rainbow::Vector2f`)|
 
-|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">WindowSize</font>](/Api/Class/GamePlay/SandboxCameraObject_F/WindowSize.md)</div>|
+|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;<font color="dd00dd">WindowSize</font></div>|
 |:---|
 |描述客户端窗口的尺寸（以像素为单位）。<font color="ff3333">（非公开，脚本不可用）</font>|
 

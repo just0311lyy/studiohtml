@@ -12,9 +12,9 @@
 |<div style="width:200px">**名称**</div>|<div style="width:200px">**类型**</div>|<div style="width:200px">**默认**</div>|<div style="width:345px">**描述**</div>|
 |:--------------------|:--------------------|:--------------------|:--------------------|
 |actionName|[string](/Api/DataType/string.md)||自定义的名称，代表本次绑定|
-|func|[LuaFunction](/Api/DataType/LuaFunction.md)||lua回调函数（三个参数1. `actionName`类型：`string`描述：最初传递给`BindAction` 的相同字符串;2.`state`类型：`int`描述：当前事件的输入状态，等于`UserInputState`中的值;3.`inputObj 类型：`InputObject`描述：携带输入信息的对象）|
-|nActionType|[int](/Api/DataType/int.md)||`ContextActionType`中的输入类型，参见枚举`ContextActionType`|
-|nSubType|[int](/Api/DataType/int.md)||`UserInputType`或`Enum.KeyCode`的类型的类型|
+|func|[LuaFunction](/Api/DataType/LuaFunction.md)||lua回调函数（三个参数1. `actionName`类型：[`string`](/Api/DataType/String.md)描述：最初传递给`BindAction` 的相同字符串;2.`state`类型：[`int`](/Api/DataType/Int.md)描述：当前事件的输入状态，等于[`UserInputState`](/Api/Enumerate/UserInput/UserInputState.md)中的值;3.`inputObj 类型：[`InputObject`](/Api/Class/Input/InputObject.md)描述：携带输入信息的对象）|
+|nActionType|[int](/Api/DataType/int.md)||[`ContextActionType`](/Api/Enumerate/UserInput/ContextActionType.md)中的输入类型，参见枚举[`ContextActionType`](/Api/Enumerate/UserInput/ContextActionType.md)|
+|nSubType|[int](/Api/DataType/int.md)||[`UserInputType`](/Api/Enumerate/UserInput/UserInputType.md)或`Enum.KeyCode`的类型的类型|
 
 ## 返回
 

@@ -10,51 +10,51 @@
 ------------------------------------------------------------------------------------------
 ## 属性：
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">TitleColor</font>](/Api/Class/Scene/SceneUITextLabel_F/TitleColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">TitleColor</font></div>|
 |:---|
 |字体颜色  (`Rainbow::ColorQuad`)|
 
-|<div style="width:1000px">[TextVAlignment](/Api/Enumerate/UI/TextVAlignment.md) &emsp;[<font color="dd00dd">TextVAlignment</font>](/Api/Class/Scene/SceneUITextLabel_F/TextVAlignment.md)</div>|
+|<div style="width:1000px">[TextVAlignment](/Api/Enumerate/UI/TextVAlignment.md) &emsp;<font color="dd00dd">TextVAlignment</font></div>|
 |:---|
 |上下对齐，有向上、中间和向下对齐。参见枚举`cocos2d::`[TextVAlignment](/Api/Enumerate/UI/TextVAlignment.md)|
 
-|<div style="width:1000px">[TextHAlignment](/Api/Enumerate/UI/TextHAlignment.md) &emsp;[<font color="dd00dd">TextHAlignment</font>](/Api/Class/Scene/SceneUITextLabel_F/TextHAlignment.md)</div>|
+|<div style="width:1000px">[TextHAlignment](/Api/Enumerate/UI/TextHAlignment.md) &emsp;<font color="dd00dd">TextHAlignment</font></div>|
 |:---|
 |左右对齐，有向左、中间和向右对齐。参见枚举`cocos2d::`[TextHAlignment](/Api/Enumerate/UI/TextHAlignment.md)|
 
-|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">FontSize</font>](/Api/Class/Scene/SceneUITextLabel_F/FontSize.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;<font color="dd00dd">FontSize</font></div>|
 |:---|
 |字体大小|
 
-|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">Title</font>](/Api/Class/Scene/SceneUITextLabel_F/Title.md)</div>|
+|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;<font color="dd00dd">Title</font></div>|
 |:---|
 |文本内容|
 
-|<div style="width:1000px">[AutoSizeType](/Api/Enumerate/UI/AutoSizeType.md) &emsp;[<font color="dd00dd">IsAutoSize</font>](/Api/Class/Scene/SceneUITextLabel_F/IsAutoSize.md)</div>|
+|<div style="width:1000px">[AutoSizeType](/Api/Enumerate/UI/AutoSizeType.md) &emsp;<font color="dd00dd">IsAutoSize</font></div>|
 |:---|
 |自动调整节点大小为字体大小。参见枚举`fairygui::`[AutoSizeType](/Api/Enumerate/UI/AutoSizeType.md)|
 
-|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">OutlineEnable</font>](/Api/Class/Scene/SceneUITextLabel_F/OutlineEnable.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;<font color="dd00dd">OutlineEnable</font></div>|
 |:---|
 |开启描边|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">OutlineColor</font>](/Api/Class/Scene/SceneUITextLabel_F/OutlineColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">OutlineColor</font></div>|
 |:---|
 |描边颜色 (`Rainbow::ColorQuad`)|
 
-|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">OutlineSize</font>](/Api/Class/Scene/SceneUITextLabel_F/OutlineSize.md)</div>|
+|<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;<font color="dd00dd">OutlineSize</font></div>|
 |:---|
 |描边宽度|
 
-|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">ShadowEnable</font>](/Api/Class/Scene/SceneUITextLabel_F/ShadowEnable.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;<font color="dd00dd">ShadowEnable</font></div>|
 |:---|
 |开启阴影|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">ShadowColor</font>](/Api/Class/Scene/SceneUITextLabel_F/ShadowColor.md)</div>|
+|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">ShadowColor</font></div>|
 |:---|
 |阴影颜色|
 
-|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;[<font color="dd00dd">ShadowOffect</font>](/Api/Class/Scene/SceneUITextLabel_F/ShadowOffect.md)</div>|
+|<div style="width:1000px">[Vector2](/Api/DataType/Vector2.md) &emsp;<font color="dd00dd">ShadowOffect</font></div>|
 |:---|
 |阴影偏移  (`Rainbow::Vector2f`)|
 

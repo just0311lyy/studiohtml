@@ -4,7 +4,7 @@
 
 函数所属类：[ScenePlayerObject](/Api/Class/GamePlay/ScenePlayerObject.md)
 
-给`player`装备上指定的`tool`
+给[`player`](/Api/Class/GamePlay/ScenePlayerObject.md)装备上指定的[`tool`](/Api/Class/GamePlay/SandboxTool.md)
 
 -----------------------------------------------------------------------------------------
 ## 参数

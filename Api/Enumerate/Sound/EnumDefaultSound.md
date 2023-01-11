@@ -1,6 +1,6 @@
 # DefaultSound
 
-枚举所属类：`DefaultSound`
+枚举所属类：[`DefaultSound`](/Api/Class/Sound/SandboxDefaultSound.md)
 
 ------------------------------------------------------------------------------------------
 ## 描述:

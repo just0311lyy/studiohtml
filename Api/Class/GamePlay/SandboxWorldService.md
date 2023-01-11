@@ -48,7 +48,7 @@
 |:---|
 |放置方块|
 
-|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">RaycastClosest</font> ](/Api/Class/GamePlay/SandboxWorldService_F/RaycastClosest.md) ([Vector3](/Api/DataType/Vector3.md) origin ,  [Vector3](/Api/DataType/Vector3.md) unitDir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|<div style="width:1000px">ReflexMap &emsp;[<font color="dd00dd">RaycastClosest</font> ](/Api/Class/GamePlay/SandboxWorldService_F/RaycastClosest.md) ([Vector3](/Api/DataType/Vector3.md) origin ,  [Vector3](/Api/DataType/Vector3.md) unitDir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
 |:---|
 |射线段检测，返回最近的碰撞物|
 
@@ -65,7 +65,7 @@
 |:---|
 |方块掉落道具|
 
-|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">SweepBox</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepBox.md) ([Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) shape ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [Vector3](/Api/DataType/Vector3.md) angle ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|<div style="width:1000px">ReflexMap &emsp;[<font color="dd00dd">SweepBox</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepBox.md) ([Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) shape ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [Vector3](/Api/DataType/Vector3.md) angle ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
 |:---|
 |扫描框|
 
@@ -73,7 +73,7 @@
 |:---|
 |扫描框全部|
 
-|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">SweepCapsule</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepCapsule.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) p0 ,  [Vector3](/Api/DataType/Vector3.md) p1 ,  [Vector3](/Api/DataType/Vector3.md) dir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|<div style="width:1000px">ReflexMap &emsp;[<font color="dd00dd">SweepCapsule</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepCapsule.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) p0 ,  [Vector3](/Api/DataType/Vector3.md) p1 ,  [Vector3](/Api/DataType/Vector3.md) dir ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
 |:---|
 |扫描胶囊|
 
@@ -81,7 +81,7 @@
 |:---|
 |扫描胶囊全部|
 
-|<div style="width:1000px">[ReflexMap](/Api/Parameter/ReflexMap.md) &emsp;[<font color="dd00dd">SweepSphere</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepSphere.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
+|<div style="width:1000px">ReflexMap &emsp;[<font color="dd00dd">SweepSphere</font> ](/Api/Class/GamePlay/SandboxWorldService_F/SweepSphere.md) ([float](/Api/DataType/Float.md) radius ,  [Vector3](/Api/DataType/Vector3.md) center ,  [Vector3](/Api/DataType/Vector3.md) direction ,  [float](/Api/DataType/Float.md) distance ,  [bool](/Api/DataType/Bool.md) isIgnoreTrigger ,  [int](/Api/DataType/Int.md) filterGroup)</div>|
 |:---|
 |扫描球体|
 

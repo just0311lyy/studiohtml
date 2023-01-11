@@ -10,23 +10,23 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">BoneName</font>](/Api/Class/Bind/SandboxAttachmentObject_F/BoneName.md)</div>|
+|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;<font color="dd00dd">BoneName</font></div>|
 |:---|
 |绑点名字|
 
-|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">Position</font>](/Api/Class/Bind/SandboxAttachmentObject_F/Position.md)</div>|
+|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;<font color="dd00dd">Position</font></div>|
 |:---|
 |绑点坐标 (`Rainbow::Vector3f`)|
 
-|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">Euler</font>](/Api/Class/Bind/SandboxAttachmentObject_F/Euler.md)</div>|
+|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;<font color="dd00dd">Euler</font></div>|
 |:---|
 |绑点欧拉角 (`Rainbow::Vector3f`)|
 
-|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">ModelId</font>](/Api/Class/Bind/SandboxAttachmentObject_F/ModelId.md)</div>|
+|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;<font color="dd00dd">ModelId</font></div>|
 |:---|
 |绑点模型Id|
 
-|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">RelpaceBoneModel</font>](/Api/Class/Bind/SandboxAttachmentObject_F/RelpaceBoneModel.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;<font color="dd00dd">RelpaceBoneModel</font></div>|
 |:---|
 |绑点替代的骨骼模型|
 

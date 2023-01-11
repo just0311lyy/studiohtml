@@ -2,7 +2,7 @@
 ------------------------------------------------------------------------------------------
 ## 描述
 
-继承：`SandboxNode`
+继承：[`SandboxNode`](/Api/Class/Script/SandboxNode.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性
@@ -10,7 +10,7 @@
 
 |<div style="width:1125px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">luafile</font>]()</div>|
 |:---|
-|加载模式是`LoadMode::LUAFILE`时会执行设置的`luafile`的`string`内容|
+|加载模式是`LoadMode::LUAFILE`时会执行设置的`luafile`的[`string`](/Api/DataType/String.md)内容|
 
 
 |<div style="width:1125px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">code</font>]()</div>|

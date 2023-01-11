@@ -1,6 +1,6 @@
 # MotorType
 
-枚举所属类：`HingeJoint` 
+枚举所属类：[`HingeJoint[`HingeJoint`](/Api/Class/Bind/SandboxHingeJoint.md) 
 
 ------------------------------------------------------------------------------------------
 ## 描述

@@ -1,6 +1,6 @@
 
 # SkyPlanet
-枚举所属类：`Environment`
+枚举所属类：[`Environment`](/Api/Class/GamePlay/EnvironmentNode.md)
 
 ------------------------------------------------------------------------------------------
 ## 描述

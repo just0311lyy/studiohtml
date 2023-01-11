@@ -2,7 +2,7 @@
 ------------------------------------------------------------------------------------------
 ## 描述
 
-`GeoSolid`（实体建模）
+[`GeoSolid`](/Api/Class/Build/SceneGeoSolid.md)（实体建模）
 
 *继承自*：
 * [SceneModelObject](/Api/Class/Role/SceneModelObject.md)

@@ -40,7 +40,7 @@ Vector3  RotateToDir(Vector3 dir)
 
 |<div style="width:500px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">RotateToDir</font> ]() ([Vector3](/Api/DataType/Vector3.md) dir)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
-|返回一个`Vector3`, 传入一个`dir`做旋转||||
+|返回一个[`Vector3`](/Api/DataType/Vector3.md), 传入一个`dir`做旋转||||
 |**参数名称**|**类别**|**默认**|**描述**|
 |dir|Vector3||朝向|
 |**返回类型**|||**概要**|

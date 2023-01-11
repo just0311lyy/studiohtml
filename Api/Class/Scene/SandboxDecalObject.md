@@ -22,7 +22,7 @@
 |:---|
 |贴花的长|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;<font color="dd00dd">Cullback</font></div>|
+|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;<font color="dd00dd">Callback</font></div>|
 |:---|
 |贴花设置的回调|
 

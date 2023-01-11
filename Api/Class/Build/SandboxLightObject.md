@@ -2,7 +2,7 @@
 ------------------------------------------------------------------------------------------
 ## 描述
 
-`Light` 光源对象
+[`Light`](/Api/Class/Build/SandboxLightObject.md) 光源对象
 
 *继承自*：
 * [SandBoxNode](/Api/Class/NoType/SandBoxNode.md)

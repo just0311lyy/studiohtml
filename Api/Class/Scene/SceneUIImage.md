@@ -10,33 +10,33 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">Icon</font>](/Api/Class/Scene/SceneUIImage_F/Icon.md)</div>|
+|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;<font color="dd00dd">Icon</font></div>|
 |:---|
 |图片资源路径|
 
-|<div style="width:1000px">[EnumFillMethod](/Api/Enumerate/UI/EnumFillMethod.md) &emsp;[<font color="dd00dd">FillMethod</font>](/Api/Class/Scene/SceneUIImage_F/FillMethod.md)</div>|
+|<div style="width:1000px">[EnumFillMethod](/Api/Enumerate/UI/EnumFillMethod.md) &emsp;<font color="dd00dd">FillMethod</font></div>|
 |:---|
 |填充模式，有以下几种：<br>  无，<br>  不会应用填充属性；<br>  水平填充模式；<br>  垂直填充模式；<br>  以图片上方中点为起点，360度填充模式。<br>  参见枚举EnumFillMethod|
 
 
-|<div style="width:1000px">[EnumFillOrigin](/Api/Enumerate/UI/EnumFillOrigin.md) &emsp;[<font color="dd00dd">FillOrigin</font>](/Api/Class/Scene/SceneUIImage_F/FillOrigin.md)</div>|
+|<div style="width:1000px">[EnumFillOrigin](/Api/Enumerate/UI/EnumFillOrigin.md) &emsp;<font color="dd00dd">FillOrigin</font></div>|
 |:---|
 |填充原点（仅在Horizontal与Vertical填充模式下适用）：<br>  从上方开始填充（水平模式下为左边）；<br>  从下方开始填充（水平模式下为右边）。<br>  参见枚举EnumFillOrigin|
 
-|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">FillClockwise</font>](/Api/Class/Scene/SceneUIImage_F/FillClockwise.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;<font color="dd00dd">FillClockwise</font></div>|
 |:---|
 |顺时针填充（仅在Radial360模式下适用），为true时以上方中点为起点，根据FillAmount比例顺时针渲染，否则为逆时针|
 
-|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">FillAmount</font>](/Api/Class/Scene/SceneUIImage_F/FillAmount.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;<font color="dd00dd">FillAmount</font></div>|
 |:---|
 |填充比例（0~1），填充显示的部分占原来大小的比例|
 
-|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">IsAutoSize</font>](/Api/Class/Scene/SceneUIImage_F/IsAutoSize.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;<font color="dd00dd">IsAutoSize</font></div>|
 |:---|
 |自动大小。为true时，将节点大小调整为图片原本大小|
 
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Alpha</font>](/Api/Class/Scene/SceneUIImage_F/Alpha.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">Alpha</font></div>|
 |:---|
 |透明度（0~1） 为1时不透明|
 

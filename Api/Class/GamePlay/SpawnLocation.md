@@ -2,7 +2,7 @@
 ------------------------------------------------------------------------------------------
 ## 描述
 
-可确定`Player`（玩家）死亡时在何处重生
+可确定[`Player`](/Api/Class/GamePlay/ScenePlayerObject.md)（玩家）死亡时在何处重生
 
 *继承自*：
 * [ScenePrimitiveObject](/Api/Class/Bind/ScenePrimitiveObject.md)
@@ -10,16 +10,16 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md)&emsp;[<font color="dd00dd">Neutral</font>](/Api/Class/GamePlay/SpawnLocation_F/Neutral.md)</div>|
+|<div style="width:1125px">[bool](/Api/DataType/Bool.md)&emsp;<font color="dd00dd">Neutral</font></div>|
 |:---|
 |是否隶属与特定队伍，设置为`true`之后，任意队伍中的任意[`Player`](/Api/Class/GamePlay/ScenePlayerObject.md)可以在此位置重生|
 
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">AllowTeamChangeOnTouch</font>](/Api/Class/GamePlay/SpawnLocation_F/AllowTeamChangeOnTouch.md)</div>|
+|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp;<font color="dd00dd">AllowTeamChangeOnTouch</font></div>|
 |:---|
-|是否允许[`Player`](/Api/Class/GamePlay/ScenePlayerObject.md)通过`Touch`触摸该`Location`来加入对应`TeamColor`的`Team`队伍|
+|是否允许[`Player`](/Api/Class/GamePlay/ScenePlayerObject.md)通过`Touch`触摸该`Location`来加入对应`TeamColor`的[`Team`](/Api/Class/GamePlay/SandboxTeam.md)队伍|
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;[<font color="dd00dd">TeamColor</font>](/Api/Class/GamePlay/SpawnLocation_F/TeamColor.md)</div>|
+|<div style="width:1125px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">TeamColor</font></div>|
 |:---|
 |队伍颜色(`Rainbow::ColorQuad`)，跟`TeamColor`可对应|
 

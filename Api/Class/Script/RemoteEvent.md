@@ -1,13 +1,13 @@
 # RemoteEvent
 -----------------------------------------------------------------------------------------
 ## 描述
-`RemoteEvent`（远程事件）的作用是在客户端和服务器端之间提供一个单向讯息传播途径，它允许[`Script`](/Api/Class/Script/ScriptObject.md)（脚本）和[`LocalScript`](/Api/Class/Script/LocalScriptNode.md)（本地脚本）之间互相调用其内部的代码。讯息可以由客户端传向服务器端，也可以由服务器端传向特定的客户端，还可以由服务器端传给所有客户端。
+[`RemoteEvent`](/Api/Class/Script/RemoteEvent.md)（远程事件）的作用是在客户端和服务器端之间提供一个单向讯息传播途径，它允许[`Script`](/Api/Class/Script/ScriptObject.md)（脚本）和[`LocalScript`](/Api/Class/Script/LocalScriptNode.md)（本地脚本）之间互相调用其内部的代码。讯息可以由客户端传向服务器端，也可以由服务器端传向特定的客户端，还可以由服务器端传给所有客户端。
 
-为了让服务器端和客户端都能使用远程事件，`RemoteEvent`对象必须处于一个能让服务器端和客户端双方都能看到的位置，`RemoteEvent`要求存储在[`MainStorage`](/Api/Class/储存/MainStorage.md)里面。
+为了让服务器端和客户端都能使用远程事件，[`RemoteEvent`](/Api/Class/Script/RemoteEvent.md)对象必须处于一个能让服务器端和客户端双方都能看到的位置，[`RemoteEvent`](/Api/Class/Script/RemoteEvent.md)要求存储在[`MainStorage`](/Api/Class/储存/MainStorage.md)里面。
 
 *继承自*：
 
-*  [SandBoxNode](/Api/Class/SandBoxNode.md)
+*  [SandBoxNode](/Api/Class/NoType/SandboxNode.md)
 
 -----------------------------------------------------------------------------------------
 ## 属性
@@ -45,7 +45,7 @@
 -----------------------------------------------------------------------------------------
 ## 示例代码(待定)
 
-* **脚本中创建RemoteEvent(注意要求其父节点必须是[`MainStorage`](/Api/Class/Script/MainStorage.md)**
+* **脚本中创建RemoteEvent(注意要求其父节点必须是[`MainStorage`](/Api/Class/Service/MainStorage)**
 
 ```lua
 --代码中动态创建RemoteEvent示例 
@@ -106,7 +106,7 @@ node1:SetParent(mainStorageService)
 
 * **`RemoteEvent：`客户端至服务器端**
 
-	要想从客户端发送一条消息到服务器端，就需要在`LocalScript`中执行函数`RemoteEvent:fireServer`。<br>
+	要想从客户端发送一条消息到服务器端，就需要在[`LocalScript`](/Api/Class/Script/LocalScriptNode.md)中执行函数`RemoteEvent:fireServer`。<br>
 	与此同时，服务器端要监听通知`OnServerNotify`。<br>
 	当客户端调用`fireServer`函数时，所有订阅`OnServerNotify`通知的服务器端的监听函数都会执行，注意这个过程不会立刻开始：过程的进展速度取决于客户端和服务器端之间的网络连接状况。<br>
 	当从一个客户端向服务器端发送一个 RemoteEvent 的时候，可以自由携带参数。

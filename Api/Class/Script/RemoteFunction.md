@@ -2,9 +2,9 @@
 -----------------------------------------------------------------------------------------
 ## 描述
 
-**RemoteFunction**（远程函数）用于创建客户端和服务器用来彼此通信的游戏内`API`。开发者可以通过调用`RemoteFunction`执行特定操作，并返回其结果。当不需要返回结果时，开发者应当转为使用异步调用且无需等待响应即可继续执行的`RemoteEvent`。<br>
+**RemoteFunction**（远程函数）用于创建客户端和服务器用来彼此通信的游戏内`API`。开发者可以通过调用[`RemoteFunction`](/Api/Class/Script/RemoteFunction.md)执行特定操作，并返回其结果。当不需要返回结果时，开发者应当转为使用异步调用且无需等待响应即可继续执行的[`RemoteEvent`](/Api/Class/Script/RemoteEvent.md)。<br>
 
-<font color=red>注意`RemoteFunction`对于调用方来说是同步执行的，会等待直到对端返回结果再执行下一条脚本。所以尽量不通过[`OnClientInvoke`]()调用客户端</font>
+<font color=red>注意[`RemoteFunction`](/Api/Class/Script/RemoteFunction.md)对于调用方来说是同步执行的，会等待直到对端返回结果再执行下一条脚本。所以尽量不通过[`OnClientInvoke`]()调用客户端</font>
 * <font color=red>客户端如果报错，服务器同样会报错</font>
 * <font color=red>如果客户端失去链接，同样会导致报错</font>
 * <font color=red>如果客户端调用函数缺少返回值，则服务器会一直等待</font>
@@ -62,8 +62,8 @@ node1:SetParent(mainStorageService)
 
 * **`RemoteFunction:`客户端至服务器**
 
-	当客户端希望使用远程函数时，将会通过`LocalScript`内部的`RemoteFunction:InvokeServer`函数对服务器进行调用。<br>
-	服务器会通过使用赋值操作符 =（而非`Script`中的事件）将函数绑定至`RemoteFunction.OnServerInvoke`的方法监听对`InvokeServer`函数的调用。当服务器被调用时，即会执行之前绑定的函数。
+	当客户端希望使用远程函数时，将会通过[`LocalScript`](/Api/Class/Script/LocalScriptNode.md)内部的`RemoteFunction:InvokeServer`函数对服务器进行调用。<br>
+	服务器会通过使用赋值操作符 =（而非[`Script`](/Api/Class/Script/ScriptObject.md)中的事件）将函数绑定至`RemoteFunction.OnServerInvoke`的方法监听对`InvokeServer`函数的调用。当服务器被调用时，即会执行之前绑定的函数。
 
 	```lua
 	--客户端的调用脚本
@@ -89,7 +89,7 @@ node1:SetParent(mainStorageService)
 * **`RemoteFunction：`服务器至客户端**
 
 	客户端的调用和服务器端的调用方法非常类似，但在调用客户端时需要将玩家uid作为参数传入。该过程所需要使用的函数为`RemoteFunction:InvokeClient`。<br>
-	客户端通过使用赋值操作符 =（而非`LocalScript`中的事件）将函数绑定至 `RemoteFunction.OnClientInvoke`的方法监听对`InvokeClient`函数的调用。当玩家（客户端）被调用时，即会执行之前绑定的函数。
+	客户端通过使用赋值操作符 =（而非[`LocalScript`](/Api/Class/Script/LocalScriptNode.md)中的事件）将函数绑定至 `RemoteFunction.OnClientInvoke`的方法监听对`InvokeClient`函数的调用。当玩家（客户端）被调用时，即会执行之前绑定的函数。
 
 	```
 	--服务端的调用脚本

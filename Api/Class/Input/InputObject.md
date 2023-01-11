@@ -22,11 +22,11 @@
 
 |<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">UserInputState</font>]()</div>|
 |:---|
-|描述输入状态（开始，结束等）等于枚举`UserInputState`中的某个值|
+|描述输入状态（开始，结束等）等于枚举[`UserInputState`](/Api/Enumerate/UserInput/UserInputState.md)中的某个值|
 
 |<div style="width:1000px">[int](/Api/DataType/Int.md) &emsp;[<font color="dd00dd">UserInputType</font>]()</div>|
 |:---|
-|描述输入的类型 等于枚举`UserInputType`中的某个值|
+|描述输入的类型 等于枚举[`UserInputType`](/Api/Enumerate/UserInput/UserInputType.md)中的某个值|
 
 ------------------------------------------------------------------------------------------
 ## 函数

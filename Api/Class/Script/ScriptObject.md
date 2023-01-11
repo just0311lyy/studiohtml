@@ -5,7 +5,7 @@
 主机脚本；只有是主机或者服务器时才会执行；
 
 *继承自*：
-* [`ServiceNode `](/Api/Class/NoType/ServiceNode.md)
+* [`ServiceNode`](/Api/Class/NoType/ServiceNode.md)
 
 -----------------------------------------------------------------------------------------
 #### 示例代码：

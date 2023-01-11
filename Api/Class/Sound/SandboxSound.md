@@ -5,7 +5,7 @@
 一个发出声音的对象
 
 *继承自*：
-* [SandboxNode](/Api/Class/SandBoxNode.md)
+* [SandboxNode](/Api/Class/NoType/SandboxNode.md)
 
 ------------------------------------------------------------------------------------------
 ## 属性：
@@ -18,7 +18,7 @@
 |:---|
 |试听(`EDITORUI::Button`)|
 
-|<div style="width:1125px">[float](/Api/DataType/Float.md) &emsp; [<font color="dd00dd">Volume</font>](/Api/Class/Sound/SandboxSound_F/Volume.md)</div>|
+|<div style="width:1125px">[float](/Api/DataType/Float.md) &emsp; <font color="dd00dd">Volume</font></div>|
 |:---|
 |声音音量大小|
 
@@ -30,7 +30,7 @@
 |:---|
 |仅在脚本可获取，用于标识声音是否完成播放（暂停但未完成播放也为true）|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp; [<font color="dd00dd">IsPaused</font>](/Api/Class/Sound/SandboxSound_F/IsPaused.md)</div>|
+|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp; <font color="dd00dd">IsPaused</font></div>|
 |:---|
 |仅在脚本可获取，用于标识声音是否处于暂停状态|
 
@@ -38,13 +38,13 @@
 |:---|
 |设置为true时，会在移除节点后播放一次声音|
 
-|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp; [<font color="dd00dd">NeedRelease</font>](/Api/Class/Sound/SandboxSound_F/NeedRelease.md)</div>|
+|<div style="width:1125px">[bool](/Api/DataType/Bool.md) &emsp; <font color="dd00dd">NeedRelease</font></div>|
 |:---|
 |设置为true时，标记为会被释放|
 
-|<div style="width:1125px">[SandboxNode](/Api/Class/SandBoxNode.md) &emsp; [<font color="dd00dd">TransObject</font>](/Api/Class/Sound/SandboxSound_F/TransObject.md)</div>|
+|<div style="width:1125px">[SandboxNode](/Api/Class/NoType/SandboxNode.md) &emsp; [<font color="dd00dd">TransObject</font>](/Api/Class/Sound/SandboxSound_F/TransObject.md)</div>|
 |:---|
-|设置为某个`SceneTransObject`节点后，`Sound`将在该节点的位置播放（3D声音），若`TransObject`与`FixPos`均未设置，则为全局播放（2D声音）|
+|设置为某个`SceneTransObject`节点后，[`Sound`](/Api/Class/Sound/SandboxSound.md)将在该节点的位置播放（3D声音），若`TransObject`与`FixPos`均未设置，则为全局播放（2D声音）|
 
 |<div style="width:1125px">[Vector3](/Api/DataType/Vector3.md) &emsp; [<font color="dd00dd">FixPos</font>](/Api/Class/Sound/SandboxSound_F/FixPos.md)</div>|
 |:---|
@@ -58,7 +58,7 @@
 |:---|
 |声音衰减模式，包括逆衰减（默认），线性衰减，线性平方衰减，锥型逆衰减模式。见枚举`EnumRollOffMode`|
 
-|<div style="width:1125px">[float](/Api/DataType/Float.md) &emsp; [<font color="dd00dd">RollOffMaxDistance</div>](/Api/Class/Sound/SandboxSound_F/RollOffMaxDistance.md)|
+|<div style="width:1125px">[float](/Api/DataType/Float.md) &emsp; <font color="dd00dd">RollOffMaxDistance</div>|
 |:---|
 |声音衰减最大距离|
 
@@ -95,7 +95,7 @@
 ------------------------------------------------------------------------------------------
 ## 事件：
 
-|<div style="width:925px">[SBXSignal](/Api/Parameter/void.md)&emsp;[<font color="dd00dd">PlayFinish</font>](/Api/Class/Sound/SandboxSound_F/PlayFinish.md)( [SandboxNode](/Api/Class/SandBoxNode.md) node)</div>|
+|<div style="width:925px">[SBXSignal](/Api/Parameter/void.md)&emsp;[<font color="dd00dd">PlayFinish</font>](/Api/Class/Sound/SandboxSound_F/PlayFinish.md)( [SandboxNode](/Api/Class/NoType/SandboxNode.md) node)</div>|
 |:---|
 |`SandboxSound`实例播放结束时触发该事件|
 

@@ -1,6 +1,6 @@
 # UserInputType
 
-枚举所属类：`InputObject`
+枚举所属类：[`InputObject`](/Api/Class/Input/InputObject.md)
 
 ------------------------------------------------------------------------------------------
 ## 描述

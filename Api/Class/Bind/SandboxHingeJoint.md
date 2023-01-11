@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;[<font color="dd00dd">LimitsEnable</font>](/Api/Class/Bind/SandboxHingeJoint_F/LimitsEnable.md)</div>|
+|<div style="width:1000px">[bool](/Api/DataType/Bool.md) &emsp;<font color="dd00dd">LimitsEnable</font></div>|
 |:---|
 |是否限制启用|
 
@@ -18,39 +18,39 @@
 |:---|
 |是否限制旋转角度|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">UpperAngle</font>](/Api/Class/Bind/SandboxHingeJoint_F/UpperAngle.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">UpperAngle</font></div>|
 |:---|
 |限制的最大角度|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">LowerAngle</font>](/Api/Class/Bind/SandboxHingeJoint_F/LowerAngle.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">LowerAngle</font></div>|
 |:---|
 |限制的最小角度|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Restitution</font>](/Api/Class/Bind/SandboxHingeJoint_F/Restitution.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">Restitution</font></div>|
 |:---|
 |达到最大或最小角度后的一个回拉力|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Spring</font>](/Api/Class/Bind/SandboxHingeJoint_F/Spring.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">Spring</font></div>|
 |:---|
 |弹力|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">Damping</font>](/Api/Class/Bind/SandboxHingeJoint_F/Damping.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">Damping</font></div>|
 |:---|
 |阻尼大小|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">LimitTargetAngle</font>](/Api/Class/Bind/SandboxHingeJoint_F/LimitTargetAngle.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">LimitTargetAngle</font></div>|
 |:---|
 |目标角度|
 
-|<div style="width:1000px">[/Api/Enumerate/Physics/MotorType]() &emsp;[<font color="dd00dd">ActuatorType</font>](/Api/Class/Bind/SandboxHingeJoint_F/ActuatorType.md)</div>|
+|<div style="width:1000px">[/Api/Enumerate/Physics/MotorType]() &emsp;<font color="dd00dd">ActuatorType</font></div>|
 |:---|
 |传动类型（传动类型为：`MOTOR`时 ），见枚举`MotorType`|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">MotorAngularSpeed</font>](/Api/Class/Bind/SandboxHingeJoint_F/MotorAngularSpeed.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">MotorAngularSpeed</font></div>|
 |:---|
 |角速度|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;[<font color="dd00dd">MotorMaxTorque</font>](/Api/Class/Bind/SandboxHingeJoint_F/MotorMaxTorque.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md) &emsp;<font color="dd00dd">MotorMaxTorque</font></div>|
 |:---|
 |最大扭矩 ——暂时还没实现。传动类型为：`SERVO`时|
 

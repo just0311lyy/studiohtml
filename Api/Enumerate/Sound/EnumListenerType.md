@@ -1,6 +1,6 @@
 # ListenerType
 
-枚举所属类：`SoundService`
+枚举所属类：[`SoundService`](/Api/Class/Sound/SandboxSoundService.md)
 
 ------------------------------------------------------------------------------------------
 ## 描述

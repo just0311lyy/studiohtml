@@ -48,7 +48,7 @@
 |:---|:---|
 |天气改变时触发||
 |**返回类型**|**概要**|
-|int|天气枚举`EnumWeather`对应的`int`值|
+|int|天气枚举`EnumWeather`对应的[`int`](/Api/DataType/Int.md)值|
 
 
 |<div style="width:500px">[SBXSignal>]() &emsp;[<font color="dd00dd">GravityChanged</font> ]() ( [float](/Api/DataType/Float.md) Garvity )</div>|<div style="width:698px"></div>|
@@ -61,7 +61,7 @@
 |:---|:---|
 |天空盒改变时触发||
 |**返回类型**|**概要**|
-|int|天空包围盒枚举`EnumSkyPlanet`对应的`int`值|
+|int|天空包围盒枚举`EnumSkyPlanet`对应的[`int`](/Api/DataType/Int.md)值|
 
 |<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;[<font color="dd00dd">TimeChanged</font> ]() ( [int](/Api/DataType/Int.md) Time )</div>|<div style="width:698px"></div>|
 |:---|:---|

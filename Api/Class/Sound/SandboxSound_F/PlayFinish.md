@@ -12,7 +12,7 @@
 
 |<div style="width:200px">名称</div>|<div style="width:200px">类型</div>|<div style="width:200px">默认</div>|<div style="width:200px">描述</div>|
 |:--------------------|:--------------------|:--------------------|:--------------------|
-|node|[SandboxNode](/Api/Class/SandBoxNode.md)||播放动画的节点|
+|node|[SandboxNode](/Api/Class/NoType/SandboxNode.md)||播放动画的节点|
 
 
 ## 返回

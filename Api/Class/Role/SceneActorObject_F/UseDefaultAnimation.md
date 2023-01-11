@@ -1,18 +1,18 @@
 # UseDefaultAnimation
 -----------------------------------------------------------------------------------------
-## ÃèÊö
+## æè¿°
 
-º¯ÊıËùÊôÀà£º[SceneActorObject](/Api/Class/Role/SceneActorObject.md)
+å‡½æ•°æ‰€å±ç±»ï¼š[SceneActorObject](/Api/Class/Role/SceneActorObject.md)
 
-ÒÆ¶¯¹ı³ÌÖĞÊ¹ÓÃÄ¬ÈÏµÄ¶¯×÷
+ç§»åŠ¨è¿‡ç¨‹ä¸­ä½¿ç”¨é»˜è®¤çš„åŠ¨ä½œ
 
 -----------------------------------------------------------------------------------------
-## ²ÎÊı
+## å‚æ•°
 
-|<div style="width:200px">**Ãû³Æ**</div>|<div style="width:200px">**ÀàĞÍ**</div>|<div style="width:200px">**Ä¬ÈÏ**</div>|<div style="width:345px">**ÃèÊö**</div>|
+|<div style="width:200px">**åç§°**</div>|<div style="width:200px">**ç±»å‹**</div>|<div style="width:200px">**é»˜è®¤**</div>|<div style="width:345px">**æè¿°**</div>|
 |:--------------------|:--------------------|:--------------------|:--------------------|
-|use|[bool](/Api/DataType/bool.md)||ÊÇ·ñÊ¹ÓÃÄ¬ÈÏ¶¯×÷|
+|use|[bool](/Api/DataType/bool.md)||æ˜¯å¦ä½¿ç”¨é»˜è®¤åŠ¨ä½œ|
 
-## ·µ»Ø
+## è¿”å›
 
-ÎŞ·µ»Ø
+æ— è¿”å›

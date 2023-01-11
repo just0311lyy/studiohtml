@@ -8,14 +8,14 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">Value</font>](/Api/Class/Value/SceneStringObject_F/Value.md)</div>|
+|<div style="width:1000px">[string](/Api/DataType/String.md) &emsp;<font color="dd00dd">Value</font></div>|
 |:---|
 |用于存储字符串|
 
 ------------------------------------------------------------------------------------------
 ## 事件
 
-|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;[<font color="dd00dd">ValueChanged</font> ](/Api/Class/Value/SceneStringObject_F/ValueChanged.md) ( [string](/Api/DataType/String.md) Value)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;<font color="dd00dd">ValueChanged</font>  ( [string](/Api/DataType/String.md) Value)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |当`stringvalue`改变时，通知值已更改||||
 |**返回类型**|||**概要**|

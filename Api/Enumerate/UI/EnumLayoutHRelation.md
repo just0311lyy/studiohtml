@@ -1,6 +1,6 @@
 # LayoutHRelation
 
-枚举所属类：`UIComponent` 
+枚举所属类：[`UIComponent`](/Api/Class/Scene/SceneUIComponent.md) 
 
 ------------------------------------------------------------------------------------------
 ## 描述

@@ -8,14 +8,14 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;[<font color="dd00dd">Value</font>](/Api/Class/Value/SceneVector3Object_F/Value.md)</div>|
+|<div style="width:1000px">[Vector3](/Api/DataType/Vector3.md) &emsp;<font color="dd00dd">Value</font></div>|
 |:---|
-|用于存储`Vector3`|
+|用于存储[`Vector3`](/Api/DataType/Vector3.md)|
 
 ------------------------------------------------------------------------------------------
 ## 事件
  
-|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;[<font color="dd00dd">ValueChanged</font> ](/Api/Class/Value/SceneVector3Object_F/ValueChanged.md) ( [Vector3](/Api/DataType/Vector3.md) Value)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;<font color="dd00dd">ValueChanged</font>  ( [Vector3](/Api/DataType/Vector3.md) Value)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |当`vector3value`改变时，通知值已更改||||
 |**返回类型**|||**概要**|

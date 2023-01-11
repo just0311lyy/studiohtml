@@ -1,23 +1,23 @@
 
 # IsAirBlock
 -----------------------------------------------------------------------------------------
-## ÃèÊö
+## æè¿°
 
-º¯ÊıËùÊôÀà£º[TerrainNode](/Api/Class/Build/TerrainNode.md)
+å‡½æ•°æ‰€å±ç±»ï¼š[TerrainNode](/Api/Class/Build/TerrainNode.md)
 
-Î»ÖÃÔÚ£¨x,y,z£©µÄ·½¿éÊÇ·ñÊÇ¿ÕÆø·½¿é
+ä½ç½®åœ¨ï¼ˆx,y,zï¼‰çš„æ–¹å—æ˜¯å¦æ˜¯ç©ºæ°”æ–¹å—
 
 -----------------------------------------------------------------------------------------
-## ²ÎÊı
+## å‚æ•°
 
-|<div style="width:200px">**Ãû³Æ**</div>|<div style="width:200px">**ÀàĞÍ**</div>|<div style="width:200px">**Ä¬ÈÏ**</div>|<div style="width:345px">**ÃèÊö**</div>|
+|<div style="width:200px">**åç§°**</div>|<div style="width:200px">**ç±»å‹**</div>|<div style="width:200px">**é»˜è®¤**</div>|<div style="width:345px">**æè¿°**</div>|
 |:--------------------|:--------------------|:--------------------|:--------------------|
-|x|[int](/Api/DataType/int.md)||×ø±êxÖá|
-|y|[int](/Api/DataType/int.md)||×ø±êyÖá|
-|z|[int](/Api/DataType/int.md)||×ø±êzÖá|
+|x|[int](/Api/DataType/int.md)||åæ ‡xè½´|
+|y|[int](/Api/DataType/int.md)||åæ ‡yè½´|
+|z|[int](/Api/DataType/int.md)||åæ ‡zè½´|
 
-## ·µ»Ø
+## è¿”å›
 
-|<div style="width:200px">**·µ»ØÀàĞÍ**</div>|<div style="width:800px">**¸ÅÒª**</div>|
+|<div style="width:200px">**è¿”å›ç±»å‹**</div>|<div style="width:800px">**æ¦‚è¦**</div>|
 |:---|:---|
-|[bool](/Api/DataType/bool.md)|·µ»Ø`true`±íÊ¾¸ÃÎ»ÖÃÊÇ¿ÕÆø·½¿é|
+|[bool](/Api/DataType/bool.md)|è¿”å›`true`è¡¨ç¤ºè¯¥ä½ç½®æ˜¯ç©ºæ°”æ–¹å—|

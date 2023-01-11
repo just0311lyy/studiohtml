@@ -3,23 +3,23 @@
 
 # GetBlockNode
 -----------------------------------------------------------------------------------------
-## 描述
+## 鎻忚堪
 
-函数所属类：[TerrainNode](/Api/Class/Build/TerrainNode.md)
+鍑芥暟鎵�灞炵被锛歔TerrainNode](/Api/Class/Build/TerrainNode.md)
 
-获取位置（x,y,z）的方块实例
+鑾峰彇浣嶇疆锛坸,y,z锛夌殑鏂瑰潡瀹炰緥
 
 -----------------------------------------------------------------------------------------
-## 参数
+## 鍙傛暟
 
-|<div style="width:200px">**名称**</div>|<div style="width:200px">**类型**</div>|<div style="width:200px">**默认**</div>|<div style="width:345px">**描述**</div>|
+|<div style="width:200px">**鍚嶇О**</div>|<div style="width:200px">**绫诲瀷**</div>|<div style="width:200px">**榛樿**</div>|<div style="width:345px">**鎻忚堪**</div>|
 |:--------------------|:--------------------|:--------------------|:--------------------|
-|x|[int](/Api/DataType/int.md)||坐标x轴|
-|y|[int](/Api/DataType/int.md)||坐标y轴|
-|z|[int](/Api/DataType/int.md)||坐标z轴|
+|x|[int](/Api/DataType/int.md)||鍧愭爣x杞磡
+|y|[int](/Api/DataType/int.md)||鍧愭爣y杞磡
+|z|[int](/Api/DataType/int.md)||鍧愭爣z杞磡
 
-## 返回
+## 杩斿洖
 
-|<div style="width:200px">**返回类型**</div>|<div style="width:800px">**概要**</div>|
+|<div style="width:200px">**杩斿洖绫诲瀷**</div>|<div style="width:800px">**姒傝**</div>|
 |:---|:---|
-|[bool](/Api/DataType/bool.md)|返回该坐标位置的方块实例|
+|[bool](/Api/DataType/bool.md)|杩斿洖璇ュ潗鏍囦綅缃殑鏂瑰潡瀹炰緥|

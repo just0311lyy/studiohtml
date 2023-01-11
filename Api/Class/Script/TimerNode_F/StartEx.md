@@ -10,10 +10,10 @@
 
 |<div style="width:200px">名称</div>|<div style="width:200px">类型</div>|<div style="width:200px">默认</div>|<div style="width:200px">描述</div>|
 |:--------------------|:--------------------|:--------------------|:--------------------|
-|delay|double||延迟秒数|
-|loop|bool||是否循环|
-|interval|double||环间隔多少秒|
-|cb|LuaFunction||回调方法|
+|delay|[double]()||延迟秒数|
+|loop|[bool]()||是否循环|
+|interval|[double]()||环间隔多少秒|
+|cb|[LuaFunction]()||回调方法|
 
 
 ## 返回

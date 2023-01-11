@@ -10,23 +10,23 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1000px">[EnumListenerType](/Api/Enumerate/Sound/EnumListenerType.md)  &emsp;[<font color="dd00dd">ListenerType</font> ](/Api/Class/Sound/SandboxSoundService_F/ListenerType.md)</div>|
+|<div style="width:1000px">[EnumListenerType](/Api/Enumerate/Sound/EnumListenerType.md)  &emsp;<font color="dd00dd">ListenerType</font> </div>|
 |:---|
 |设置当前监听类型，具体参考：[EnumListenerType](/Api/Enumerate/Sound/EnumListenerType.md)<br>	只可在脚本获取，不可写。 |
 
-|<div style="width:1000px">[SandboxNode](/Api/Class/NoType/SandboxNode.md)  &emsp;[<font color="dd00dd">ListenerObject</font> ](/Api/Class/Sound/SandboxSoundService_F/ListenerObject.md)</div>|
+|<div style="width:1000px">[SandboxNode](/Api/Class/NoType/SandboxNode.md)  &emsp;<font color="dd00dd">ListenerObject</font> </div>|
 |:---|
-|只可在脚本获取，不可写，当`ListenerType`为`Camrea`时返回`nil`，当`ListenerType`为`TransObject`时,返回`TransObject`节点指针|
+|只可在脚本获取，不可写，当[`ListenerType`](/Api/Enumerate/Sound/EnumListenerType.md)为`Camrea`时返回`nil`，当[`ListenerType`](/Api/Enumerate/Sound/EnumListenerType.md)为`TransObject`时,返回`TransObject`节点指针|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md)  &emsp;[<font color="dd00dd">RolloffScale</font> ](/Api/Class/Sound/SandboxSoundService_F/RolloffScale.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md)  &emsp;<font color="dd00dd">RolloffScale</font> </div>|
 |:---|
 |3D声音衰减速度|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md)  &emsp;[<font color="dd00dd">DistanceFactor</font> ](/Api/Class/Sound/SandboxSoundService_F/DistanceFactor.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md)  &emsp;<font color="dd00dd">DistanceFactor</font> </div>|
 |:---|
 |3D声音衰减距离|
 
-|<div style="width:1000px">[float](/Api/DataType/Float.md)   &emsp;[<font color="dd00dd">DopplerScale</font> ](/Api/Class/Sound/SandboxSoundService_F/DopplerScale.md)</div>|
+|<div style="width:1000px">[float](/Api/DataType/Float.md)   &emsp;<font color="dd00dd">DopplerScale</font> </div>|
 |:---|
 |3D声音多普勒效应强度|
 

@@ -21,11 +21,11 @@
 ------------------------------------------------------------------------------------------
 ## 事件
 
-|<div style="width:1000px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;[<font color="dd00dd">TeleportSuccess</font>](/Api/Class/GamePlay/SandboxTeleportService_F/TeleportSuccess.md)( )</div>|
+|<div style="width:1000px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;<font color="dd00dd">TeleportSuccess</font>( )</div>|
 |:---|
 |玩家传送成功触发|
 
-|<div style="width:1000px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;[<font color="dd00dd">TeleportFail</font>](/Api/Class/GamePlay/SandboxTeleportService_F/TeleportFail.md)( )</div>|
+|<div style="width:1000px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;<font color="dd00dd">TeleportFail</font>( )</div>|
 |:---|
 |玩家传送失败触发|
 

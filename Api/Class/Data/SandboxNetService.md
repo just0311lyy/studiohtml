@@ -19,7 +19,7 @@
 
 |<div style="width:500px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">waitAsync</font> ]() ([LuaNetIns]() id)</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
-|`block`当前`http`异步请求，直至返回数据或者失败<br>（仅限lua调用，C++调用无意义）||||
+|[`block`](/Api/Class/Build/Block.md)当前`http`异步请求，直至返回数据或者失败<br>（仅限lua调用，C++调用无意义）||||
 |**参数名称**|**类别**|**默认**|**描述**|
 |id|LuaNetIns||`lua`异步请求`id`|
 

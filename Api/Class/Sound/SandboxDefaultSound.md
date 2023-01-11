@@ -8,11 +8,11 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:925px">[EnumDefaultSound](/Api/Enumerate/Sound/EnumDefaultSound.md)&emsp;[<font color="dd00dd">SoundType</font>](/Api/Class/Sound/SandboxDefaultSound_F/SoundType.md)</div>|
+|<div style="width:925px">[EnumDefaultSound](/Api/Enumerate/Sound/EnumDefaultSound.md)&emsp;<font color="dd00dd">SoundType</font></div>|
 |:---|
 |默认声音类型枚举：脚步、行为、受击、待机、技能、环境、背景音乐、提示和其他。见枚举[EnumDefaultSound](/Api/Enumerate/Sound/EnumDefaultSound.md)|
 
-|<div style="width:925px"> [int](/Api/DataType/Int.md)&emsp;[<font color="dd00dd">EffectIndex</font>](/Api/Class/Sound/SandboxDefaultSound_F/EffectIndex.md)</div>|
+|<div style="width:925px"> [int](/Api/DataType/Int.md)&emsp;<font color="dd00dd">EffectIndex</font></div>|
 |:---|
 |音效效果序列|
 

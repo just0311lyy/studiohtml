@@ -5,7 +5,7 @@
 此类是一个服务！它是顶级单例，可以使用[`GetService`]()函数获取。包含了用于时间管理的方法和事件，以及管理游戏或脚本所处于的内容。IsClient、IsServer、IsStudio 等方法可以帮助你确定 Lua 代码在哪里运行。这些方法对于客户端和服务器都需要的 ModuleScript 是很有帮助的。
 
 继承自：
-* [`ServiceNode `]()
+* [`ServiceNode`]()
 
 ------------------------------------------------------------------------------------------
 ## 属性
@@ -63,24 +63,24 @@
 |:---------------------------------------------------------------------------------------|
 |在物理模拟完成后每帧触发。      |
 
-|<div style="width:925px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">PostSimulation</font>](/Api/Class/Script/RunService_F/PostSimulation.md)( &nbsp;[double](/Api/DataType/Double.md) deltaTime )</div></div>|
+|<div style="width:925px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;<font color="dd00dd">PostSimulation</font>( &nbsp;[double](/Api/DataType/Double.md) deltaTime )</div></div>|
 |:---------------------------------------------------------------------------------------|
 |在帧被模拟之后触发      |
 
-|<div style="width:925px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">PreRender</font>](/Api/Class/Script/RunService_F/PreRender.md)( &nbsp; [double](/Api/DataType/Double.md))</div></div>|
+|<div style="width:925px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;<font color="dd00dd">PreRender</font>( &nbsp; [double](/Api/DataType/Double.md))</div></div>|
 |:---------------------------------------------------------------------------------------|
 |在帧被渲染之前触发      |
 
 
-|<div style="width:925px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">PreSimulation</font>](/Api/Class/Script/RunService_F/PreSimulation.md)( &nbsp; [double](/Api/DataType/Double.md))</div></div>|
+|<div style="width:925px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;<font color="dd00dd">PreSimulation</font>( &nbsp; [double](/Api/DataType/Double.md))</div></div>|
 |:---------------------------------------------------------------------------------------|
 |在帧被模拟之前触发      |
 
-|<div style="width:925px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">RenderStepped</font>](/Api/Class/Script/RunService_F/RenderStepped.md)( &nbsp; [double](/Api/DataType/Double.md))</div></div>|
+|<div style="width:925px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;<font color="dd00dd">RenderStepped</font>( &nbsp; [double](/Api/DataType/Double.md))</div></div>|
 |:---------------------------------------------------------------------------------------|
 |在帧被渲染之前每帧触发      |
 
-|<div style="width:925px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;[<font color="dd00dd">Stepped</font>](/Api/Class/Script/RunService_F/Stepped.md)(&nbsp; [double](/Api/DataType/Double.md))</div></div>|
+|<div style="width:925px">[SBXSignal](/Api/Parameter/SBXSignal.md)&emsp;<font color="dd00dd">Stepped</font>(&nbsp; [double](/Api/DataType/Double.md))</div></div>|
 |:---------------------------------------------------------------------------------------|
 |每次`Tick`触发`Stepped`事件      |
 

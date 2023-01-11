@@ -6,7 +6,7 @@
 
 函数所属类：[SandboxBackpack](/Api/Class/GamePlay/SandboxBackpack.md)
 
-获取某个键位对应的`tool`，`index`从1开始
+获取某个键位对应的[`tool`](/Api/Class/GamePlay/SandboxTool.md)，`index`从1开始
 
 -----------------------------------------------------------------------------------------
 ## 参数

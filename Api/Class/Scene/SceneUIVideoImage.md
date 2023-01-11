@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1125px">[string](/Api/DataType/String.md) &emsp;[<font color="dd00dd">Icon</font>](/Api/Class/Scene/SceneUIVideoImage_F/Icon.md)</div>|
+|<div style="width:1125px">[string](/Api/DataType/String.md) &emsp;<font color="dd00dd">Icon</font></div>|
 |:---|
 |图片的路径。|
 

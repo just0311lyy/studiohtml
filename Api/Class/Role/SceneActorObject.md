@@ -75,11 +75,11 @@
 |:---|
 |设置是否能连续跳跃|
 
-|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;[<font color="dd00dd">StopNavigate</font>](/Api/Class/Role/SceneActorObject_F/StopNavigate.md) ()</div>|
+|<div style="width:1000px">[void](/Api/Parameter/void.md) &emsp;<font color="dd00dd">StopNavigate</font> ()</div>|
 |:---|
 |停止寻路|
 
-|<div style="width:1000px">[BehaviorState](/Api/Enumerate/Role/BehaviorState.md) &emsp;[<font color="dd00dd">GetCurMoveState</font>](/Api/Class/Role/SceneActorObject_F/GetCurMoveState.md) ()</div>|
+|<div style="width:1000px">[BehaviorState](/Api/Enumerate/Role/BehaviorState.md) &emsp;<font color="dd00dd">GetCurMoveState</font> ()</div>|
 |:---|
 |获取当前行为状态。见枚举[BehaviorState](/Api/Enumerate/Role/BehaviorState.md)|
 
@@ -90,7 +90,7 @@
 ------------------------------------------------------------------------------------------
 ## 事件
 
-|<div style="width:500px">[SBXSignal\<bool\>]() &emsp;[<font color="dd00dd">Walking</font>](/Api/Class/Role/SceneActorObject_F/Walking.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal\<bool\>]() &emsp;<font color="dd00dd">Walking</font> ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |生物行走时触发（返回值有可能为空）||||
 |**返回类型**|||**概要**|
@@ -99,7 +99,7 @@
 |isWalking|bool||行走是否触发|
 
 
-|<div style="width:500px">[SBXSignal\<bool\>]() &emsp;[<font color="dd00dd">Standing</font>](/Api/Class/Role/SceneActorObject_F/Standing.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal\<bool\>]() &emsp;<font color="dd00dd">Standing</font> ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |生物站立时触发（返回值有可能为空）||||
 |**返回类型**|||**概要**|
@@ -107,7 +107,7 @@
 |**SBXSignal参数名称**|**类别**|**默认**|**描述**|
 |isStanding|bool||站立是否触发|
 
-|<div style="width:500px">[SBXSignal\<bool\>]() &emsp;[<font color="dd00dd">Jumping</font>](/Api/Class/Role/SceneActorObject_F/Jumping.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal\<bool\>]() &emsp;<font color="dd00dd">Jumping</font> ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |生物跳跃时触发（返回值有可能为空）||||
 |**返回类型**|||**概要**|
@@ -115,7 +115,7 @@
 |**SBXSignal参数名称**|**类别**|**默认**|**描述**|
 |isJumping|bool||跳跃是否触发|
 
-|<div style="width:500px">[SBXSignal\<bool\>]() &emsp;[<font color="dd00dd">Flying</font>](/Api/Class/Role/SceneActorObject_F/Flying.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal\<bool\>]() &emsp;<font color="dd00dd">Flying</font> ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |生物飞行时触发（返回值有可能为空）||||
 |**返回类型**|||**概要**|
@@ -131,7 +131,7 @@
 |**SBXSignal参数名称**|**类别**|**默认**|**描述**|
 |isDied|bool||死亡是否触发|
 
-|<div style="width:500px">[SBXSignal\<BehaviorState, BehaviorState\>]() &emsp;[<font color="dd00dd">MoveStateChange</font>](/Api/Class/Role/SceneActorObject_F/MoveStateChange.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal\<BehaviorState, BehaviorState\>]() &emsp;<font color="dd00dd">MoveStateChange</font> ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |生物行为改变时触发，从一个行为改为另外一个行为||||
 |**返回类型**|||**概要**|
@@ -149,13 +149,13 @@
 |isAvigateFinished|bool||寻路结束是否触发|
 
 
-|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;[<font color="dd00dd">MoveFinished</font>](/Api/Class/Role/SceneActorObject_F/MoveFinished.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal](/Api/Parameter/SBXSignal.md) &emsp;<font color="dd00dd">MoveFinished</font> ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |移动MoveTo结束后触发||||
 |**返回类型**|||**概要**|
 |SBXSignal|||移动`MoveTo`结束后触发|
 
-|<div style="width:500px">[SBXSignal\<bool\>]() &emsp;[<font color="dd00dd">MoveFinished待定</font>](/Api/Class/Role/SceneActorObject_F/MoveFinished.md) ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
+|<div style="width:500px">[SBXSignal\<bool\>]() &emsp;<font color="dd00dd">MoveFinished待定</font> ()</div>|<div style="width:100px"></div>|<div style="width:45px"></div>|<div style="width:400px"></div>|
 |:---|:---|:---|:---|
 |移动`MoveTo`结束后触发（返回值有可能为空）||||
 |**返回类型**|||**概要**|

@@ -2,7 +2,7 @@
 ------------------------------------------------------------------------------------------
 ## 描述
 
-`BluePrint`（蓝图）
+[`BluePrint`](/Api/Class/Build/SandboxBluePrint.md)（蓝图）
 
 *继承自*：
 * [SceneTransObject](/Api/Class/NoType/SceneTransObject.md)
