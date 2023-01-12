@@ -4,7 +4,7 @@
 
 函数所属类：[Animation](/Api/Class/Animation/SandboxAnimation.md)
 
-获取当前animation持有的所有动画切片资源
+获取是否自动播放
 
 -----------------------------------------------------------------------------------------
 ## 参数
@@ -16,4 +16,4 @@
 
 |<div style="width:200px">**返回类型**</div>|<div style="width:800px">**概要**</div>|
 |:---|:---|
-|vector<[AnimationAsset](/Api/Class/Animation/SandboxAnimationAsset.md)>|当前animation持有的所有动画切片资源|
+|[bool](/Api/DataType/Bool.md)|获取是否自动播放|
