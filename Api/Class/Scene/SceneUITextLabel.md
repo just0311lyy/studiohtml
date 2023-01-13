@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------------------------
 ## 属性：
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">TitleColor</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">TitleColor</font></div>|
 |:---|
 |字体颜色  (`Rainbow::ColorQuad`)|
 
@@ -38,7 +38,7 @@
 |:---|
 |开启描边|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">OutlineColor</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">OutlineColor</font></div>|
 |:---|
 |描边颜色 (`Rainbow::ColorQuad`)|
 
@@ -50,7 +50,7 @@
 |:---|
 |开启阴影|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">ShadowColor</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">ShadowColor</font></div>|
 |:---|
 |阴影颜色|
 
@@ -76,11 +76,11 @@ local root = SandboxNode.new('SceneUIRoot', workspace)
 local name = SandboxNode.new('SceneUITextLabel', root)
 name.Title = "商店"
 --设置背景框
-name.LineColor = ColorValue.new(0, 0, 0, 0)
+name.LineColor = ColorQuad.new(0, 0, 0, 0)
 --设置背景颜色
-name.FillColor = ColorValue.new(0, 0, 0, 0)
+name.FillColor = ColorQuad.new(0, 0, 0, 0)
 --设置字体颜色
-name.TitleColor = ColorValue.new(255, 0, 0, 255)
+name.TitleColor = ColorQuad.new(255, 0, 0, 255)
 --设置位置
 name.Position = Vector2.new(75,50)
 --设置字体大小

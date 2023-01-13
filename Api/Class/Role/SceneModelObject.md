@@ -17,7 +17,7 @@
 |:---|
 |设置模型的贴图`TextureId`|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">Color</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">Color</font></div>|
 |:---|
 |设置模型的颜色 (`Rainbow::ColorQuad`)|
 

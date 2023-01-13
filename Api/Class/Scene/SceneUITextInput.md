@@ -10,7 +10,7 @@
 ------------------------------------------------------------------------------------------
 ## 属性
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">TitleColor</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">TitleColor</font></div>|
 |:---|
 |字体颜色 (`Rainbow::ColorQuad`)|
 
@@ -65,7 +65,7 @@ petNameText.Position = Vector2.new(400, 250)
 --设置是否可见
 petNameText.Visible = true
 --设置输入框背景颜色
-petNameText.FillColor = ColorValue.new(97, 151, 230, 255)
+petNameText.FillColor = ColorQuad.new(97, 151, 230, 255)
 --设置文本上下对齐
 petNameText.TextVAlignment = Enum.TextVAlignment.Center
 --设置文本左右对齐

@@ -1,6 +1,6 @@
 <!-- 侧边栏 studiodocs/_sidebar.md -->
 
-- **概述**
+- [**概述**]
 	- [关于MiniStudio](/Tutorials/Introduce/AboutMiniStudio.md)
 <!-- 	- [概述](/Tutorials/Introduce/OverView.md) -->
 	- [安装](/Tutorials/Introduce/SetUp.md)

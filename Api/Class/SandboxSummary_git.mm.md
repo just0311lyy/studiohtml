@@ -115,11 +115,13 @@
 - [Rect](/studiohtml/#/Api/DataType/Rect.md)
 - [Ray](/studiohtml/#/Api/DataType/Ray.md)
 - [Quaternion](/studiohtml/#/Api/DataType/Quaternion.md)
-- [colorValue](/studiohtml/#/Api/DataType/colorValue.md)
+- [ColorValue](/studiohtml/#/Api/DataType/ColorValue.md)
+- [ColorQuad](/studiohtml/#/Api/DataType/ColorQuad.md)
 - [ReflexTuple]()
     - ReflexTuple([int](/studiohtml/#/Api/DataType/int.md))
     - ReflexTuple([float](/studiohtml/#/Api/DataType/float.md))
-    - ReflexTuple([colorValue](/studiohtml/#/Api/DataType/colorValue.md))
+    - ReflexTuple([ColorValue](/studiohtml/#/Api/DataType/ColorValue.md))
+    - ReflexTuple([ColorQuad](/studiohtml/#/Api/DataType/ColorQuad.md))
     - ReflexTuple([SandboxNode](/studiohtml/#/Api/Class/NoType/SandboxNode.md))
     - ReflexTuple([Vector3](/studiohtml/#/Api/DataType/Vector3.md))
 
@@ -135,7 +137,7 @@
 	- [Vector2](/studiohtml/#/Api/DataType/Vector2.md)
 	- [Vector3](/studiohtml/#/Api/DataType/Vector3.md)
 	- [Vector4](/studiohtml/#/Api/DataType/Vector4.md)
-	- [Color](/studiohtml/#/Api/DataType/colorValue.md)
+	- [Color](/studiohtml/#/Api/DataType/ColorQuad.md)
 	- [Rect](/studiohtml/#/Api/DataType/Rect.md)
 	- NumberSequence
 	- colorSequence

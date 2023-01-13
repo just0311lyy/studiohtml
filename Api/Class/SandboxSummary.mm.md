@@ -115,11 +115,13 @@
 - [Rect](/#/Api/DataType/Rect.md)
 - [Ray](/#/Api/DataType/Ray.md)
 - [Quaternion](/#/Api/DataType/Quaternion.md)
-- [colorValue](/#/Api/DataType/colorValue.md)
+- [ColorValue](/#/Api/DataType/ColorValue.md)
+- [ColorQuad](/#/Api/DataType/ColorQuad.md)
 - ReflexTuple
-    - ReflexTuple([int](/#/Api/DataType/int.md))
-    - ReflexTuple([float](/#/Api/DataType/float.md))
-    - ReflexTuple([colorValue](/#/Api/DataType/colorValue.md))
+    - ReflexTuple([int](/#/Api/DataType/Int.md))
+    - ReflexTuple([float](/#/Api/DataType/Float.md))
+    - ReflexTuple([ColorValue](/#/Api/DataType/ColorValue.md))
+    - ReflexTuple([ColorQuad](/#/Api/DataType/ColorQuad.md))
     - ReflexTuple([SandboxNode](/#/Api/Class/NoType/SandboxNode.md))
     - ReflexTuple([Vector3](/#/Api/DataType/Vector3.md))
 
@@ -135,7 +137,7 @@
 	- [Vector2](/#/Api/DataType/Vector2.md)
 	- [Vector3](/#/Api/DataType/Vector3.md)
 	- [Vector4](/#/Api/DataType/Vector4.md)
-	- [Color](/#/Api/DataType/colorValue.md)
+	- [Color](/#/Api/DataType/ColorQuad.md)
 	- [Rect](/#/Api/DataType/Rect.md)
 	- NumberSequence
 	- colorSequence

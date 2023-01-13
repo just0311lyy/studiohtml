@@ -22,7 +22,7 @@
 |:---|
 |透明度|
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;<font color="dd00dd">Color</font></div>|
+|<div style="width:1125px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">Color</font></div>|
 |:---|
 |颜色(`Rainbow::ColorQuad`)|
 

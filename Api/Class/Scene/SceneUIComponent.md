@@ -38,11 +38,11 @@
 |:---|
 |是否将触摸事件传递给父节点（为true时不传递）|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">LineColor</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">LineColor</font></div>|
 |:---|
 |UI节点边线颜色设置 (Rainbow::ColorQuad)|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">FillColor</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">FillColor</font></div>|
 |:---|
 |UI节点填充颜色设置|
 

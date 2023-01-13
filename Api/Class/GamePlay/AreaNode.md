@@ -29,7 +29,7 @@
 |显示模式的枚举(`SceneEffectFrame::SHOWMODE`):<br>X = 1,<br>Y = 2,<br>Z = 4,<br>XY = 1+2,<br>XZ = 1+4,<br>YZ = 2+4,<br>XYZ = 1+2+4|
 
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorvalue.md) &emsp;<font color="dd00dd">Color</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">Color</font></div>|
 |:---|
 |设置区域颜色|
 

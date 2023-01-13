@@ -50,7 +50,7 @@
 |立方体边框是否被禁止|
 
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/colorValue.md) &emsp;[<font color="dd00dd">CubeBorderColor</font>]()</div>|
+|<div style="width:1125px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;[<font color="dd00dd">CubeBorderColor</font>]()</div>|
 |:---|
 |立方体边框颜色(`Rainbow::ColorQuad`)|
 

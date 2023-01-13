@@ -36,7 +36,7 @@
 |:---|
 |开启字体描边|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">OutlineColor</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">OutlineColor</font></div>|
 |:---|
 |字体描边颜色  (`Rainbow::ColorQuad`)|
 
@@ -48,7 +48,7 @@
 |:---|
 |开启字体阴影|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">ShadowColor</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">ShadowColor</font></div>|
 |:---|
 |字体阴影颜色  (`Rainbow::ColorQuad`)|
 

@@ -1,4 +1,4 @@
-# ColorValue
+# ColorQuad
 ------------------------------------------------------------------------------------------
 ## 描述
 
@@ -31,9 +31,9 @@
 ## 示例代码
 
 ```lua
---同ColorQuad的区别是 取值区间是0-1.0f
-local color = ColorValue.new(0,0,0,0.0f)
+--同ColorValue的区别是 取值区间是0-255
+local color = ColorQuad.new(100,100,100,255)
 
 print("color R:"..tostring(color.R).." G:"..tostring(color.G).." B:"..tostring(color.B).." A:"..tostring(color.A))
---color R:0 G:0 B:0 A:0.0f
+--color R:100 G:100 B:100 A:255
 ```

@@ -19,7 +19,7 @@
 |:---|
 |是否允许[`Player`](/Api/Class/GamePlay/ScenePlayerObject.md)通过`Touch`触摸该`Location`来加入对应`TeamColor`的[`Team`](/Api/Class/GamePlay/SandboxTeam.md)队伍|
 
-|<div style="width:1125px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">TeamColor</font></div>|
+|<div style="width:1125px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">TeamColor</font></div>|
 |:---|
 |队伍颜色(`Rainbow::ColorQuad`)，跟`TeamColor`可对应|
 

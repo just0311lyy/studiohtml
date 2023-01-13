@@ -20,7 +20,7 @@
 |:---|
 |隶属Team|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">TeamColor</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">TeamColor</font></div>|
 |:---|
 |隶属Team的颜色值|
 

@@ -13,7 +13,7 @@
 |:---|
 |此属性用来决定加入游戏的[`Player`](/Api/Class/GamePlay/ScenePlayerObject.md)是否允许自动分配到该队伍|
 
-|<div style="width:1000px">[ColorValue](/Api/DataType/colorValue.md) &emsp;<font color="dd00dd">TeamColor</font></div>|
+|<div style="width:1000px">[ColorQuad](/Api/DataType/ColorQuad.md) &emsp;<font color="dd00dd">TeamColor</font></div>|
 |:---|
 |此属性设置[`Team`](/Api/Class/GamePlay/SandboxTeam.md)的颜色，决定队伍成员的`Player.TeamColor`属性   (`Rainbow::ColorQuad`)|
 

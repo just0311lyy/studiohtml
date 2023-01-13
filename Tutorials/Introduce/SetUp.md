@@ -10,6 +10,6 @@
 4. 以后可以双击桌面上的 `ministudio.lnk` 进入 MiniStudio
 ![ministudio.lnk](images/SetUp.png)  
 
-> MiniStudioAutoSetup.exe为自动安装程序，安装路径为`C:\ProgramData`
+> `MiniStudioAutoSetup.exe`为自动安装程序，安装路径为`C:\ProgramData`
 > 安装完成会在会在桌面上生成`ministudio.lnk`快捷方式，并且会自动运行解压目录下的`MiniStudio.exe`
 > 注意：安装过程需要一点时间，不要重复点击。

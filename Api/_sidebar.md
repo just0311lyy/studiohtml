@@ -174,6 +174,7 @@
 	- [Rect](/Api/DataType/Rect.md)
 	- [Quaternion](/Api/DataType/Quaternion.md)
 	- [ColorValue](/Api/DataType/ColorValue.md)
+	- [ColorQuad](/Api/DataType/ColorQuad.md)
 - 无分类
 	- [SandboxNode](/Api/Class/NoType/SandboxNode.md)
 	- [Transfrom](/Api/Class/NoType/SceneTransObject.md)
